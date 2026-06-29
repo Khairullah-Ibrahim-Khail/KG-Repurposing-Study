@@ -222,6 +222,14 @@ function reportSections() {
 }
 
 // --- emit ------------------------------------------------------------------
+// In a standalone deploy (web/ pushed on its own) the sibling results/ and
+// report/ folders are absent. In that case keep the committed results.json
+// rather than overwriting it with empty data.
+if (!existsSync(resultsDir)) {
+  console.warn(`[compile-data] ${resultsDir} not found — keeping committed ${outPath}`)
+  process.exit(0)
+}
+
 const payload = {
   generatedAt: new Date().toISOString(),
   paperReportedNote:
