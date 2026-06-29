@@ -1,0 +1,21 @@
+{
+  "model": "gnn_baseline",
+  "reproduction_type": "scaled_reproduction",
+  "split": "zeroshot",
+  "seed": 0,
+  "gpu": "NVIDIA GeForce RTX 4060",
+  "vram_gb": 8.6,
+  "date": "2026-06-24",
+  "wall_clock_seconds": 40.6,
+  "indication": {
+    "auprc": 0.6772693241387354,
+    "auroc": 0.9470434236736527,
+    "n_test_pairs": 7848
+  },
+  "contraindication": {
+    "auprc": 0.8499711272445509,
+    "auroc": 0.975739344183814,
+    "n_test_pairs": 29034
+  },
+  "notes": "best_val_auprc=0.7753"
+}

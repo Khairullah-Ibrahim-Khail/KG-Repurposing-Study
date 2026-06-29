@@ -1,0 +1,10 @@
+drug_id,via_entity,via_type,relation_drug_to_entity,relation_entity_to_disease,disease_id
+DB00235,hypertrophic cardiomyopathy,disease,contraindication,disease_disease,24573
+DB00235,Dipyridamole,drug,drug_drug,contraindication,24573
+DB00235,Sildenafil,drug,drug_drug,contraindication,24573
+DB01427,hypertrophic cardiomyopathy,disease,contraindication,disease_disease,24573
+DB01427,Propranolol,drug,drug_drug,indication,24573
+DB01427,Tadalafil,drug,drug_drug,contraindication,24573
+DB00975,hypertrophic cardiomyopathy,disease,contraindication,disease_disease,24573
+DB00975,Sildenafil,drug,drug_drug,contraindication,24573
+DB00975,Propranolol,drug,drug_drug,indication,24573

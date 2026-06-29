@@ -1,0 +1,8 @@
+{
+  "split_type": "standard",
+  "seed": 1,
+  "n_train": 64102,
+  "n_val": 8012,
+  "n_test": 8012,
+  "note": "Test diseases may have training treatment edges. Not zero-shot."
+}

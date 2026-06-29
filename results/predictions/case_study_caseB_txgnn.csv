@@ -1,0 +1,21 @@
+disease_id,relation,rank,drug_id,drug_name,score,is_positive
+5545,indication,1,DB00891,Sulfapyridine,4.782861232757568,False
+5545,indication,2,DB00773,Etoposide,4.707549095153809,False
+5545,indication,3,DB00410,Mupirocin,4.685629844665527,False
+5545,indication,4,DB11442,Oleandomycin,4.664400100708008,False
+5545,indication,5,DB00254,Doxycycline,4.658689975738525,False
+5545,indication,6,DB00958,Carboplatin,4.589925765991211,False
+5545,indication,7,DB14724,Emapalumab,4.557514190673828,False
+5545,indication,8,DB00290,Bleomycin,4.5419440269470215,False
+5545,indication,9,DB06819,Phenylbutyric acid,4.536767959594727,False
+5545,indication,10,DB01017,Minocycline,4.523789882659912,False
+5545,indication,11,DB00681,Amphotericin B,4.5011091232299805,False
+5545,indication,12,DB00467,Enoxacin,4.477416038513184,False
+5545,indication,13,DB05109,Trabectedin,4.444447040557861,False
+5545,indication,14,DB00563,Methotrexate,4.416792869567871,False
+5545,indication,15,DB09093,Chlortetracycline,4.403885841369629,False
+5545,indication,16,DB00541,Vincristine,4.379249095916748,False
+5545,indication,17,DB01212,Ceftriaxone,4.369800090789795,False
+5545,indication,18,DB01053,Benzylpenicillin,4.36636209487915,True
+5545,indication,19,DB08877,Ruxolitinib,4.339841842651367,False
+5545,indication,20,DB00643,Mebendazole,4.333208084106445,False

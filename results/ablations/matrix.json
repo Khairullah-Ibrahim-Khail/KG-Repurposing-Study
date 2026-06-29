@@ -1,0 +1,116 @@
+{
+  "generated_from": "scripts/build_ablation_matrix.py",
+  "source_dir": "C:\\Users\\COLORFUL\\Desktop\\BioInfo Finals\\results\\ablations",
+  "seeds": [
+    42,
+    0,
+    1
+  ],
+  "q6_decision": {
+    "status": "DECIDED",
+    "txgnn_attn_on_zeroshot_ind_auprc": 0.73568,
+    "txgnn_attn_off_zeroshot_ind_auprc": 0.77202,
+    "delta_attn_on_minus_off": -0.03634,
+    "threshold": 0.02,
+    "attention_optional": false,
+    "conclusion": "Attention is DETRIMENTAL \u2014 removing attention IMPROVES zero-shot AUPRC. Delta = -0.03634."
+  },
+  "matrix": [
+    {
+      "variant": "txgnn",
+      "split": "standard",
+      "n_seeds": 3,
+      "indication_auprc_mean": 0.81631,
+      "indication_auprc_std": 0.01233,
+      "indication_auroc_mean": 0.97241,
+      "contraindication_auprc_mean": 0.8992,
+      "contraindication_auprc_std": 0.01001,
+      "contraindication_auroc_mean": 0.98439,
+      "wall_clock_s_mean": 183.8
+    },
+    {
+      "variant": "txgnn",
+      "split": "zeroshot",
+      "n_seeds": 3,
+      "indication_auprc_mean": 0.73568,
+      "indication_auprc_std": 0.01075,
+      "indication_auroc_mean": 0.95026,
+      "contraindication_auprc_mean": 0.83155,
+      "contraindication_auprc_std": 0.01017,
+      "contraindication_auroc_mean": 0.97337,
+      "wall_clock_s_mean": 71.6
+    },
+    {
+      "variant": "txgnn_no_attn",
+      "split": "standard",
+      "n_seeds": 3,
+      "indication_auprc_mean": 0.81142,
+      "indication_auprc_std": 0.0049,
+      "indication_auroc_mean": 0.97266,
+      "contraindication_auprc_mean": 0.89178,
+      "contraindication_auprc_std": 0.00681,
+      "contraindication_auroc_mean": 0.98355,
+      "wall_clock_s_mean": 8.1
+    },
+    {
+      "variant": "txgnn_no_attn",
+      "split": "zeroshot",
+      "n_seeds": 3,
+      "indication_auprc_mean": 0.77202,
+      "indication_auprc_std": 0.01247,
+      "indication_auroc_mean": 0.96586,
+      "contraindication_auprc_mean": 0.78743,
+      "contraindication_auprc_std": 0.00836,
+      "contraindication_auroc_mean": 0.96696,
+      "wall_clock_s_mean": 3.2
+    },
+    {
+      "variant": "txgnn_no_sim",
+      "split": "standard",
+      "n_seeds": 3,
+      "indication_auprc_mean": 0.82478,
+      "indication_auprc_std": 0.02213,
+      "indication_auroc_mean": 0.97161,
+      "contraindication_auprc_mean": 0.8954,
+      "contraindication_auprc_std": 0.02646,
+      "contraindication_auroc_mean": 0.98365,
+      "wall_clock_s_mean": 147.2
+    },
+    {
+      "variant": "txgnn_no_sim",
+      "split": "zeroshot",
+      "n_seeds": 3,
+      "indication_auprc_mean": 0.72624,
+      "indication_auprc_std": 0.00936,
+      "indication_auroc_mean": 0.9568,
+      "contraindication_auprc_mean": 0.82412,
+      "contraindication_auprc_std": 0.00953,
+      "contraindication_auroc_mean": 0.97515,
+      "wall_clock_s_mean": 88.2
+    },
+    {
+      "variant": "txgnn_no_both",
+      "split": "standard",
+      "n_seeds": 3,
+      "indication_auprc_mean": 0.82282,
+      "indication_auprc_std": 0.01119,
+      "indication_auroc_mean": 0.97264,
+      "contraindication_auprc_mean": 0.88814,
+      "contraindication_auprc_std": 0.00415,
+      "contraindication_auroc_mean": 0.98267,
+      "wall_clock_s_mean": 7.5
+    },
+    {
+      "variant": "txgnn_no_both",
+      "split": "zeroshot",
+      "n_seeds": 3,
+      "indication_auprc_mean": 0.762,
+      "indication_auprc_std": 0.01014,
+      "indication_auroc_mean": 0.96463,
+      "contraindication_auprc_mean": 0.78003,
+      "contraindication_auprc_std": 0.01801,
+      "contraindication_auroc_mean": 0.9666,
+      "wall_clock_s_mean": 3.1
+    }
+  ]
+}

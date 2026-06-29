@@ -1,0 +1,27 @@
+# Q6 condition B: attention OFF (mean aggregation), affinity head ON.
+model:
+  name: txgnn_no_attn
+  backbone: mean_aggregation_plus_disease_affinity
+  hidden_dim: 64
+  heads: 4
+  depth: 2
+  dropout: 0.1
+  attention: false
+  affinity: true
+  neighbors: 5
+  reproduction_type: original_ablation
+
+# Decision rule: delta = AUPRC(attn=ON) - AUPRC(attn=OFF) on zero-shot indication.
+#   |delta| < 0.02  -> attention optional
+#   delta >= 0.02   -> attention helps
+#   delta <= -0.02  -> attention hurts
+
+optim:
+  pretrain_epochs: 30
+  finetune_epochs: 100
+  lr: 0.001
+  weight_decay: 0.00001
+  neg_ratio: 5
+  sim_loss_weight: 0.3
+  patience: 10
+  amp: true

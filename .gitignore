@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Large raw data (regenerate with scripts/fetch_primekg.py)
+data/raw/kg.csv
+data/raw/disease_features.tab
+data/processed/
+
+# Node
+web/node_modules/
+web/dist/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

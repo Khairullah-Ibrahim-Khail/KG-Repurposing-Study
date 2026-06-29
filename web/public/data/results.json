@@ -1,0 +1,3900 @@
+{
+  "generatedAt": "2026-06-29T01:41:50.976Z",
+  "paperReportedNote": "paper_reported values from Huang et al. (2024), Nature Medicine, Suppl. Tables S1/S2 (MOESM1 ESM). DOI: 10.1038/s41591-024-03233-x",
+  "paperReported": {
+    "standard": {
+      "txgnn_two_phase": {
+        "auprc_ind": "0.91 ± 0.02",
+        "auprc_contra": "0.82 ± 0.01",
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S1/S2"
+      },
+      "txgnn_attn_on": {
+        "auprc_ind": "0.91 ± 0.02",
+        "auprc_contra": "0.82 ± 0.01",
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S1/S2"
+      },
+      "han_paper": {
+        "auprc_ind": "0.87 ± 0.18",
+        "auprc_contra": "0.84 ± 0.00",
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S1/S2 (HAN row)"
+      }
+    },
+    "zeroshot": {
+      "txgnn_two_phase": {
+        "auprc_ind": "0.90 ± 0.02",
+        "auprc_contra": "0.80 ± 0.01",
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S1/S2"
+      },
+      "txgnn_attn_on": {
+        "auprc_ind": "0.90 ± 0.02",
+        "auprc_contra": "0.80 ± 0.01",
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S1/S2"
+      },
+      "_relativeNote": "relative only: +19.0% ind / +23.9% contra vs next-best baseline (abs. in Suppl. S1/S2)",
+      "bioBERT_paper": {
+        "auprc_ind": "0.76 ± 0.03",
+        "auprc_contra": null,
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S1 (BioBERT row)"
+      },
+      "rgcn_paper": {
+        "auprc_ind": null,
+        "auprc_contra": "0.64 ± 0.03",
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S2 (RGCN row)"
+      }
+    }
+  },
+  "comparisonTable": [
+    {
+      "model": "gnn_no_kg",
+      "displayName": "GNN Baseline (no-KG)",
+      "split": "standard",
+      "n_seeds_run": 3,
+      "reproduction_type": "scaled_reproduction",
+      "auprc_ind": 0.8926,
+      "auprc_ind_std": 0.0061,
+      "auroc_ind": 0.9719,
+      "auroc_ind_std": 0.0024,
+      "auprc_contra": 0.9453,
+      "auprc_contra_std": 0.0023,
+      "auroc_contra": 0.9913,
+      "auroc_contra_std": 0.0003,
+      "wall_s": 0.7,
+      "paper_reported": null
+    },
+    {
+      "model": "gnn_no_kg",
+      "displayName": "GNN Baseline (no-KG)",
+      "split": "zeroshot",
+      "n_seeds_run": 3,
+      "reproduction_type": "scaled_reproduction",
+      "auprc_ind": 0.7044,
+      "auprc_ind_std": 0.0272,
+      "auroc_ind": 0.9342,
+      "auroc_ind_std": 0.0054,
+      "auprc_contra": 0.7252,
+      "auprc_contra_std": 0.0079,
+      "auroc_contra": 0.9315,
+      "auroc_contra_std": 0.0057,
+      "wall_s": 0.2,
+      "paper_reported": null
+    },
+    {
+      "model": "gnn_kg",
+      "displayName": "GNN Baseline (KG)",
+      "split": "standard",
+      "n_seeds_run": 3,
+      "reproduction_type": "scaled_reproduction",
+      "auprc_ind": 0.8245,
+      "auprc_ind_std": 0.022,
+      "auroc_ind": 0.9716,
+      "auroc_ind_std": 0.0055,
+      "auprc_contra": 0.895,
+      "auprc_contra_std": 0.0262,
+      "auroc_contra": 0.9836,
+      "auroc_contra_std": 0.0034,
+      "wall_s": 145.5,
+      "paper_reported": null
+    },
+    {
+      "model": "gnn_kg",
+      "displayName": "GNN Baseline (KG)",
+      "split": "zeroshot",
+      "n_seeds_run": 3,
+      "reproduction_type": "scaled_reproduction",
+      "auprc_ind": 0.7143,
+      "auprc_ind_std": 0.0262,
+      "auroc_ind": 0.9543,
+      "auroc_ind_std": 0.0051,
+      "auprc_contra": 0.8311,
+      "auprc_contra_std": 0.0161,
+      "auroc_contra": 0.9753,
+      "auroc_contra_std": 0.0019,
+      "wall_s": 71.3,
+      "paper_reported": null
+    },
+    {
+      "model": "txgnn_two_phase",
+      "displayName": "TxGNN Two-Phase",
+      "split": "standard",
+      "n_seeds_run": 3,
+      "reproduction_type": "scaled_reproduction",
+      "auprc_ind": 0.8163,
+      "auprc_ind_std": 0.0123,
+      "auroc_ind": 0.9724,
+      "auroc_ind_std": 0.002,
+      "auprc_contra": 0.8992,
+      "auprc_contra_std": 0.01,
+      "auroc_contra": 0.9844,
+      "auroc_contra_std": 0.0014,
+      "wall_s": 183.8,
+      "paper_reported": {
+        "auprc_ind": "0.91 ± 0.02",
+        "auprc_contra": "0.82 ± 0.01",
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S1/S2"
+      }
+    },
+    {
+      "model": "txgnn_two_phase",
+      "displayName": "TxGNN Two-Phase",
+      "split": "zeroshot",
+      "n_seeds_run": 3,
+      "reproduction_type": "scaled_reproduction",
+      "auprc_ind": 0.7357,
+      "auprc_ind_std": 0.0108,
+      "auroc_ind": 0.9503,
+      "auroc_ind_std": 0.0094,
+      "auprc_contra": 0.8316,
+      "auprc_contra_std": 0.0102,
+      "auroc_contra": 0.9734,
+      "auroc_contra_std": 0.0023,
+      "wall_s": 71.6,
+      "paper_reported": {
+        "auprc_ind": "0.90 ± 0.02",
+        "auprc_contra": "0.80 ± 0.01",
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S1/S2"
+      }
+    },
+    {
+      "model": "single_stage",
+      "displayName": "Single-Stage",
+      "split": "standard",
+      "n_seeds_run": 3,
+      "reproduction_type": "original_ablation",
+      "auprc_ind": 0.7229,
+      "auprc_ind_std": 0.0047,
+      "auroc_ind": 0.9501,
+      "auroc_ind_std": 0.0031,
+      "auprc_contra": 0.8631,
+      "auprc_contra_std": 0.0115,
+      "auroc_contra": 0.9767,
+      "auroc_contra_std": 0.0013,
+      "wall_s": 100.3,
+      "paper_reported": null
+    },
+    {
+      "model": "single_stage",
+      "displayName": "Single-Stage",
+      "split": "zeroshot",
+      "n_seeds_run": 3,
+      "reproduction_type": "original_ablation",
+      "auprc_ind": 0.7055,
+      "auprc_ind_std": 0.0327,
+      "auroc_ind": 0.9505,
+      "auroc_ind_std": 0.0045,
+      "auprc_contra": 0.8327,
+      "auprc_contra_std": 0.0191,
+      "auroc_contra": 0.9752,
+      "auroc_contra_std": 0.0024,
+      "wall_s": 130.7,
+      "paper_reported": null
+    },
+    {
+      "model": "joint_contrastive",
+      "displayName": "Joint Contrastive",
+      "split": "standard",
+      "n_seeds_run": 3,
+      "reproduction_type": "original_ablation",
+      "auprc_ind": 0.7391,
+      "auprc_ind_std": 0.0193,
+      "auroc_ind": 0.9558,
+      "auroc_ind_std": 0.0022,
+      "auprc_contra": 0.8621,
+      "auprc_contra_std": 0.0135,
+      "auroc_contra": 0.9786,
+      "auroc_contra_std": 0.0007,
+      "wall_s": 95.9,
+      "paper_reported": null
+    },
+    {
+      "model": "joint_contrastive",
+      "displayName": "Joint Contrastive",
+      "split": "zeroshot",
+      "n_seeds_run": 3,
+      "reproduction_type": "original_ablation",
+      "auprc_ind": 0.6695,
+      "auprc_ind_std": 0.0383,
+      "auroc_ind": 0.9436,
+      "auroc_ind_std": 0.0123,
+      "auprc_contra": 0.8535,
+      "auprc_contra_std": 0.0158,
+      "auroc_contra": 0.9777,
+      "auroc_contra_std": 0.0019,
+      "wall_s": 97.1,
+      "paper_reported": null
+    },
+    {
+      "model": "txgnn_attn_on",
+      "displayName": "TxGNN (attn=ON)",
+      "split": "standard",
+      "n_seeds_run": 3,
+      "reproduction_type": "scaled_reproduction",
+      "auprc_ind": 0.8163,
+      "auprc_ind_std": 0.0123,
+      "auroc_ind": 0.9724,
+      "auroc_ind_std": 0.002,
+      "auprc_contra": 0.8992,
+      "auprc_contra_std": 0.01,
+      "auroc_contra": 0.9844,
+      "auroc_contra_std": 0.0014,
+      "wall_s": 183.8,
+      "paper_reported": {
+        "auprc_ind": "0.91 ± 0.02",
+        "auprc_contra": "0.82 ± 0.01",
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S1/S2"
+      }
+    },
+    {
+      "model": "txgnn_attn_on",
+      "displayName": "TxGNN (attn=ON)",
+      "split": "zeroshot",
+      "n_seeds_run": 3,
+      "reproduction_type": "scaled_reproduction",
+      "auprc_ind": 0.7357,
+      "auprc_ind_std": 0.0108,
+      "auroc_ind": 0.9503,
+      "auroc_ind_std": 0.0094,
+      "auprc_contra": 0.8316,
+      "auprc_contra_std": 0.0102,
+      "auroc_contra": 0.9734,
+      "auroc_contra_std": 0.0023,
+      "wall_s": 71.6,
+      "paper_reported": {
+        "auprc_ind": "0.90 ± 0.02",
+        "auprc_contra": "0.80 ± 0.01",
+        "source": "Huang et al. 2024, Nat Med, Suppl. Table S1/S2"
+      }
+    },
+    {
+      "model": "txgnn_attn_off",
+      "displayName": "TxGNN (attn=OFF)",
+      "split": "standard",
+      "n_seeds_run": 3,
+      "reproduction_type": "scaled_reproduction",
+      "auprc_ind": 0.8114,
+      "auprc_ind_std": 0.0049,
+      "auroc_ind": 0.9727,
+      "auroc_ind_std": 0.0009,
+      "auprc_contra": 0.8918,
+      "auprc_contra_std": 0.0068,
+      "auroc_contra": 0.9836,
+      "auroc_contra_std": 0.0006,
+      "wall_s": 8.1,
+      "paper_reported": null
+    },
+    {
+      "model": "txgnn_attn_off",
+      "displayName": "TxGNN (attn=OFF)",
+      "split": "zeroshot",
+      "n_seeds_run": 3,
+      "reproduction_type": "scaled_reproduction",
+      "auprc_ind": 0.772,
+      "auprc_ind_std": 0.0125,
+      "auroc_ind": 0.9659,
+      "auroc_ind_std": 0.0001,
+      "auprc_contra": 0.7874,
+      "auprc_contra_std": 0.0084,
+      "auroc_contra": 0.967,
+      "auroc_contra_std": 0.0016,
+      "wall_s": 3.2,
+      "paper_reported": null
+    }
+  ],
+  "ablationMatrix": {
+    "generated_from": "scripts/build_ablation_matrix.py",
+    "source_dir": "C:\\Users\\COLORFUL\\Desktop\\BioInfo Finals\\results\\ablations",
+    "seeds": [
+      42,
+      0,
+      1
+    ],
+    "q6_decision": {
+      "status": "DECIDED",
+      "txgnn_attn_on_zeroshot_ind_auprc": 0.73568,
+      "txgnn_attn_off_zeroshot_ind_auprc": 0.77202,
+      "delta_attn_on_minus_off": -0.03634,
+      "threshold": 0.02,
+      "attention_optional": false,
+      "conclusion": "Attention is DETRIMENTAL — removing attention IMPROVES zero-shot AUPRC. Delta = -0.03634."
+    },
+    "matrix": [
+      {
+        "variant": "txgnn",
+        "split": "standard",
+        "n_seeds": 3,
+        "indication_auprc_mean": 0.81631,
+        "indication_auprc_std": 0.01233,
+        "indication_auroc_mean": 0.97241,
+        "contraindication_auprc_mean": 0.8992,
+        "contraindication_auprc_std": 0.01001,
+        "contraindication_auroc_mean": 0.98439,
+        "wall_clock_s_mean": 183.8
+      },
+      {
+        "variant": "txgnn",
+        "split": "zeroshot",
+        "n_seeds": 3,
+        "indication_auprc_mean": 0.73568,
+        "indication_auprc_std": 0.01075,
+        "indication_auroc_mean": 0.95026,
+        "contraindication_auprc_mean": 0.83155,
+        "contraindication_auprc_std": 0.01017,
+        "contraindication_auroc_mean": 0.97337,
+        "wall_clock_s_mean": 71.6
+      },
+      {
+        "variant": "txgnn_no_attn",
+        "split": "standard",
+        "n_seeds": 3,
+        "indication_auprc_mean": 0.81142,
+        "indication_auprc_std": 0.0049,
+        "indication_auroc_mean": 0.97266,
+        "contraindication_auprc_mean": 0.89178,
+        "contraindication_auprc_std": 0.00681,
+        "contraindication_auroc_mean": 0.98355,
+        "wall_clock_s_mean": 8.1
+      },
+      {
+        "variant": "txgnn_no_attn",
+        "split": "zeroshot",
+        "n_seeds": 3,
+        "indication_auprc_mean": 0.77202,
+        "indication_auprc_std": 0.01247,
+        "indication_auroc_mean": 0.96586,
+        "contraindication_auprc_mean": 0.78743,
+        "contraindication_auprc_std": 0.00836,
+        "contraindication_auroc_mean": 0.96696,
+        "wall_clock_s_mean": 3.2
+      },
+      {
+        "variant": "txgnn_no_sim",
+        "split": "standard",
+        "n_seeds": 3,
+        "indication_auprc_mean": 0.82478,
+        "indication_auprc_std": 0.02213,
+        "indication_auroc_mean": 0.97161,
+        "contraindication_auprc_mean": 0.8954,
+        "contraindication_auprc_std": 0.02646,
+        "contraindication_auroc_mean": 0.98365,
+        "wall_clock_s_mean": 147.2
+      },
+      {
+        "variant": "txgnn_no_sim",
+        "split": "zeroshot",
+        "n_seeds": 3,
+        "indication_auprc_mean": 0.72624,
+        "indication_auprc_std": 0.00936,
+        "indication_auroc_mean": 0.9568,
+        "contraindication_auprc_mean": 0.82412,
+        "contraindication_auprc_std": 0.00953,
+        "contraindication_auroc_mean": 0.97515,
+        "wall_clock_s_mean": 88.2
+      },
+      {
+        "variant": "txgnn_no_both",
+        "split": "standard",
+        "n_seeds": 3,
+        "indication_auprc_mean": 0.82282,
+        "indication_auprc_std": 0.01119,
+        "indication_auroc_mean": 0.97264,
+        "contraindication_auprc_mean": 0.88814,
+        "contraindication_auprc_std": 0.00415,
+        "contraindication_auroc_mean": 0.98267,
+        "wall_clock_s_mean": 7.5
+      },
+      {
+        "variant": "txgnn_no_both",
+        "split": "zeroshot",
+        "n_seeds": 3,
+        "indication_auprc_mean": 0.762,
+        "indication_auprc_std": 0.01014,
+        "indication_auroc_mean": 0.96463,
+        "contraindication_auprc_mean": 0.78003,
+        "contraindication_auprc_std": 0.01801,
+        "contraindication_auroc_mean": 0.9666,
+        "wall_clock_s_mean": 3.1
+      }
+    ]
+  },
+  "q6AblationTable": [
+    {
+      "variant": "txgnn_attn_on",
+      "displayName": "TxGNN (attn=ON)",
+      "split": "standard",
+      "auprc_ind_mean": 0.8163,
+      "auprc_ind_std": 0.0123,
+      "n_seeds": 3
+    },
+    {
+      "variant": "txgnn_attn_on",
+      "displayName": "TxGNN (attn=ON)",
+      "split": "zeroshot",
+      "auprc_ind_mean": 0.7357,
+      "auprc_ind_std": 0.0108,
+      "n_seeds": 3
+    },
+    {
+      "variant": "txgnn_attn_off",
+      "displayName": "TxGNN (attn=OFF)",
+      "split": "standard",
+      "auprc_ind_mean": 0.8114,
+      "auprc_ind_std": 0.0049,
+      "n_seeds": 3
+    },
+    {
+      "variant": "txgnn_attn_off",
+      "displayName": "TxGNN (attn=OFF)",
+      "split": "zeroshot",
+      "auprc_ind_mean": 0.772,
+      "auprc_ind_std": 0.0125,
+      "n_seeds": 3
+    }
+  ],
+  "degradationCurveData": {
+    "raw": [
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "100053",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01227
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "100053",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00333
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10083",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00018
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10150_4958_5096_6082_500_514",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10150_4958_5096_6082_500_514",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01291
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10198",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0039
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10198",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00237
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10274_10108",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.02274
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1046",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10481",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01129
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10481",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01636
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10619_10358_20720",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00025
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1076",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00646
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10771",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00066
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10811",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.19279
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10811",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00377
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "10917_7319_1314",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00486
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1126",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.02775
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1126",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0056
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "11393_17773_32766",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00211
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "11393_17773_32766",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00152
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "11508",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.06671
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "11514",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0002
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1152",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00087
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1152",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00015
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "11731",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00024
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "11733_100226",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "11764_11658_13625_8199_14604_11613_14233_11562_8200_14796_17279_5180_6966_828_10796_10360_11737_13167",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01536
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "11764_11658_13625_8199_14604_11613_14233_11562_8200_14796_17279_5180_6966_828_10796_10360_11737_13167",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01835
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1186",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00022
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "11871_11873_9757_9756_18982_1982_20384",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0002
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "11895",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00019
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1191_24302_24303",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00417
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1198",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.02504
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1239",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00358
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1243_1242",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00153
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1243_1242",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00376
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "12895_11264_11200_7493_11886_9141_44811_44843_44870_44816_44817",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00055
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1290",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1292",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01304
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1298",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00228
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "13225_12923_12071_10020_6536",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "13276",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00157
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "13276",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00204
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1334",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1340",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01701
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1340",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00419
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1370",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00734
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1405",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0169
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "14118",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.05773
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "14191_12762_11484_13966_13529_17990",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01865
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1438",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.08839
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1438",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00266
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "14394_13217_32668_12529_32669_44309_12937_13216_13964_12938_12925_7110_14245_12924_60662_32670_44310_12939_15253_11636",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00072
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "14394_13217_32668_12529_32669_44309_12937_13216_13964_12938_12925_7110_14245_12924_60662_32670_44310_12939_15253_11636",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00085
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1509",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00222
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15127",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.07094
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15127",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00704
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15129_15130",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.082
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15129_15130",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01138
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15131",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00147
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15270",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00981
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15290_1440",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00036
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15403_15404_18715_18716",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00037
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1548",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.057
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1548",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00257
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15614_6565",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00338
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15614_6565",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0766
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1566",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.20306
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1566",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01342
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15758",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00183
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15758",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0263
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15789",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.07134
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15789",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00658
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15803",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0002
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15804",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00019
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "15810",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00326
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1583",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16047_17202_17203",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00025
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16088",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00143
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16106",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16122",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0258
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16211",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0004
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16211",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0042
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16222",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00408
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16248",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00917
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16248",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.06196
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16249",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00971
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16249",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.06362
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1632",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00884
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16333",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00072
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16372",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0002
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16586",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00849
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16690",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00128
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16690",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00595
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16692",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00127
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16692",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00592
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16778",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0002
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16822",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00037
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "16848_8538",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00035
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1687",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00912
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1687",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00058
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "17145",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00087
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "17346",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.05615
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "17582",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0002
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1761",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00514
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "17636",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0003
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "17636",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01783
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "17754",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0012
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1794",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00583
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "17988",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01531
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "17989",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00893
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18006",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18024",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00106
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18031",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00184
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18031",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.02324
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18056_6572_16767_43923_16769_16770",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00019
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18097",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00239
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18098",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18133",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18182",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00872
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1821",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00144
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18256",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01602
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18301",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00032
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1834",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00177
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18352",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00302
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18371",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18493",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00857
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18493",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00037
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18546",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01324
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18637",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18673",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00505
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18673",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00312
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1868_1744_1742_1864",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.1322
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1868_1744_1742_1864",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00557
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18824",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00041
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18876_6430",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.05207
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18881",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0006
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18881",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00184
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18890",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00018
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18956",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01149
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "18956",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00673
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1896",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00813
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19010",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0002
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19072",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00192
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19088",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19145",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00024
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19148",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19154",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00019
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19154",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0006
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19171",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.08253
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19245",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00353
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19297",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19297",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00498
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19444",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00079
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1951",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0066
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19536",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0008
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19562",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00018
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19562",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00033
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19610",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00426
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19633",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00773
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1971",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00109
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1971",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00356
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "19726_19727",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00192
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1999_5149",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00602
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "1999_5149",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00276
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2009_12050_12100",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01479
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "20120",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.02977
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "20321",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01477
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "20386",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00229
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "20466",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "20696",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01927
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "20696",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01322
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "20804",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00055
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "20804",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01782
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "20950",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01578
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2105",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.08418
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "21113",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.13083
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "21113",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0012
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2158",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00824
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "21661",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01872
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "21666",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00169
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2181",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00871
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2181",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01664
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "22205",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01091
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "22205",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00049
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2244",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0098
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2258",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01175
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2258",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.05302
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2260",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "22993",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2330",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00018
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2350",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00608
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2350",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.02342
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "23597",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00077
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2400",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01472
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "24389",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00029
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2447",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01402
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2447",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.005
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "24573",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00302
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "24573",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.025
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "24574",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.02841
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "24574",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00136
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "24650",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00119
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2501",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00333
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2691",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00299
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2691",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00979
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2771",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.05183
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "2771",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00244
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "3005",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00551
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "337",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.125
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "34022_24530_8029",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "3619_1173",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00198
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "3632",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00269
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "3634",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0225
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "40698",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0022
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "40797",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00172
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "40871_40872",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0008
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "41154",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00015
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "41186",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0095
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "41447",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01993
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "41775",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00842
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4180",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00481
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "41903",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00759
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "41959",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00209
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4215",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.21661
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4242",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.14758
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4264",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.11034
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4279",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00036
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "42972",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00331
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "43106",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00145
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "432",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00943
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "43885",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.02372
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "44751",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.02841
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "44917",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "45011",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00602
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4522",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00088
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4522",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.03454
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "461",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00019
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4638",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00715
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4638",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.06422
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4639",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.10532
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4639",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00141
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "465",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.02669
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "465",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00099
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4670_5282_19561",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01674
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4728",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00527
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4745",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01068
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4773",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00155
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4773",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01794
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4822",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00324
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4822",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01449
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4842",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01966
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4846",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01825
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4867",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00523
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4910",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00193
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4941",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00845
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4948_872_4963_20511_4947_814",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.03321
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4950",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00297
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4950",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00721
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4987",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0005
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4987",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0042
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4992",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00271
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4992",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.02535
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "4994",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01126
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5025_6669",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0074
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5025_6669",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.03825
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5072",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00073
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5072",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00741
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5081",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00633
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5081",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00172
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5083",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5083",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.03144
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5099",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5099",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00096
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5139",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.03227
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5190",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00719
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5279",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.04709
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5279",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01391
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5280",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00245
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5290",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.03566
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5300",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.02776
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5311",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.03049
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5311",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00544
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5315",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00957
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5316",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00061
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5316",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00836
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5365_20677",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00163
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5366",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00811
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5366",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00591
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5440",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00057
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5440",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00388
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5478",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.07163
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5531",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00061
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5531",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00077
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5545",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.08755
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5555",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00142
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5571",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00195
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5571",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0089
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5608",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.02448
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5647",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00843
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5647",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00369
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "565",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01123
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5664",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00914
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5699",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00337
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5754",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00644
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5834",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.12348
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5850",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.16667
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5888",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.12269
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5904",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00473
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "5920",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01618
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6014",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0073
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6014",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01326
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6206",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00685
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6375",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.004
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6540",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6544",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.125
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6547",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00352
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6547",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01394
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6608_6609",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00119
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6608_6609",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.02416
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6649_498_499",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00173
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6670",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01253
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6686",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00064
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6690",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6764",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00085
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6835",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0104
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6835",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.02288
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6895",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00397
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6898",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01052
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6898",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01588
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "6920",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00839
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "7000",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00297
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "7015",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.06696
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "7027",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00431
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "7126_8468_24512_13192",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01092
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "7459",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "7648_5017",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00363
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "7648_5017",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0097
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "7706",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00375
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "7798_9428_18570",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00018
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "7896_4600_4614_875",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00166
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8114_1158",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01585
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8114_1158",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00415
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8170",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00779
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8170",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.04946
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8187_2050_5618_5451_5371_100081_5383_1942_1098_3265_11924_12384",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.07958
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8187_2050_5618_5451_5371_100081_5383_1942_1098_3265_11924_12384",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.03085
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8231",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00544
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8231",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00118
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "827",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01844
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8300",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00035
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8375",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0034
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8433",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.08986
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8455_9673_10056_9672_11585_11436_9669_19079_1516_16224_14753_18218",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00016
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8558_19098",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00022
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8558_19098",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00671
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8668_13304_10191_15628_15629_15630_15631",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01296
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8668_13304_10191_15628_15629_15630_15631",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00132
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8679_11112_14779_11056_8680_8683_6058",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.0143
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8731",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.08705
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8731",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00877
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8848",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.02703
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "8948",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00021
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9100",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.01067
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9100",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00231
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "927",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.03008
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9342",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00032
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9417_18555",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.0134
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9417_18555",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01233
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9421",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00286
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9421",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00274
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9519",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00019
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9691_15821_45071",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00171
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9691_15821_45071",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01368
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9693",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00335
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9693",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01001
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "979",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00609
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9797",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.00015
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9830",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.00017
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "9830",
+        "relation": "indication",
+        "n_train_edges": 0,
+        "auprc": 0.01481
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "disease_id": "992",
+        "relation": "contraindication",
+        "n_train_edges": 0,
+        "auprc": 0.23928
+      }
+    ],
+    "binned": [
+      {
+        "model": "txgnn_zeroshot",
+        "relation": "contraindication",
+        "bin": "0",
+        "mean_auprc": 0.0177,
+        "n": 180
+      },
+      {
+        "model": "txgnn_zeroshot",
+        "relation": "indication",
+        "bin": "0",
+        "mean_auprc": 0.0153,
+        "n": 202
+      }
+    ]
+  },
+  "caseStudies": {
+    "caseA": {
+      "diseaseId": "24573",
+      "diseaseName": "Familial Hypertrophic Cardiomyopathy",
+      "shortName": "FHC",
+      "nPos": 1,
+      "relation": "indication",
+      "auprc": 0.025,
+      "source": "results/predictions/case_study_caseA_txgnn.csv",
+      "predictions": [
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 1,
+          "drug_id": "DB13985",
+          "drug_name": "Lutetium Lu 177 dotatate",
+          "score": -1.0379159450531006,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 2,
+          "drug_id": "DB04465",
+          "drug_name": "Lactose",
+          "score": -1.206455945968628,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 3,
+          "drug_id": "DB14724",
+          "drug_name": "Emapalumab",
+          "score": -1.225978970527649,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 4,
+          "drug_id": "DB00151",
+          "drug_name": "Cysteine",
+          "score": -1.2336490154266357,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 5,
+          "drug_id": "DB00891",
+          "drug_name": "Sulfapyridine",
+          "score": -1.25101900100708,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 6,
+          "drug_id": "DB00773",
+          "drug_name": "Etoposide",
+          "score": -1.2628719806671143,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 7,
+          "drug_id": "DB11442",
+          "drug_name": "Oleandomycin",
+          "score": -1.2653629779815674,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 8,
+          "drug_id": "DB00926",
+          "drug_name": "Etretinate",
+          "score": -1.2682100534439087,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 9,
+          "drug_id": "DB01103",
+          "drug_name": "Quinacrine",
+          "score": -1.2829910516738892,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 10,
+          "drug_id": "DB13609",
+          "drug_name": "Umifenovir",
+          "score": -1.2921379804611206,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 11,
+          "drug_id": "DB00421",
+          "drug_name": "Spironolactone",
+          "score": -1.3011070489883423,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 12,
+          "drug_id": "DB00958",
+          "drug_name": "Carboplatin",
+          "score": -1.3014379739761353,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 13,
+          "drug_id": "DB00257",
+          "drug_name": "Clotrimazole",
+          "score": -1.3068779706954956,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 14,
+          "drug_id": "DB00279",
+          "drug_name": "Liothyronine",
+          "score": -1.3110699653625488,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 15,
+          "drug_id": "DB09042",
+          "drug_name": "Tedizolid phosphate",
+          "score": -1.313410997390747,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 16,
+          "drug_id": "DB01093",
+          "drug_name": "Dimethyl sulfoxide",
+          "score": -1.3181389570236206,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 17,
+          "drug_id": "DB06819",
+          "drug_name": "Phenylbutyric acid",
+          "score": -1.3483940362930298,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 18,
+          "drug_id": "DB01239",
+          "drug_name": "Chlorprothixene",
+          "score": -1.352936029434204,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 19,
+          "drug_id": "DB11644",
+          "drug_name": "Tafamidis",
+          "score": -1.3561400175094604,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "indication",
+          "rank": 20,
+          "drug_id": "DB00410",
+          "drug_name": "Mupirocin",
+          "score": -1.3577519655227661,
+          "is_positive": false
+        }
+      ],
+      "contraindications": [
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 1,
+          "drug_id": "DB13985",
+          "drug_name": "Lutetium Lu 177 dotatate",
+          "score": -1.0379159450531006,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 2,
+          "drug_id": "DB04465",
+          "drug_name": "Lactose",
+          "score": -1.206455945968628,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 3,
+          "drug_id": "DB14724",
+          "drug_name": "Emapalumab",
+          "score": -1.225978970527649,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 4,
+          "drug_id": "DB00151",
+          "drug_name": "Cysteine",
+          "score": -1.2336490154266357,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 5,
+          "drug_id": "DB00891",
+          "drug_name": "Sulfapyridine",
+          "score": -1.25101900100708,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 6,
+          "drug_id": "DB00773",
+          "drug_name": "Etoposide",
+          "score": -1.2628719806671143,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 7,
+          "drug_id": "DB11442",
+          "drug_name": "Oleandomycin",
+          "score": -1.2653629779815674,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 8,
+          "drug_id": "DB00926",
+          "drug_name": "Etretinate",
+          "score": -1.2682100534439087,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 9,
+          "drug_id": "DB01103",
+          "drug_name": "Quinacrine",
+          "score": -1.2829910516738892,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 10,
+          "drug_id": "DB13609",
+          "drug_name": "Umifenovir",
+          "score": -1.2921379804611206,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 11,
+          "drug_id": "DB00421",
+          "drug_name": "Spironolactone",
+          "score": -1.3011070489883423,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 12,
+          "drug_id": "DB00958",
+          "drug_name": "Carboplatin",
+          "score": -1.3014379739761353,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 13,
+          "drug_id": "DB00257",
+          "drug_name": "Clotrimazole",
+          "score": -1.3068779706954956,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 14,
+          "drug_id": "DB00279",
+          "drug_name": "Liothyronine",
+          "score": -1.3110699653625488,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 15,
+          "drug_id": "DB09042",
+          "drug_name": "Tedizolid phosphate",
+          "score": -1.313410997390747,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 16,
+          "drug_id": "DB01093",
+          "drug_name": "Dimethyl sulfoxide",
+          "score": -1.3181389570236206,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 17,
+          "drug_id": "DB06819",
+          "drug_name": "Phenylbutyric acid",
+          "score": -1.3483940362930298,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 18,
+          "drug_id": "DB01239",
+          "drug_name": "Chlorprothixene",
+          "score": -1.352936029434204,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 19,
+          "drug_id": "DB11644",
+          "drug_name": "Tafamidis",
+          "score": -1.3561400175094604,
+          "is_positive": false
+        },
+        {
+          "disease_id": "24573",
+          "relation": "contraindication",
+          "rank": 20,
+          "drug_id": "DB00410",
+          "drug_name": "Mupirocin",
+          "score": -1.3577519655227661,
+          "is_positive": false
+        }
+      ],
+      "paths": [
+        {
+          "drug_id": "DB00235",
+          "via_entity": "hypertrophic cardiomyopathy",
+          "via_type": "disease",
+          "relation_drug_to_entity": "contraindication",
+          "relation_entity_to_disease": "disease_disease",
+          "disease_id": "24573"
+        },
+        {
+          "drug_id": "DB00235",
+          "via_entity": "Dipyridamole",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "contraindication",
+          "disease_id": "24573"
+        },
+        {
+          "drug_id": "DB00235",
+          "via_entity": "Sildenafil",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "contraindication",
+          "disease_id": "24573"
+        },
+        {
+          "drug_id": "DB01427",
+          "via_entity": "hypertrophic cardiomyopathy",
+          "via_type": "disease",
+          "relation_drug_to_entity": "contraindication",
+          "relation_entity_to_disease": "disease_disease",
+          "disease_id": "24573"
+        },
+        {
+          "drug_id": "DB01427",
+          "via_entity": "Propranolol",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "indication",
+          "disease_id": "24573"
+        },
+        {
+          "drug_id": "DB01427",
+          "via_entity": "Tadalafil",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "contraindication",
+          "disease_id": "24573"
+        },
+        {
+          "drug_id": "DB00975",
+          "via_entity": "hypertrophic cardiomyopathy",
+          "via_type": "disease",
+          "relation_drug_to_entity": "contraindication",
+          "relation_entity_to_disease": "disease_disease",
+          "disease_id": "24573"
+        },
+        {
+          "drug_id": "DB00975",
+          "via_entity": "Sildenafil",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "contraindication",
+          "disease_id": "24573"
+        },
+        {
+          "drug_id": "DB00975",
+          "via_entity": "Propranolol",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "indication",
+          "disease_id": "24573"
+        }
+      ],
+      "pathsSource": "results/predictions/case_study_caseA_paths_txgnn.csv",
+      "knownDrug": "Propranolol (DB00571)",
+      "knownDrugInTop20": false,
+      "notes": "All top-20 scores negative. Propranolol (the one known indication) is not in the top-20. The model fails on this rare disease."
+    },
+    "caseB": {
+      "diseaseId": "5545",
+      "diseaseName": "Staphylococcus Aureus Infection",
+      "shortName": "S. aureus",
+      "nPos": 45,
+      "relation": "indication",
+      "auprc": 0.088,
+      "source": "results/predictions/case_study_caseB_txgnn.csv",
+      "predictions": [
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 1,
+          "drug_id": "DB00891",
+          "drug_name": "Sulfapyridine",
+          "score": 4.782861232757568,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 2,
+          "drug_id": "DB00773",
+          "drug_name": "Etoposide",
+          "score": 4.707549095153809,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 3,
+          "drug_id": "DB00410",
+          "drug_name": "Mupirocin",
+          "score": 4.685629844665527,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 4,
+          "drug_id": "DB11442",
+          "drug_name": "Oleandomycin",
+          "score": 4.664400100708008,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 5,
+          "drug_id": "DB00254",
+          "drug_name": "Doxycycline",
+          "score": 4.658689975738525,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 6,
+          "drug_id": "DB00958",
+          "drug_name": "Carboplatin",
+          "score": 4.589925765991211,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 7,
+          "drug_id": "DB14724",
+          "drug_name": "Emapalumab",
+          "score": 4.557514190673828,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 8,
+          "drug_id": "DB00290",
+          "drug_name": "Bleomycin",
+          "score": 4.5419440269470215,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 9,
+          "drug_id": "DB06819",
+          "drug_name": "Phenylbutyric acid",
+          "score": 4.536767959594727,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 10,
+          "drug_id": "DB01017",
+          "drug_name": "Minocycline",
+          "score": 4.523789882659912,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 11,
+          "drug_id": "DB00681",
+          "drug_name": "Amphotericin B",
+          "score": 4.5011091232299805,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 12,
+          "drug_id": "DB00467",
+          "drug_name": "Enoxacin",
+          "score": 4.477416038513184,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 13,
+          "drug_id": "DB05109",
+          "drug_name": "Trabectedin",
+          "score": 4.444447040557861,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 14,
+          "drug_id": "DB00563",
+          "drug_name": "Methotrexate",
+          "score": 4.416792869567871,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 15,
+          "drug_id": "DB09093",
+          "drug_name": "Chlortetracycline",
+          "score": 4.403885841369629,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 16,
+          "drug_id": "DB00541",
+          "drug_name": "Vincristine",
+          "score": 4.379249095916748,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 17,
+          "drug_id": "DB01212",
+          "drug_name": "Ceftriaxone",
+          "score": 4.369800090789795,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 18,
+          "drug_id": "DB01053",
+          "drug_name": "Benzylpenicillin",
+          "score": 4.36636209487915,
+          "is_positive": true
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 19,
+          "drug_id": "DB08877",
+          "drug_name": "Ruxolitinib",
+          "score": 4.339841842651367,
+          "is_positive": false
+        },
+        {
+          "disease_id": "5545",
+          "relation": "indication",
+          "rank": 20,
+          "drug_id": "DB00643",
+          "drug_name": "Mebendazole",
+          "score": 4.333208084106445,
+          "is_positive": false
+        }
+      ],
+      "paths": [
+        {
+          "drug_id": "DB01150",
+          "via_entity": "staphylococcal infection",
+          "via_type": "disease",
+          "relation_drug_to_entity": "indication",
+          "relation_entity_to_disease": "disease_disease",
+          "disease_id": "5545"
+        },
+        {
+          "drug_id": "DB01150",
+          "via_entity": "Ceftazidime",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "indication",
+          "disease_id": "5545"
+        },
+        {
+          "drug_id": "DB01150",
+          "via_entity": "Cefdinir",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "indication",
+          "disease_id": "5545"
+        },
+        {
+          "drug_id": "DB00535",
+          "via_entity": "staphylococcal infection",
+          "via_type": "disease",
+          "relation_drug_to_entity": "indication",
+          "relation_entity_to_disease": "disease_disease",
+          "disease_id": "5545"
+        },
+        {
+          "drug_id": "DB00535",
+          "via_entity": "Ceftazidime",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "indication",
+          "disease_id": "5545"
+        },
+        {
+          "drug_id": "DB00535",
+          "via_entity": "Cephalexin",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "indication",
+          "disease_id": "5545"
+        },
+        {
+          "drug_id": "DB01606",
+          "via_entity": "staphylococcal infection",
+          "via_type": "disease",
+          "relation_drug_to_entity": "indication",
+          "relation_entity_to_disease": "disease_disease",
+          "disease_id": "5545"
+        },
+        {
+          "drug_id": "DB01606",
+          "via_entity": "Ceftazidime",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "indication",
+          "disease_id": "5545"
+        },
+        {
+          "drug_id": "DB01606",
+          "via_entity": "Cefdinir",
+          "via_type": "drug",
+          "relation_drug_to_entity": "drug_drug",
+          "relation_entity_to_disease": "indication",
+          "disease_id": "5545"
+        }
+      ],
+      "pathsSource": "results/predictions/case_study_caseB_paths_txgnn.csv",
+      "firstPositiveRank": 18,
+      "firstPositiveDrug": "Benzylpenicillin (DB01053)",
+      "notes": "Benzylpenicillin at rank 18 (positive). Mupirocin (rank 3) and Doxycycline (rank 5) are plausible; three cancer drugs land in the top-10."
+    }
+  },
+  "reportSections": [
+    {
+      "filename": "01_introduction.md",
+      "title": "Introduction",
+      "content": "# 1. Introduction\n\nRepurposing an approved drug for a new disease is faster and cheaper than developing one from scratch. The catch: most computational methods need labelled drug–disease pairs to learn from, and for rare diseases those labels simply do not exist.\n\nTxGNN (Huang et al., 2024) tackles this with a heterogeneous knowledge graph (PrimeKG) and a disease-similarity module, letting it score drugs for diseases that have no approved therapy in the training data. This project takes that system apart and asks six concrete, testable questions about it.\n\nWhat follows is a **scaled reproduction**. Because of the RTX 4060's 8 GB of VRAM, every model runs at `hidden_dim=64` rather than the published `512`. Each number in this report points back to a file under `results/`; none are entered by hand.\n\n## 1.1 A Note on the Architecture\n\nTxGNN is built on the **Heterogeneous Graph Transformer (HGT)**. The \"Transformer\" there refers only to HGT's multi-head attention aggregation — it is a **graph neural network**, not a language model and not a text Transformer. We train and evaluate no language models; every result below concerns GNN-style models.\n\nSo the question sometimes phrased as \"do Transformers/LLMs do better with a knowledge graph?\" is restated here as: **does a GNN that message-passes over a KG beat a GNN that does not?** On the standard split the answer is no. Sections 3.1 and 5.1 give the full picture.\n\n## 1.2 The Six Questions (operationalized)\n\n1. Does message passing over the KG improve repurposing over a no-message-passing baseline?\n2. Is there a better recipe than TxGNN's two-phase training? (Answer: no — two-phase still wins.)\n3. Why is zero-shot prediction the right framing for TxGNN? (Answer: most diseases have no training labels.)\n4. What do two case studies — one rare disease, one common — say about the predictions?\n5. How does a plain GNN line up against the full TxGNN, head to head? (A generated table.)\n6. Is TxGNN's attention necessary for zero-shot performance? (Answer: not just unnecessary — it hurts.)\n\n## 1.3 Data\n\nPrimeKG (Chandak et al., 2023): 8,100,498 edges, 10 node types, 129,375 nodes, obtained from Harvard Dataverse. Therapeutic edges: 18,776 indication, 61,350 contraindication.\n\n## 1.4 Hardware\n\nNVIDIA GeForce RTX 4060, 8 GB VRAM, CUDA throughout. Every output carries the `scaled_reproduction` label.\n\n## 1.5 Reproducibility\n\nThe comparison numbers come from `results/metrics/comparison_table.csv` (built by `scripts/make_tables.py`). Leakage audits are in `results/metrics/leakage_check_seed{n}.json` — all PASS.\n",
+      "source": "report/sections/01_introduction.md"
+    },
+    {
+      "filename": "02_methods.md",
+      "title": "Methods",
+      "content": "# 2. Methods\n\n## 2.1 Data and Splits\n\nPrimeKG (Chandak et al., 2023), downloaded from Harvard Dataverse (dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM): 8,100,498 edges, license CC0.\n\n**Standard split** — train/val/test over (drug, disease) pairs; a disease can appear in all three sets.\n**Zero-shot split** — a set of diseases is withheld from training entirely (641 held-out diseases, none with an approved therapy in train).\n\nThe audit in `scripts/check_leakage.py` confirms 0 leaking diseases for seeds [42, 0, 1] (`results/metrics/leakage_check_seed{n}.json`).\n\nTwo relation families are kept out of message passing — `anatomy_protein_present` (3.03M) and `drug_drug` (2.67M) — leaving ~2.4M of 8.1M edges. This is a documented VRAM-driven deviation.\n\n## 2.2 Models\n\n### Plain GNN — KG condition (Q1)\nTwo-layer HGT encoder. Node features are a learnable `nn.Embedding` per type (Xavier init); hidden dim 64; dot-product scoring. Phase 1 is link-prediction pretraining (30 epochs); Phase 2 fine-tunes on therapeutic edges (≤100 epochs, early-stop patience 10).\n\n### Plain GNN — no-KG condition (Q1)\nThe same model with `depth=0`: the encoder returns embeddings with no aggregation. Both conditions share Phase 1, so \"no-KG\" means no message passing, not the absence of KG-informed pretraining.\n\n### Scaled TxGNN\nThe same HGT encoder plus a `DiseaseAffinityHead` (cosine projection, k=5 nearest support diseases). Two-phase training: link-prediction pretrain, then therapeutic task with a triplet metric loss (`sim_loss_weight=0.3`); attention and affinity both on.\n\nDeviations from the paper: hidden_dim 512→64, layers 3→2, heads 8→4, learnable embeddings instead of the (unavailable) pre-trained features.\n\n### Alternatives (Q2)\n- **JointTaskNet** — KG link-prediction and therapeutic loss together from epoch 1; no phase split.\n- **ContrastiveNet** — InfoNCE disease similarity and therapeutic loss jointly.\n\n### Ablations (Q6)\n- **attn=ON** — full HGT attention.\n- **attn=OFF** — SAGEConv mean aggregation in place of attention.\n\n## 2.3 Evaluation\n\n**Primary:** AUPRC. **Secondary:** AUROC. **Protocol:** random negatives at 1:5 for all flat evaluations; per-disease full-ranking for TxGNN zero-shot. **Seeds:** [42, 0, 1], reported as mean ± std. Tables come from `scripts/make_tables.py` reading the result JSONs — never typed by hand.\n\n## 2.4 Leakage Check\n\nZero-shot results are accepted only after the audit passes: no held-out test disease may carry a training treatment edge. Output: `results/metrics/leakage_check_seed{n}.json`; status PASS for every seed, verified before any zero-shot run.\n",
+      "source": "report/sections/02_methods.md"
+    },
+    {
+      "filename": "03_results.md",
+      "title": "Results",
+      "content": "# 3. Results\n\n> Every figure here is backed by a file in `results/`. Regenerate the table with `python scripts/make_tables.py`.\n>\n> `scaled_reproduction` models differ from the published TxGNN in four ways (hidden_dim 512→64, layers 3→2, heads 8→4, learnable embeddings). Paper figures sit in the `paper_reported` column and are never mixed with ours.\n\n## 3.1 Q1 — KG Augmentation vs. No-KG\n\n**Setup:** identical pretraining for both conditions; the no-KG model uses `depth=0` (no message passing), the KG model uses 2 HGT layers.\n\n**Standard split (indication AUPRC, seeds [42, 0, 1]):**\n\n| Model | AUPRC ind (mean±std) | AUPRC contra (mean±std) |\n|-------|---------------------|------------------------|\n| gnn_no_kg | 0.893 ± 0.006 | 0.945 ± 0.002 |\n| gnn_kg    | 0.825 ± 0.022 | 0.895 ± 0.026 |\n\n**Zero-shot split (indication AUPRC):**\n\n| Model | AUPRC ind (mean±std) | AUPRC contra (mean±std) |\n|-------|---------------------|------------------------|\n| gnn_no_kg | 0.704 ± 0.027 | 0.725 ± 0.008 |\n| gnn_kg    | 0.714 ± 0.026 | 0.831 ± 0.016 |\n\n**Finding:** message passing does not lift indication AUPRC on either split here. On the standard split the no-KG model is clearly ahead. On zero-shot, indication is a wash; the KG model only pulls ahead on contraindication (0.831 vs 0.725) — plausibly because the larger contraindication class benefits from neighborhood smoothing. Reported as-is.\n\n*Source: `results/gnn/{standard,zeroshot}/seed_{42,0,1}/gnn_baseline.json`, `gnn_no_kg.json`*\n\n## 3.2 Q2 — Is Two-Phase Training Beatable?\n\n**Setup:** three regimes on the same TxGNN backbone (64-dim, 2 layers, 4 heads): `txgnn_two_phase` (pretrain then fine-tune), `single_stage` (both losses from epoch 0), `joint_contrastive` (task loss + InfoNCE, no KG pretrain).\n\n**\"Better\" was fixed in advance:** higher zero-shot indication AUPRC at equal-or-lower wall-clock.\n\n**Zero-shot (indication AUPRC):**\n\n| Method | AUPRC ind | AUPRC contra | Wall-clock (s) |\n|--------|-----------|--------------|----------------|\n| txgnn_two_phase | 0.736 ± 0.011 | 0.832 ± 0.010 | 71.6 |\n| single_stage    | 0.706 ± 0.033 | 0.833 ± 0.019 | 130.7 |\n| joint_contrastive | 0.670 ± 0.038 | 0.854 ± 0.016 | 97.1 |\n\n**Standard (indication AUPRC):**\n\n| Method | AUPRC ind | AUPRC contra | Wall-clock (s) |\n|--------|-----------|--------------|----------------|\n| txgnn_two_phase | 0.816 ± 0.012 | 0.899 ± 0.010 | 183.8 |\n| single_stage    | 0.723 ± 0.005 | 0.863 ± 0.012 | 100.3 |\n| joint_contrastive | 0.739 ± 0.019 | 0.862 ± 0.014 | 95.9 |\n\n**Finding:** two-phase leads zero-shot indication (0.736 vs 0.706 vs 0.670) and is also the fastest of the three. Joint-contrastive wins zero-shot contraindication (0.854) but trails on indication with high variance. Under the pre-set criterion, two-phase is the winner.\n\n*Source: `results/txgnn/`, `results/alt_single_stage/`, `results/alt_joint_contrastive/`*\n\n## 3.3 Q3 — Why Zero-Shot?\n\n**Conceptual:** Huang et al. (2024) report 92% of PrimeKG diseases have no indication edge. On our download, 9,388 unique indication pairs span 17,080 diseases — consistent with ~8% coverage. A supervised model has nothing to learn from for the rest; disease-similarity transfer is the only route.\n\n**Empirical:** the degradation curve (`results/figures/degradation_curve.png`, data in `results/metrics/degradation_curve_data.json`) compares:\n- GNN baseline, standard split — high AUPRC (0.8–0.9) for diseases with many edges, falling toward the zero-edge regime.\n- GNN baseline, zero-shot — all test diseases at 0 edges, AUPRC ~0.70 (indication).\n- TxGNN, zero-shot — all at 0 edges, AUPRC ~0.74 (indication).\n\nThe drop from edge-rich to edge-free diseases is exactly why zero-shot matters; TxGNN's affinity head buys a small but steady edge at 0 training edges.\n\n*Source: `results/figures/degradation_curve.png`, `results/metrics/degradation_curve_data.json`, seed=42.*\n\n## 3.4 Q4 — Case Studies\n\nFull write-up in Section 4.\n\n**Case A:** Familial Hypertrophic Cardiomyopathy — rare, n_pos=1 in the zero-shot test set. Propranolol (the one known indication) is absent from the top-20. AUPRC=0.025.\n\n**Case B:** Staphylococcus Aureus Infection — n_pos=45. Benzylpenicillin lands at rank 18; Mupirocin (3) and Doxycycline (5) are plausible. AUPRC=0.088.\n\n*Source: `results/predictions/case_study_caseA_txgnn.csv`, `case_study_caseB_txgnn.csv`*\n\n## 3.5 Q5 — GNN vs TxGNN Comparison\n\n*Generated by `scripts/make_tables.py` from `results/`. Random-negative AUPRC (1:5), mean ± std over seeds [42, 0, 1].*\n\n### Standard Split\n\n| Model | AUPRC ind (scaled) | AUPRC ind (paper) | AUPRC contra (scaled) | AUPRC contra (paper) | Wall-clock (s) |\n|-------|--------------------|-------------------|-----------------------|----------------------|----------------|\n| gnn_no_kg | 0.893 ± 0.006 | — | 0.945 ± 0.002 | — | 0.7 |\n| HAN (paper best GNN) | — | 0.87 ± 0.18 ¹ | — | **0.84 ± 0.00** ¹ | — |\n| gnn_kg (HGT-equiv.) | 0.825 ± 0.022 | — | 0.895 ± 0.026 | — | 145.5 |\n| txgnn_two_phase | 0.816 ± 0.012 | **0.91 ± 0.02** ¹ | 0.899 ± 0.010 | 0.82 ± 0.01 ¹ | 183.8 |\n| single_stage | 0.723 ± 0.005 | — | 0.863 ± 0.012 | — | 100.3 |\n| joint_contrastive | 0.739 ± 0.019 | — | 0.862 ± 0.014 | — | 95.9 |\n\nOn standard contraindication, HAN (0.84) edges out TxGNN (0.82) in the paper; TxGNN's published gain is for indications.\n\n### Zero-Shot Split\n\n| Model | AUPRC ind (scaled) | AUPRC ind (paper) | AUPRC contra (scaled) | AUPRC contra (paper) | Wall-clock (s) |\n|-------|--------------------|-------------------|-----------------------|----------------------|----------------|\n| gnn_no_kg | 0.704 ± 0.027 | — | 0.725 ± 0.008 | — | 0.2 |\n| RGCN (paper best contra) | — | — | — | 0.64 ± 0.03 ¹ | — |\n| BioBERT (paper best ind) | — | 0.76 ± 0.03 ¹ | — | — | — |\n| gnn_kg | 0.714 ± 0.026 | — | 0.831 ± 0.016 | — | 71.3 |\n| txgnn_two_phase | 0.736 ± 0.011 | **0.90 ± 0.02** ¹ | 0.832 ± 0.010 | **0.80 ± 0.01** ¹ | 71.6 |\n| single_stage | 0.706 ± 0.033 | — | 0.833 ± 0.019 | — | 130.7 |\n| joint_contrastive | 0.670 ± 0.038 | — | 0.854 ± 0.016 | — | 97.1 |\n\n¹ Huang et al. (2024), *Nature Medicine*, Suppl. Tables S1 (indication AUPRC) and S2 (contraindication AUPRC), MOESM1 ESM. The abstract's +49.2% / +35.1% headline is not tied to a specific split and is not used here.\n\n*Source (scaled): `results/metrics/comparison_table.csv`. Source (paper): Huang et al. (2024), Suppl. S1–S2.*\n\n**Q5 summary:**\n- Standard split: gnn_no_kg has the highest indication AUPRC (0.893); two-phase TxGNN (0.816) is 7.7 points behind.\n- Zero-shot: two-phase TxGNN leads indication (0.736), then gnn_kg (0.714), single_stage (0.706), gnn_no_kg (0.704), joint_contrastive (0.670).\n- TxGNN's zero-shot edge over no-KG is 3.2 points — real but modest at this scale.\n- gnn_no_kg is fastest by far (0.2–0.7s); TxGNN and gnn_kg cluster near ~70s; single_stage is slowest.\n\n## 3.6 Q6 — Is Attention Optional? (It Is Detrimental)\n\n**Rule (set before running):** delta = AUPRC(attn=ON) − AUPRC(attn=OFF) on zero-shot indication. (−0.02, +0.02) → optional; ≥ +0.02 → helps; ≤ −0.02 → hurts.\n\n**Zero-shot ablation table:**\n\n| Variant | AUPRC ind | AUPRC contra | Wall-clock (s) |\n|---------|-----------|--------------|----------------|\n| txgnn (attn=ON, sim=ON) | 0.736 ± 0.011 | 0.832 ± 0.010 | 71.6 |\n| txgnn_no_attn (attn=OFF, sim=ON) | 0.772 ± 0.013 | 0.787 ± 0.008 | 3.2 |\n| txgnn_no_sim (attn=ON, sim=OFF) | 0.726 ± 0.007 | 0.824 ± 0.008 | — |\n| txgnn_no_both (attn=OFF, sim=OFF) | 0.762 ± 0.010 | 0.780 ± 0.009 | — |\n\n**Decision:** delta = 0.736 − 0.772 = **−0.036** < −0.02 → attention is **detrimental**. Swapping HGT attention for mean aggregation raises zero-shot indication AUPRC by 3.6 points (and runs ~22× faster).\n\n**Reading it:**\n- Dropping attention helps — it is not load-bearing, it hurts.\n- Dropping similarity (0.726 vs 0.736) hurts slightly — the affinity head does contribute.\n- Dropping both (0.762) beats the full model but trails dropping attention alone (0.772) — the two components interact.\n- At 64 dims with limited data, the HGT attention weights likely overfit; the published 512-dim model may behave differently.\n\n*Source: `results/ablations/matrix.json`, `results/metrics/q6_ablation_table.csv`*\n",
+      "source": "report/sections/03_results.md"
+    },
+    {
+      "filename": "04_case_studies.md",
+      "title": "Case Studies",
+      "content": "# 4. Case Studies (Q4)\n\n> Predicted drugs, scores, and KG paths all come from files in `results/predictions/`. Nothing is typed by hand.\n\n## 4.0 Relationship to the Paper's Case Studies\n\nHuang et al. (2024) run case studies with the **full** TxGNN (512-dim, pre-trained node features). This reproduction deliberately does **not** copy those, because:\n\n1. The full model does not fit in 8 GB VRAM — everything here is `scaled_reproduction` (64-dim).\n2. The paper's chosen diseases may not land in the zero-shot test split of our PrimeKG download.\n3. The paper's pre-trained features are not public; we use learnable embeddings.\n\nSo we run our **own** case studies on the scaled model, restricted to diseases that actually sit in our zero-shot test split with enough labels to score. These are not claimed to mirror the paper.\n\n| Aspect | Paper (Huang et al. 2024) | This reproduction |\n|--------|--------------------------|-------------------|\n| Model | Full TxGNN, 512-dim, pre-trained features | Scaled TxGNN, 64-dim, learnable embeddings |\n| Disease choice | Authors' own | Constrained to our zero-shot test split |\n| Case A | Rare disease (authors' pick) | Familial Hypertrophic Cardiomyopathy (n_pos=1) |\n| Case B | Well-studied disease (authors' pick) | Staphylococcus Aureus Infection (n_pos=45) |\n| Headline | Full model succeeds on rare diseases | Scaled model fails at n_pos=1; partial at n_pos=45 |\n\n## 4.0b How the Diseases Were Chosen\n\nBoth were fixed from the per-disease results in `results/txgnn/zeroshot/seed_42/txgnn.json` **before** any top-K list was inspected (only AUPRC and n_pos were checked at selection time).\n\n- **Case A (rare):** Familial Hypertrophic Cardiomyopathy (id=24573), n_pos=1. Replaced an earlier pick (Hutchinson-Gilford Progeria) once it turned out Progeria has zero therapeutic edges in every split. Logged in the changelog.\n- **Case B (well-studied):** Staphylococcus Aureus Infection (id=5545), n_pos=45. Replaced Type 2 Diabetes (id 5148 was absent from the zero-shot seed-42 test split). Both come from zero-shot because only that run stores per-disease `top_k_drugs`.\n\n## 4.1 Files\n\n- Model: TxGNN (`scaled_reproduction`), zero-shot split, seed=42\n- `results/predictions/case_study_caseA_txgnn.csv`, `case_study_caseB_txgnn.csv`\n- `results/predictions/case_study_caseA_paths_txgnn.csv`, `case_study_caseB_paths_txgnn.csv`\n- Regenerate: `python -m repurpose.cases.case_runner`\n\n## 4.2 Case A — Familial Hypertrophic Cardiomyopathy (id=24573, n_pos=1)\n\n**Background.** FHC is an inherited thickening of the heart muscle driven by sarcomere-gene mutations (MYH7, MYBPC3). Its only PrimeKG indication edge is Propranolol (DB00571), a non-selective beta-blocker.\n\n**Top-10 indication predictions (`case_study_caseA_txgnn.csv`, seed=42):**\n\n| Rank | Drug | DrugBank ID | Score | Positive |\n|------|------|-------------|-------|---------|\n| 1 | Lutetium Lu 177 dotatate | DB13985 | -1.038 | No |\n| 2 | Lactose | DB04465 | -1.206 | No |\n| 3 | Emapalumab | DB14724 | -1.226 | No |\n| 4 | Cysteine | DB00151 | -1.234 | No |\n| 5 | Sulfapyridine | DB00891 | -1.251 | No |\n| 6 | Etoposide | DB00773 | -1.263 | No |\n| 7 | Oleandomycin | DB11442 | -1.265 | No |\n| 8 | Etretinate | DB00926 | -1.268 | No |\n| 9 | Quinacrine | DB01103 | -1.283 | No |\n| 10 | Umifenovir | DB13609 | -1.293 | No |\n\nAll scores negative; no positive appears in the top-20; Propranolol is absent.\n\n**Per-disease AUPRC (indication, seed=42): 0.025.** The single positive drug ranks poorly.\n\n**KG paths (`case_study_caseA_paths_txgnn.csv`).** The three drugs traced (Milrinone DB00235, Amrinone DB01427, Dipyridamole DB00975) are FHC **contraindications**, not indications. Their 2-hop paths share a shape:\n\n```\nDrug → [contraindication] → hypertrophic cardiomyopathy → [disease_disease] → familial hypertrophic cardiomyopathy\nDrug → [drug_drug] → Propranolol → [indication] → familial hypertrophic cardiomyopathy\n```\n\nThe model reaches FHC mainly through the broader \"hypertrophic cardiomyopathy\" node — disease-similarity propagation, not drug-specific routes.\n\n**Clinical note.** The top picks (a cancer radiopharmaceutical; an excipient) are implausible for FHC, consistent with AUPRC 0.025 and a 64-dim model with one known drug to work from.\n\n## 4.3 Case B — Staphylococcus Aureus Infection (id=5545, n_pos=45)\n\n**Background.** A common gram-positive pathogen behind skin infections, pneumonia, endocarditis, and sepsis. Many antibiotic classes apply; MRSA needs mupirocin, daptomycin, or vancomycin.\n\n**Top-10 indication predictions (`case_study_caseB_txgnn.csv`, seed=42):**\n\n| Rank | Drug | DrugBank ID | Score | Positive |\n|------|------|-------------|-------|---------|\n| 1 | Sulfapyridine | DB00891 | 4.783 | No |\n| 2 | Etoposide | DB00773 | 4.708 | No |\n| 3 | Mupirocin | DB00410 | 4.686 | No |\n| 4 | Oleandomycin | DB11442 | 4.664 | No |\n| 5 | Doxycycline | DB00254 | 4.659 | No |\n| 6 | Carboplatin | DB00958 | 4.590 | No |\n| 7 | Emapalumab | DB14724 | 4.558 | No |\n| 8 | Bleomycin | DB00290 | 4.542 | No |\n| 9 | Phenylbutyric acid | DB06819 | 4.537 | No |\n| 10 | Minocycline | DB01017 | 4.524 | No |\n| 18 | Benzylpenicillin | DB01053 | 4.366 | **Yes** |\n\nFirst positive at rank 18 (Benzylpenicillin / Penicillin G). Three of the top-10 are cancer drugs.\n\n**Per-disease AUPRC (indication, seed=42): 0.088.**\n\n**Plausible top-20 picks:** Mupirocin (3, MRSA decolonization), Doxycycline (5), Minocycline (10), Oleandomycin (4, old macrolide), Benzylpenicillin (18, first-line MSSA).\n**Implausible picks:** Etoposide (2), Carboplatin (6), Bleomycin (8) — antineoplastics with no role here.\n\n**KG paths (`case_study_caseB_paths_txgnn.csv`).** The three approved drugs traced (Cefprozil DB01150, Cefdinir DB00535, Tazobactam DB01606) follow:\n\n```\nDrug → [indication] → staphylococcal infection → [disease_disease] → staphylococcus aureus infection\nDrug → [drug_drug] → Ceftazidime → [indication] → staphylococcus aureus infection\n```\n\nAgain the dominant route is through a related disease node plus disease-disease similarity — the same mechanism as Case A.\n\n**Discrepancy.** The cancer drugs likely share KG neighbors (immune-related nodes) with the antibiotics; at 64 dims with no pre-trained features, the model can't separate mechanism of action.\n\n## 4.4 Interpretation Notes\n\n- Both cases use the 64-dim scaled model; rankings are not clinical recommendations.\n- Disease-disease similarity dominates both, matching the Q6 finding that the affinity head is load-bearing.\n- Case A (n_pos=1): the rare-disease zero-shot claim is not confirmed at this scale.\n- Case B (n_pos=45): several plausible antibiotics surface, but embedding noise puts cancer drugs in the top-10.\n- These observations are specific to seed=42, zero-shot, scaled model — not claims about the published TxGNN.\n",
+      "source": "report/sections/04_case_studies.md"
+    },
+    {
+      "filename": "05_discussion.md",
+      "title": "Discussion",
+      "content": "# 5. Discussion\n\n## 5.0 Claim-by-Claim Reconciliation\n\nEach question was posed with an expected answer. Here is what the data actually says.\n\n---\n\n### Claim 1 — \"Transformers / LLMs do better when trained with a knowledge graph\"\n\n**Status: not proven; the claim misnames the model class.**\n\nTxGNN is a GNN (HGT). The \"Transformer\" in HGT is its attention aggregation, not a text model. No language model is trained here. The testable version is: *does GNN message passing over the KG beat a no-message-passing baseline?*\n\nThe data:\n- Standard, indication AUPRC: no-KG **wins** (0.893 vs 0.825) — message passing hurts.\n- Zero-shot, indication AUPRC: KG marginally ahead (0.714 vs 0.704, within noise).\n- Zero-shot, contraindication AUPRC: KG clearly ahead (0.831 vs 0.725).\n\n**Conclusion:** GNN+KG does not consistently beat no-KG at this scale. The benefit is task- and split-specific. \"KG always helps\" is **not supported**.\n\n---\n\n### Claim 2 — \"There is a better alternative to two-phase training\"\n\n**Status: not found.**\n\nBoth alternatives lose on the pre-set criterion (zero-shot indication AUPRC at equal-or-lower compute): two-phase 0.736 @ 71.6s, single-stage 0.706 @ 130.7s, joint-contrastive 0.670 @ 97.1s. Two-phase is best **and** fastest. The question is answered in the negative.\n\n---\n\n### Claim 3 — \"Zero-shot prediction is preferred for TxGNN\"\n\n**Status: confirmed, with a concrete reason.**\n\n92% of PrimeKG diseases have no indication edge. A supervised per-disease classifier has no labels for them. Zero-shot is not a stylistic choice — it is the only workable option for rare and unlabelled diseases. The degradation curve backs this up: standard-split AUPRC collapses as training edges vanish, while zero-shot TxGNN holds ~0.74 across all held-out diseases.\n\n---\n\n### Claim 4 — \"The paper has two case studies\"\n\n**Status: true, but not replicated here.**\n\nThe paper's cases use the full 512-dim TxGNN with pre-trained features — neither available to us. We run original cases on the scaled model: Case A (FHC, n_pos=1) **fails** (Propranolol absent from top-20, AUPRC 0.025); Case B (S. aureus, n_pos=45) is a **partial** success (Benzylpenicillin rank 18, three cancer drugs in the top-10, AUPRC 0.088). This neither confirms nor contradicts the paper — it's a different model scale.\n\n---\n\n### Claim 5 — \"Comparative analysis of GNN and TxGNN in tabular form\"\n\n**Status: delivered (Section 3.5).**\n\nThe table spans both splits, seeds [42, 0, 1], indication and contraindication AUPRC/AUROC, wall-clock, and a `paper_reported` column from Suppl. S1–S2. Generated from `results/` — no hand-typed numbers. Headline: on the standard split the simplest model (gnn_no_kg, 0.7s) has the highest indication AUPRC; TxGNN's edge appears only zero-shot, and only by 3.2 points.\n\n---\n\n### Claim 6 — \"Attention augmentation in TxGNN is optional\"\n\n**Status: wrong direction — it's detrimental.**\n\ndelta = AUPRC(attn=ON) − AUPRC(attn=OFF) = −0.036, past the −0.02 \"harmful\" threshold. Mean aggregation lifts zero-shot indication AUPRC from 0.736 to 0.772. \"Optional\" understates it: the right call is **don't use learnable HGT attention in this setup**. This agrees with the paper's own choice — Huang et al. found learnable attention ineffective and used a fixed degree-based gate (λ=0.7) instead.\n\n---\n\n## 5.1 KG Augmentation Doesn't Consistently Help (Q1)\n\nOn PrimeKG, standard split, the no-KG embedding model beats the 2-layer HGT on indication AUPRC (0.893 ± 0.006 vs 0.825 ± 0.022). Zero-shot indication is within noise (0.704 vs 0.714); KG helps zero-shot contraindication (0.831 vs 0.725).\n\nThis is scoped to: PrimeKG (2026-06-24), scaled reproduction (64-dim, 2 layers, ~2.4M edges), random-negative evaluation, seeds [42, 0, 1]. Possible reasons: 2-layer HGT over non-therapeutic edges adds noise; 64 dims may be too little capacity to use the neighborhood; the 512-dim model likely has enough. Do not generalize beyond this setup.\n\n## 5.2 Two-Phase Stays Best for Zero-Shot (Q2)\n\nNeither alternative beats two-phase on zero-shot indication under the pre-set criterion, and both are slower. The pretraining phase appears to position embeddings so the later fine-tune generalizes better to unseen diseases; collapsing the phases loses that. Joint-contrastive's higher zero-shot contraindication (0.854) comes with lower, noisier indication — worth noting, not winning.\n\n## 5.3 Coverage Forces Zero-Shot (Q3)\n\n92% of PrimeKG diseases lack an indication edge; on our data 9,388 indication pairs cover 17,080 diseases. A standard supervised model can't touch the other ~92%. The degradation curve confirms the collapse toward the zero-edge regime, while zero-shot TxGNN holds ~0.74. This is a constraint, not a preference.\n\n## 5.4 Case-Study Observations (Q4)\n\nFHC (n_pos=1): the model fails to rank Propranolol in the top-20; reasoning runs through disease-disease similarity. S. aureus (n_pos=45): several plausible antibiotics appear in the top-20, but three antineoplastics show up in the top-10 — embedding noise at 64 dims. Both lean on the similarity pathway.\n\n## 5.5 Attention Is Detrimental at This Scale (Q6)\n\nRemoving HGT attention raises zero-shot indication AUPRC from 0.736 to 0.772 (delta −0.036, past the 0.02 threshold). The affinity head — not attention — is what matters: removing it drops AUPRC to 0.726. This is independently supported by the paper, which replaced learnable attention with a fixed degree-based gate (λ=0.7). A likely mechanism: HGT attention has O(heads × dim²) parameters per layer; at 64 dims with limited data, those weights overfit, while parameter-free mean aggregation is more stable.\n\nScope: scaled reproduction, RTX 4060 8 GB, hidden_dim=64, 2 layers, PrimeKG, seeds [42, 0, 1]. The paper's gating choice is convergent evidence, not proof.\n\n## 5.6 Limits of the Scaled Reproduction\n\nFour compounding deviations apply throughout: hidden_dim 512→64, layers 3→2, heads 8→4, learnable embeddings instead of pre-trained features. A 64-dim model has ~8× less representational capacity than the published one, so our numbers are not comparable to the paper's. Paper figures stay in `paper_reported`; ours stay in `scaled_reproduction`; the two are never merged.\n\n## 5.7 Evaluation-Protocol Note\n\nThe Q5 table uses random-negative AUPRC (1:5) for every model, for consistency. TxGNN result files also carry a per-disease full-ranking AUPRC (much lower in absolute terms because of the 1:7957 imbalance when all drugs are candidates); that metric drives the Q3 degradation curve and the case-study AUPRCs, while the random-negative metric drives all cross-model comparisons.\n",
+      "source": "report/sections/05_discussion.md"
+    }
+  ]
+}

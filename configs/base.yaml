@@ -1,0 +1,22 @@
+# Shared defaults for every run.
+paths:
+  raw: "data/raw"
+  processed: "data/processed"
+  splits: "data/splits"
+  metrics: "results/metrics"
+  predictions: "results/predictions"
+  figures: "results/figures"
+
+run:
+  seeds: [42, 0, 1]
+  epochs: 100
+  patience: 10
+
+scoring:
+  metrics: ["auprc", "auroc"]
+  tasks: ["indication", "contraindication"]
+
+# Zero-shot results are only accepted once the leakage audit passes.
+leakage:
+  output: "results/metrics/leakage_check_seed{seed}.json"
+  required: true

@@ -1,0 +1,13 @@
+{
+  "split_type": "zeroshot",
+  "seed": 1,
+  "n_train_edges": 64586,
+  "n_val_edges": 3276,
+  "n_test_edges": 12264,
+  "n_seen_diseases": 3204,
+  "n_val_diseases": 160,
+  "n_test_diseases": 641,
+  "n_total_diseases": 4005,
+  "held_out_frac": 0.2,
+  "note": "Zero-shot: held-out diseases have no treatment edges in train. Non-therapeutic edges from held-out diseases are still in the full KG for structural context."
+}

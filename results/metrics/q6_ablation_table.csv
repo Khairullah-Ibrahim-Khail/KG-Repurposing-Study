@@ -1,0 +1,5 @@
+variant,split,auprc_ind_mean,auprc_ind_std,n_seeds
+txgnn_attn_on,standard,0.8163,0.0123,3
+txgnn_attn_on,zeroshot,0.7357,0.0108,3
+txgnn_attn_off,standard,0.8114,0.0049,3
+txgnn_attn_off,zeroshot,0.772,0.0125,3

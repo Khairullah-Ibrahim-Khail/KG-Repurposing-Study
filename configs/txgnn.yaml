@@ -1,0 +1,23 @@
+# Scaled TxGNN (full model). All sizes shrunk from the paper for 8 GB VRAM.
+model:
+  name: txgnn
+  backbone: HGT_plus_disease_affinity
+  hidden_dim: 64        # paper: 512
+  heads: 4              # paper: 8
+  depth: 2              # paper: 3
+  dropout: 0.1
+  attention: true       # Q6 switch — HGT attention
+  affinity: true        # Q6 switch — disease-affinity head (drives zero-shot)
+  neighbors: 5
+  reproduction_type: scaled_reproduction
+  deviation_reason: "RTX 4060 8 GB VRAM"
+
+optim:
+  pretrain_epochs: 30
+  finetune_epochs: 100
+  lr: 0.001
+  weight_decay: 0.00001
+  neg_ratio: 5
+  sim_loss_weight: 0.3  # weight of the affinity triplet loss in phase 2
+  patience: 10
+  amp: true

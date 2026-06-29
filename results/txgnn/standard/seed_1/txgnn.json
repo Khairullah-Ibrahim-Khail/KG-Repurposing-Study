@@ -1,0 +1,7767 @@
+{
+  "model": "txgnn",
+  "reproduction_type": "scaled_reproduction",
+  "split": "standard",
+  "seed": 1,
+  "gpu": "NVIDIA GeForce RTX 4060",
+  "vram_gb": 8.6,
+  "date": "2026-06-24",
+  "wall_clock_seconds": 239.5,
+  "model_config": {
+    "hidden_dim": 64,
+    "use_attention": true,
+    "use_similarity": true,
+    "num_layers": 2,
+    "scaled_from_paper": true,
+    "paper_hidden_dim": 512,
+    "paper_num_layers": 3,
+    "paper_num_heads": 8,
+    "deviation_reason": "RTX 4060 8GB VRAM constraint"
+  },
+  "indication": {
+    "auprc": 0.00076,
+    "auprc_std": 0.00302,
+    "auroc": 0.65208,
+    "n_test_diseases": 484
+  },
+  "contraindication": {
+    "auprc": 0.00155,
+    "auprc_std": 0.00255,
+    "auroc": 0.69647,
+    "n_test_diseases": 619
+  },
+  "per_disease_results": [
+    {
+      "disease_id": "100053",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00068,
+      "auroc": 0.72835
+    },
+    {
+      "disease_id": "100192",
+      "relation": "contraindication",
+      "n_pos": 27,
+      "auprc": 0.04396,
+      "auroc": 0.77293
+    },
+    {
+      "disease_id": "100316_12738_14550_14548_13279_12737_13062_12736_11377_32915_13370_13367_13372_2442_32756",
+      "relation": "contraindication",
+      "n_pos": 15,
+      "auprc": 0.00396,
+      "auroc": 0.76458
+    },
+    {
+      "disease_id": "10096",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.0013,
+      "auroc": 0.81179
+    },
+    {
+      "disease_id": "1012",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00064,
+      "auroc": 0.80279
+    },
+    {
+      "disease_id": "10120_8555_14837_8556_30867_14536_12775_10743_2049_4680",
+      "relation": "contraindication",
+      "n_pos": 23,
+      "auprc": 0.00554,
+      "auroc": 0.74861
+    },
+    {
+      "disease_id": "10138",
+      "relation": "contraindication",
+      "n_pos": 19,
+      "auprc": 0.00536,
+      "auroc": 0.78014
+    },
+    {
+      "disease_id": "10162_10160_10161_4741",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00046,
+      "auroc": 0.72763
+    },
+    {
+      "disease_id": "10198",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00034,
+      "auroc": 0.63122
+    },
+    {
+      "disease_id": "10200",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00138,
+      "auroc": 0.7826
+    },
+    {
+      "disease_id": "10264",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00142,
+      "auroc": 0.78514
+    },
+    {
+      "disease_id": "10264",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00034,
+      "auroc": 0.63487
+    },
+    {
+      "disease_id": "10294",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00075,
+      "auroc": 0.74909
+    },
+    {
+      "disease_id": "10356",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00061,
+      "auroc": 0.79487
+    },
+    {
+      "disease_id": "10390_18138",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76383
+    },
+    {
+      "disease_id": "1040",
+      "relation": "indication",
+      "n_pos": 5,
+      "auprc": 0.00059,
+      "auroc": 0.33793
+    },
+    {
+      "disease_id": "10481",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00039,
+      "auroc": 0.67722
+    },
+    {
+      "disease_id": "10481",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.02778
+    },
+    {
+      "disease_id": "10482",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00077,
+      "auroc": 0.75946
+    },
+    {
+      "disease_id": "1056",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00038,
+      "auroc": 0.67006
+    },
+    {
+      "disease_id": "10604_10602_15720_15719_18660_15721_15715_15716_15717",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00208,
+      "auroc": 0.7392
+    },
+    {
+      "disease_id": "10604_10602_15720_15719_18660_15721_15715_15716_15717",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00034,
+      "auroc": 0.62569
+    },
+    {
+      "disease_id": "10615_13006_8250_32569_9876_32567",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00105,
+      "auroc": 0.76578
+    },
+    {
+      "disease_id": "10632_33369_33371_10472_14477_32598_10396_32768_33361_13389_14859_14392_33373_32752_32657_14593_32663_14947_13388_14377_32808_14895_30059_13387_32880_33363_32678_13989_33366_10375_13277_33362_14917_14921_14933_14942_30054_14607_14595_14133_33370_14201_32918_14949_32813_14533_14598_10246_33368_15025_14371_54845_14360_13056_13801_14718_14719_32812_32858_30072_14505_14199_14003_14328_15000_33367_33372_15002_12245_30856_32710_32725_33364_33365_14868_29138_32822_12812_32895_14625_34106_33374_100079_14916_14647_100062_25353",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74711
+    },
+    {
+      "disease_id": "10674_9659_9660_9661_11093_9662_16316_16315_18937_18938_1586_19249_19302_17171_17172",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00115,
+      "auroc": 0.83614
+    },
+    {
+      "disease_id": "10709",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00083,
+      "auroc": 0.77951
+    },
+    {
+      "disease_id": "10788",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00039,
+      "auroc": 0.67547
+    },
+    {
+      "disease_id": "1080",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.001,
+      "auroc": 0.75694
+    },
+    {
+      "disease_id": "10811",
+      "relation": "contraindication",
+      "n_pos": 20,
+      "auprc": 0.00574,
+      "auroc": 0.77711
+    },
+    {
+      "disease_id": "10819_11370_19353",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.03695
+    },
+    {
+      "disease_id": "10870",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.70563
+    },
+    {
+      "disease_id": "10888",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00053,
+      "auroc": 0.53814
+    },
+    {
+      "disease_id": "10888",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00088,
+      "auroc": 0.65318
+    },
+    {
+      "disease_id": "10910_10941_22",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00015,
+      "auroc": 0.15661
+    },
+    {
+      "disease_id": "10917_7319_1314",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74862
+    },
+    {
+      "disease_id": "10939",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00044,
+      "auroc": 0.58806
+    },
+    {
+      "disease_id": "1100",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00072,
+      "auroc": 0.82441
+    },
+    {
+      "disease_id": "11057",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.0025,
+      "auroc": 0.8083
+    },
+    {
+      "disease_id": "11057",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00085,
+      "auroc": 0.71096
+    },
+    {
+      "disease_id": "1106",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78268
+    },
+    {
+      "disease_id": "11118",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00038,
+      "auroc": 0.6678
+    },
+    {
+      "disease_id": "11122",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00229,
+      "auroc": 0.71694
+    },
+    {
+      "disease_id": "11122",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00115,
+      "auroc": 0.73557
+    },
+    {
+      "disease_id": "11123_12919_7454_5147_10861_10862_10863_10864_10950_11016_11033_11068_11167_11168_11302_11572_12422_12920_12921_12961_13078",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00078,
+      "auroc": 0.68356
+    },
+    {
+      "disease_id": "11123_12919_7454_5147_10861_10862_10863_10864_10950_11016_11033_11068_11167_11168_11302_11572_12422_12920_12921_12961_13078",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.75038
+    },
+    {
+      "disease_id": "11129_9277_5041",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00132,
+      "auroc": 0.65023
+    },
+    {
+      "disease_id": "11129_9277_5041",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00057,
+      "auroc": 0.78017
+    },
+    {
+      "disease_id": "1119",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76948
+    },
+    {
+      "disease_id": "1126",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00207,
+      "auroc": 0.71182
+    },
+    {
+      "disease_id": "1126",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00062,
+      "auroc": 0.70264
+    },
+    {
+      "disease_id": "11292",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00083,
+      "auroc": 0.70761
+    },
+    {
+      "disease_id": "11382",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00072,
+      "auroc": 0.74029
+    },
+    {
+      "disease_id": "11393_17773_32766",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78293
+    },
+    {
+      "disease_id": "11429_19433",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00127,
+      "auroc": 0.76528
+    },
+    {
+      "disease_id": "11438",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00044,
+      "auroc": 0.2721
+    },
+    {
+      "disease_id": "11479",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00265,
+      "auroc": 0.77767
+    },
+    {
+      "disease_id": "11486_12279_19950_20121_23595_18281",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00033,
+      "auroc": 0.61538
+    },
+    {
+      "disease_id": "11487_11299_11671_15548",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00075,
+      "auroc": 0.83358
+    },
+    {
+      "disease_id": "11508",
+      "relation": "indication",
+      "n_pos": 6,
+      "auprc": 0.00185,
+      "auroc": 0.77183
+    },
+    {
+      "disease_id": "1152",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00059,
+      "auroc": 0.78884
+    },
+    {
+      "disease_id": "11559_9469_19008",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00069,
+      "auroc": 0.7325
+    },
+    {
+      "disease_id": "11565",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78193
+    },
+    {
+      "disease_id": "11728",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82818
+    },
+    {
+      "disease_id": "11731",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00015,
+      "auroc": 0.17584
+    },
+    {
+      "disease_id": "11751",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00177,
+      "auroc": 0.7651
+    },
+    {
+      "disease_id": "11764_11658_13625_8199_14604_11613_14233_11562_8200_14796_17279_5180_6966_828_10796_10360_11737_13167",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00139,
+      "auroc": 0.59764
+    },
+    {
+      "disease_id": "11764_11658_13625_8199_14604_11613_14233_11562_8200_14796_17279_5180_6966_828_10796_10360_11737_13167",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00019,
+      "auroc": 0.3278
+    },
+    {
+      "disease_id": "11786_5324_24332",
+      "relation": "indication",
+      "n_pos": 8,
+      "auprc": 0.00097,
+      "auroc": 0.40876
+    },
+    {
+      "disease_id": "11845_12441_11851_11847_8000_12440_11850_12715_100246_13344_12210_12303_12331",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.71619
+    },
+    {
+      "disease_id": "11845_12441_11851_11847_8000_12440_11850_12715_100246_13344_12210_12303_12331",
+      "relation": "indication",
+      "n_pos": 5,
+      "auprc": 0.00072,
+      "auroc": 0.44165
+    },
+    {
+      "disease_id": "1187",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78243
+    },
+    {
+      "disease_id": "11876_10826",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00062,
+      "auroc": 0.79889
+    },
+    {
+      "disease_id": "11913_7088_11743_12153_7089_11194_12321_15140_4975_11561_11647_11777_12344_12609_12630_12631_14265_10422_14036_14316_100088",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00149,
+      "auroc": 0.6782
+    },
+    {
+      "disease_id": "11913_7088_11743_12153_7089_11194_12321_15140_4975_11561_11647_11777_12344_12609_12630_12631_14265_10422_14036_14316_100088",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.70852
+    },
+    {
+      "disease_id": "11918",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.63889
+    },
+    {
+      "disease_id": "11918",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.77262
+    },
+    {
+      "disease_id": "1191_24302_24303",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.72285
+    },
+    {
+      "disease_id": "11922",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00149,
+      "auroc": 0.79325
+    },
+    {
+      "disease_id": "1196",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.0007,
+      "auroc": 0.73853
+    },
+    {
+      "disease_id": "11962",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00096,
+      "auroc": 0.74306
+    },
+    {
+      "disease_id": "1198",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00122,
+      "auroc": 0.74833
+    },
+    {
+      "disease_id": "11986_4982_5003_6515_3232",
+      "relation": "contraindication",
+      "n_pos": 11,
+      "auprc": 0.00319,
+      "auroc": 0.77752
+    },
+    {
+      "disease_id": "11996",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00071,
+      "auroc": 0.82416
+    },
+    {
+      "disease_id": "1200_1134_15512_5080_100078",
+      "relation": "contraindication",
+      "n_pos": 39,
+      "auprc": 0.00872,
+      "auroc": 0.73556
+    },
+    {
+      "disease_id": "1200_1134_15512_5080_100078",
+      "relation": "indication",
+      "n_pos": 8,
+      "auprc": 0.00139,
+      "auroc": 0.54946
+    },
+    {
+      "disease_id": "12048",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00129,
+      "auroc": 0.76616
+    },
+    {
+      "disease_id": "12061",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00078,
+      "auroc": 0.76474
+    },
+    {
+      "disease_id": "1209",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00051,
+      "auroc": 0.45764
+    },
+    {
+      "disease_id": "1214_6668_2314_5808_4811",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00093,
+      "auroc": 0.74063
+    },
+    {
+      "disease_id": "12197",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.75075
+    },
+    {
+      "disease_id": "1226",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00036,
+      "auroc": 0.65146
+    },
+    {
+      "disease_id": "12268",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.0003,
+      "auroc": 0.37649
+    },
+    {
+      "disease_id": "1239",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68954
+    },
+    {
+      "disease_id": "1243_1242",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00024,
+      "auroc": 0.4736
+    },
+    {
+      "disease_id": "1244",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00242,
+      "auroc": 0.8012
+    },
+    {
+      "disease_id": "1245",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.02665
+    },
+    {
+      "disease_id": "1245",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00055,
+      "auroc": 0.5119
+    },
+    {
+      "disease_id": "1249",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.0011,
+      "auroc": 0.77336
+    },
+    {
+      "disease_id": "12526_15053_19623_15054",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00084,
+      "auroc": 0.70346
+    },
+    {
+      "disease_id": "12526_15053_19623_15054",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00095,
+      "auroc": 0.74663
+    },
+    {
+      "disease_id": "12548",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00189,
+      "auroc": 0.7785
+    },
+    {
+      "disease_id": "12552_8234_8082_7540_19003_17169",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00027,
+      "auroc": 0.53431
+    },
+    {
+      "disease_id": "1265",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00204,
+      "auroc": 0.76882
+    },
+    {
+      "disease_id": "1266",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75452
+    },
+    {
+      "disease_id": "12672",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78469
+    },
+    {
+      "disease_id": "12819",
+      "relation": "contraindication",
+      "n_pos": 42,
+      "auprc": 0.01044,
+      "auroc": 0.75317
+    },
+    {
+      "disease_id": "12819",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00054,
+      "auroc": 0.47335
+    },
+    {
+      "disease_id": "12883",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74975
+    },
+    {
+      "disease_id": "12895_11264_11200_7493_11886_9141_44811_44843_44870_44816_44817",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00034,
+      "auroc": 0.62833
+    },
+    {
+      "disease_id": "1292",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00093,
+      "auroc": 0.80258
+    },
+    {
+      "disease_id": "12930",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00125,
+      "auroc": 0.75626
+    },
+    {
+      "disease_id": "1294",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.0015,
+      "auroc": 0.79561
+    },
+    {
+      "disease_id": "1297",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.7138
+    },
+    {
+      "disease_id": "1306",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00064,
+      "auroc": 0.80354
+    },
+    {
+      "disease_id": "1308",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78255
+    },
+    {
+      "disease_id": "13099",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00141,
+      "auroc": 0.65931
+    },
+    {
+      "disease_id": "13108_7190_12318_12934_12935_12936_13109",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00102,
+      "auroc": 0.76188
+    },
+    {
+      "disease_id": "1315",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.03557
+    },
+    {
+      "disease_id": "1336",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00139,
+      "auroc": 0.77744
+    },
+    {
+      "disease_id": "13361",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00238,
+      "auroc": 0.7986
+    },
+    {
+      "disease_id": "1340",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00147,
+      "auroc": 0.79665
+    },
+    {
+      "disease_id": "13412_13200_12112_7268_11843_13474_13475_13477_10946_12799_8647_12804_13455_14883_13852_13197_7267_13195_12111_13369_7266_13476_5045",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00137,
+      "auroc": 0.7375
+    },
+    {
+      "disease_id": "1343",
+      "relation": "contraindication",
+      "n_pos": 19,
+      "auprc": 0.00508,
+      "auroc": 0.77019
+    },
+    {
+      "disease_id": "1357_387",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00066,
+      "auroc": 0.58239
+    },
+    {
+      "disease_id": "1358",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00039,
+      "auroc": 0.68049
+    },
+    {
+      "disease_id": "13600",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00025,
+      "auroc": 0.00914
+    },
+    {
+      "disease_id": "13600",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00029,
+      "auroc": 0.35053
+    },
+    {
+      "disease_id": "13652_12179_8062_21107",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00031,
+      "auroc": 0.59892
+    },
+    {
+      "disease_id": "13792",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00102,
+      "auroc": 0.81842
+    },
+    {
+      "disease_id": "13851",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82793
+    },
+    {
+      "disease_id": "13855",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00097,
+      "auroc": 0.80698
+    },
+    {
+      "disease_id": "1386",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00063,
+      "auroc": 0.70358
+    },
+    {
+      "disease_id": "13995_7829",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00076,
+      "auroc": 0.83522
+    },
+    {
+      "disease_id": "1405",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00068,
+      "auroc": 0.51018
+    },
+    {
+      "disease_id": "1409",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00194,
+      "auroc": 0.75513
+    },
+    {
+      "disease_id": "14118",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00166,
+      "auroc": 0.7834
+    },
+    {
+      "disease_id": "1416",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.03595
+    },
+    {
+      "disease_id": "14191_12762_11484_13966_13529_17990",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00166,
+      "auroc": 0.78212
+    },
+    {
+      "disease_id": "14231",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00059,
+      "auroc": 0.68906
+    },
+    {
+      "disease_id": "14250",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.77074
+    },
+    {
+      "disease_id": "1436",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00106,
+      "auroc": 0.768
+    },
+    {
+      "disease_id": "1436",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00062,
+      "auroc": 0.79852
+    },
+    {
+      "disease_id": "1438",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00062,
+      "auroc": 0.79713
+    },
+    {
+      "disease_id": "14394_13217_32668_12529_32669_44309_12937_13216_13964_12938_12925_7110_14245_12924_60662_32670_44310_12939_15253_11636",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74686
+    },
+    {
+      "disease_id": "14412_7761_7762_18473_37748",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00093,
+      "auroc": 0.74185
+    },
+    {
+      "disease_id": "14412_7761_7762_18473_37748",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.72109
+    },
+    {
+      "disease_id": "1442",
+      "relation": "contraindication",
+      "n_pos": 17,
+      "auprc": 0.00377,
+      "auroc": 0.71923
+    },
+    {
+      "disease_id": "1442",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00054,
+      "auroc": 0.36433
+    },
+    {
+      "disease_id": "1445",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01094
+    },
+    {
+      "disease_id": "14456",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00092,
+      "auroc": 0.73531
+    },
+    {
+      "disease_id": "1461",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00078,
+      "auroc": 0.76474
+    },
+    {
+      "disease_id": "1466",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75892
+    },
+    {
+      "disease_id": "1475",
+      "relation": "contraindication",
+      "n_pos": 24,
+      "auprc": 0.00676,
+      "auroc": 0.78175
+    },
+    {
+      "disease_id": "14800",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00047,
+      "auroc": 0.73228
+    },
+    {
+      "disease_id": "14865",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.0022,
+      "auroc": 0.78212
+    },
+    {
+      "disease_id": "15057",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00079,
+      "auroc": 0.76373
+    },
+    {
+      "disease_id": "15057",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00038,
+      "auroc": 0.66503
+    },
+    {
+      "disease_id": "15118",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00065,
+      "auroc": 0.71967
+    },
+    {
+      "disease_id": "15127",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00057,
+      "auroc": 0.49899
+    },
+    {
+      "disease_id": "15129_15130",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00309,
+      "auroc": 0.8048
+    },
+    {
+      "disease_id": "15129_15130",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.06724
+    },
+    {
+      "disease_id": "15134",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00131,
+      "auroc": 0.7721
+    },
+    {
+      "disease_id": "15165",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00107,
+      "auroc": 0.82357
+    },
+    {
+      "disease_id": "15166",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00081,
+      "auroc": 0.77266
+    },
+    {
+      "disease_id": "15270",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.75075
+    },
+    {
+      "disease_id": "15288",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00143,
+      "auroc": 0.66068
+    },
+    {
+      "disease_id": "1529",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.70915
+    },
+    {
+      "disease_id": "15290_1440",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0006,
+      "auroc": 0.78972
+    },
+    {
+      "disease_id": "1531",
+      "relation": "contraindication",
+      "n_pos": 15,
+      "auprc": 0.00436,
+      "auroc": 0.7844
+    },
+    {
+      "disease_id": "15470",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00063,
+      "auroc": 0.79965
+    },
+    {
+      "disease_id": "1548",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00231,
+      "auroc": 0.76796
+    },
+    {
+      "disease_id": "1548",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00064,
+      "auroc": 0.70949
+    },
+    {
+      "disease_id": "1549",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00099,
+      "auroc": 0.81069
+    },
+    {
+      "disease_id": "15560",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00069,
+      "auroc": 0.81838
+    },
+    {
+      "disease_id": "1561",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00241,
+      "auroc": 0.80032
+    },
+    {
+      "disease_id": "15614_6565",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00017,
+      "auroc": 0.26207
+    },
+    {
+      "disease_id": "1566",
+      "relation": "contraindication",
+      "n_pos": 13,
+      "auprc": 0.00426,
+      "auroc": 0.80329
+    },
+    {
+      "disease_id": "1567",
+      "relation": "contraindication",
+      "n_pos": 19,
+      "auprc": 0.00526,
+      "auroc": 0.77655
+    },
+    {
+      "disease_id": "1567",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.0007,
+      "auroc": 0.52644
+    },
+    {
+      "disease_id": "15686",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.8273
+    },
+    {
+      "disease_id": "15691",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00056,
+      "auroc": 0.66876
+    },
+    {
+      "disease_id": "1572",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00103,
+      "auroc": 0.81992
+    },
+    {
+      "disease_id": "1574",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00094,
+      "auroc": 0.53388
+    },
+    {
+      "disease_id": "15758",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00088,
+      "auroc": 0.72077
+    },
+    {
+      "disease_id": "1576",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00149,
+      "auroc": 0.79511
+    },
+    {
+      "disease_id": "15760_18908_15759",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.76961
+    },
+    {
+      "disease_id": "15762_17290_18804",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00049,
+      "auroc": 0.74434
+    },
+    {
+      "disease_id": "15770_16553",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00104,
+      "auroc": 0.61142
+    },
+    {
+      "disease_id": "15787_15788",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00014,
+      "auroc": 0.12079
+    },
+    {
+      "disease_id": "15789",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00047,
+      "auroc": 0.73253
+    },
+    {
+      "disease_id": "15806_15805",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.77313
+    },
+    {
+      "disease_id": "15808",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00078,
+      "auroc": 0.75889
+    },
+    {
+      "disease_id": "15809",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75754
+    },
+    {
+      "disease_id": "15811",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00085,
+      "auroc": 0.78341
+    },
+    {
+      "disease_id": "15898",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76282
+    },
+    {
+      "disease_id": "15900",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00105,
+      "auroc": 0.82288
+    },
+    {
+      "disease_id": "15905",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00065,
+      "auroc": 0.80618
+    },
+    {
+      "disease_id": "15909",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00103,
+      "auroc": 0.7615
+    },
+    {
+      "disease_id": "15911",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00033,
+      "auroc": 0.61853
+    },
+    {
+      "disease_id": "15924",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00077,
+      "auroc": 0.83698
+    },
+    {
+      "disease_id": "15925_17031_17030_17034",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00161,
+      "auroc": 0.74152
+    },
+    {
+      "disease_id": "15947_17262_17263",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00057,
+      "auroc": 0.67304
+    },
+    {
+      "disease_id": "1595",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00179,
+      "auroc": 0.82818
+    },
+    {
+      "disease_id": "16022",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00065,
+      "auroc": 0.71081
+    },
+    {
+      "disease_id": "16047_17202_17203",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.64128
+    },
+    {
+      "disease_id": "16075",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00076,
+      "auroc": 0.83534
+    },
+    {
+      "disease_id": "16088",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00065,
+      "auroc": 0.80681
+    },
+    {
+      "disease_id": "1609",
+      "relation": "contraindication",
+      "n_pos": 23,
+      "auprc": 0.00546,
+      "auroc": 0.74442
+    },
+    {
+      "disease_id": "16093",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00053,
+      "auroc": 0.64243
+    },
+    {
+      "disease_id": "16093",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00114,
+      "auroc": 0.78271
+    },
+    {
+      "disease_id": "16096",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00032,
+      "auroc": 0.22965
+    },
+    {
+      "disease_id": "1612",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00036,
+      "auroc": 0.64756
+    },
+    {
+      "disease_id": "16122",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00169,
+      "auroc": 0.72783
+    },
+    {
+      "disease_id": "16158",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00105,
+      "auroc": 0.76557
+    },
+    {
+      "disease_id": "16211",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00033,
+      "auroc": 0.61878
+    },
+    {
+      "disease_id": "16211",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00096,
+      "auroc": 0.80849
+    },
+    {
+      "disease_id": "16248",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00031,
+      "auroc": 0.35757
+    },
+    {
+      "disease_id": "16248",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00112,
+      "auroc": 0.78355
+    },
+    {
+      "disease_id": "16249",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00074,
+      "auroc": 0.74871
+    },
+    {
+      "disease_id": "1627",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00171,
+      "auroc": 0.82035
+    },
+    {
+      "disease_id": "1628",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75126
+    },
+    {
+      "disease_id": "1632",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.77702
+    },
+    {
+      "disease_id": "16384",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00104,
+      "auroc": 0.7623
+    },
+    {
+      "disease_id": "1639",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00052,
+      "auroc": 0.46849
+    },
+    {
+      "disease_id": "16430",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.71443
+    },
+    {
+      "disease_id": "16430",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00072,
+      "auroc": 0.82617
+    },
+    {
+      "disease_id": "1656",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00099,
+      "auroc": 0.81226
+    },
+    {
+      "disease_id": "1657",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00128,
+      "auroc": 0.76396
+    },
+    {
+      "disease_id": "16684",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00062,
+      "auroc": 0.79588
+    },
+    {
+      "disease_id": "16689",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68313
+    },
+    {
+      "disease_id": "16705",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68653
+    },
+    {
+      "disease_id": "16706",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.69382
+    },
+    {
+      "disease_id": "1673",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00083,
+      "auroc": 0.71008
+    },
+    {
+      "disease_id": "16829",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00279,
+      "auroc": 0.78783
+    },
+    {
+      "disease_id": "1684",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00076,
+      "auroc": 0.83446
+    },
+    {
+      "disease_id": "1687",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00063,
+      "auroc": 0.79977
+    },
+    {
+      "disease_id": "1711",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00314,
+      "auroc": 0.80799
+    },
+    {
+      "disease_id": "17210",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00015,
+      "auroc": 0.16302
+    },
+    {
+      "disease_id": "17215",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00014,
+      "auroc": 0.11224
+    },
+    {
+      "disease_id": "17217",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82818
+    },
+    {
+      "disease_id": "17255",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00034,
+      "auroc": 0.62557
+    },
+    {
+      "disease_id": "17255",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.77149
+    },
+    {
+      "disease_id": "17256_17257",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00048,
+      "auroc": 0.73819
+    },
+    {
+      "disease_id": "17304",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68715
+    },
+    {
+      "disease_id": "17306",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00095,
+      "auroc": 0.74755
+    },
+    {
+      "disease_id": "17327",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00066,
+      "auroc": 0.72256
+    },
+    {
+      "disease_id": "17327",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00072,
+      "auroc": 0.82592
+    },
+    {
+      "disease_id": "17337",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00193,
+      "auroc": 0.78181
+    },
+    {
+      "disease_id": "17337",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00016,
+      "auroc": 0.20085
+    },
+    {
+      "disease_id": "17347",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00061,
+      "auroc": 0.79475
+    },
+    {
+      "disease_id": "1751",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00083,
+      "auroc": 0.70627
+    },
+    {
+      "disease_id": "1761",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00101,
+      "auroc": 0.81659
+    },
+    {
+      "disease_id": "17636",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00062,
+      "auroc": 0.42955
+    },
+    {
+      "disease_id": "1770",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00065,
+      "auroc": 0.7127
+    },
+    {
+      "disease_id": "1780",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78218
+    },
+    {
+      "disease_id": "17858",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.71694
+    },
+    {
+      "disease_id": "17863",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.0012,
+      "auroc": 0.79423
+    },
+    {
+      "disease_id": "17893",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00104,
+      "auroc": 0.71102
+    },
+    {
+      "disease_id": "1794",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00064,
+      "auroc": 0.8048
+    },
+    {
+      "disease_id": "1797",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00133,
+      "auroc": 0.77106
+    },
+    {
+      "disease_id": "18031",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76181
+    },
+    {
+      "disease_id": "18048",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.0008,
+      "auroc": 0.77159
+    },
+    {
+      "disease_id": "18048",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00082,
+      "auroc": 0.77593
+    },
+    {
+      "disease_id": "18068",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.03758
+    },
+    {
+      "disease_id": "1807",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00057,
+      "auroc": 0.67882
+    },
+    {
+      "disease_id": "18076",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00018,
+      "auroc": 0.30003
+    },
+    {
+      "disease_id": "18137",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00078,
+      "auroc": 0.83811
+    },
+    {
+      "disease_id": "18168_19033_18167",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0003,
+      "auroc": 0.58673
+    },
+    {
+      "disease_id": "18171",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00034,
+      "auroc": 0.36424
+    },
+    {
+      "disease_id": "18171",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00085,
+      "auroc": 0.7851
+    },
+    {
+      "disease_id": "18172",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00044,
+      "auroc": 0.30306
+    },
+    {
+      "disease_id": "18182",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00047,
+      "auroc": 0.73404
+    },
+    {
+      "disease_id": "18183_5970",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00098,
+      "auroc": 0.74885
+    },
+    {
+      "disease_id": "18225",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.0009,
+      "auroc": 0.79679
+    },
+    {
+      "disease_id": "18229",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00075,
+      "auroc": 0.75185
+    },
+    {
+      "disease_id": "1823",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00078,
+      "auroc": 0.7631
+    },
+    {
+      "disease_id": "18256",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00171,
+      "auroc": 0.81784
+    },
+    {
+      "disease_id": "1827",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00029,
+      "auroc": 0.57177
+    },
+    {
+      "disease_id": "1827",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00077,
+      "auroc": 0.75625
+    },
+    {
+      "disease_id": "18312",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00077,
+      "auroc": 0.8366
+    },
+    {
+      "disease_id": "18321",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00052,
+      "auroc": 0.36068
+    },
+    {
+      "disease_id": "18324",
+      "relation": "contraindication",
+      "n_pos": 14,
+      "auprc": 0.00406,
+      "auroc": 0.78001
+    },
+    {
+      "disease_id": "18324",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01973
+    },
+    {
+      "disease_id": "18328",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00034,
+      "auroc": 0.63562
+    },
+    {
+      "disease_id": "18340",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00078,
+      "auroc": 0.83861
+    },
+    {
+      "disease_id": "18351",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00067,
+      "auroc": 0.8136
+    },
+    {
+      "disease_id": "18364",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00089,
+      "auroc": 0.79522
+    },
+    {
+      "disease_id": "18368",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00076,
+      "auroc": 0.83547
+    },
+    {
+      "disease_id": "18369",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.0007,
+      "auroc": 0.73507
+    },
+    {
+      "disease_id": "18378",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00061,
+      "auroc": 0.79462
+    },
+    {
+      "disease_id": "18433",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00071,
+      "auroc": 0.82328
+    },
+    {
+      "disease_id": "18434",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00088,
+      "auroc": 0.79089
+    },
+    {
+      "disease_id": "18435",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00089,
+      "auroc": 0.79365
+    },
+    {
+      "disease_id": "18437",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00093,
+      "auroc": 0.73611
+    },
+    {
+      "disease_id": "18458_7791_10926_7792",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00031,
+      "auroc": 0.59553
+    },
+    {
+      "disease_id": "18466",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00104,
+      "auroc": 0.75953
+    },
+    {
+      "disease_id": "18468",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00025,
+      "auroc": 0.5054
+    },
+    {
+      "disease_id": "18479_19847_23601_60783",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00253,
+      "auroc": 0.78702
+    },
+    {
+      "disease_id": "18487",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.0027,
+      "auroc": 0.78056
+    },
+    {
+      "disease_id": "18493",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00077,
+      "auroc": 0.8371
+    },
+    {
+      "disease_id": "18532",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00069,
+      "auroc": 0.73382
+    },
+    {
+      "disease_id": "18533",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.71028
+    },
+    {
+      "disease_id": "18544_10247",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00019,
+      "auroc": 0.01534
+    },
+    {
+      "disease_id": "18544_10247",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00014,
+      "auroc": 0.11677
+    },
+    {
+      "disease_id": "18546",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00084,
+      "auroc": 0.77794
+    },
+    {
+      "disease_id": "1860",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00071,
+      "auroc": 0.82215
+    },
+    {
+      "disease_id": "18613",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76445
+    },
+    {
+      "disease_id": "18626",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00059,
+      "auroc": 0.78595
+    },
+    {
+      "disease_id": "18636",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00076,
+      "auroc": 0.83522
+    },
+    {
+      "disease_id": "18645",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.75025
+    },
+    {
+      "disease_id": "18667",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74975
+    },
+    {
+      "disease_id": "1868_1744_1742_1864",
+      "relation": "contraindication",
+      "n_pos": 15,
+      "auprc": 0.00391,
+      "auroc": 0.75026
+    },
+    {
+      "disease_id": "1868_1744_1742_1864",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76948
+    },
+    {
+      "disease_id": "18741",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00111,
+      "auroc": 0.78342
+    },
+    {
+      "disease_id": "18741",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68451
+    },
+    {
+      "disease_id": "1875",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75804
+    },
+    {
+      "disease_id": "18752",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00078,
+      "auroc": 0.83962
+    },
+    {
+      "disease_id": "18754",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.71305
+    },
+    {
+      "disease_id": "18762",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00156,
+      "auroc": 0.771
+    },
+    {
+      "disease_id": "18800",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00096,
+      "auroc": 0.60749
+    },
+    {
+      "disease_id": "18848",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.03431
+    },
+    {
+      "disease_id": "18854",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.63851
+    },
+    {
+      "disease_id": "18876_6430",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00095,
+      "auroc": 0.74667
+    },
+    {
+      "disease_id": "18881",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00048,
+      "auroc": 0.7402
+    },
+    {
+      "disease_id": "18896_43768",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00207,
+      "auroc": 0.79816
+    },
+    {
+      "disease_id": "18906",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00076,
+      "auroc": 0.75449
+    },
+    {
+      "disease_id": "18944",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76357
+    },
+    {
+      "disease_id": "18967",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00113,
+      "auroc": 0.72812
+    },
+    {
+      "disease_id": "190",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00153,
+      "auroc": 0.79872
+    },
+    {
+      "disease_id": "19013",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00054,
+      "auroc": 0.65443
+    },
+    {
+      "disease_id": "19028",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.69608
+    },
+    {
+      "disease_id": "19032",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00104,
+      "auroc": 0.81961
+    },
+    {
+      "disease_id": "19050_4781_44348_44349",
+      "relation": "contraindication",
+      "n_pos": 26,
+      "auprc": 0.00702,
+      "auroc": 0.77528
+    },
+    {
+      "disease_id": "19050_4781_44348_44349",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.0002,
+      "auroc": 0.07712
+    },
+    {
+      "disease_id": "19088",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82705
+    },
+    {
+      "disease_id": "19121",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00024,
+      "auroc": 0.46644
+    },
+    {
+      "disease_id": "19122_5749_44972_15927_4806_17363",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00026,
+      "auroc": 0.51898
+    },
+    {
+      "disease_id": "19122_5749_44972_15927_4806_17363",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00078,
+      "auroc": 0.75889
+    },
+    {
+      "disease_id": "19142",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00214,
+      "auroc": 0.77774
+    },
+    {
+      "disease_id": "19165_88_15791_15714",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.06825
+    },
+    {
+      "disease_id": "19171",
+      "relation": "contraindication",
+      "n_pos": 11,
+      "auprc": 0.00336,
+      "auroc": 0.78872
+    },
+    {
+      "disease_id": "19180",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00098,
+      "auroc": 0.74554
+    },
+    {
+      "disease_id": "19182",
+      "relation": "contraindication",
+      "n_pos": 15,
+      "auprc": 0.00364,
+      "auroc": 0.74475
+    },
+    {
+      "disease_id": "19186",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00057,
+      "auroc": 0.77941
+    },
+    {
+      "disease_id": "19203",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00066,
+      "auroc": 0.81008
+    },
+    {
+      "disease_id": "1922",
+      "relation": "contraindication",
+      "n_pos": 63,
+      "auprc": 0.01331,
+      "auroc": 0.71103
+    },
+    {
+      "disease_id": "19245",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00074,
+      "auroc": 0.83132
+    },
+    {
+      "disease_id": "19254",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68791
+    },
+    {
+      "disease_id": "1927",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75515
+    },
+    {
+      "disease_id": "1928",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00076,
+      "auroc": 0.75745
+    },
+    {
+      "disease_id": "1932",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01181
+    },
+    {
+      "disease_id": "19338",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00135,
+      "auroc": 0.69425
+    },
+    {
+      "disease_id": "19340",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00048,
+      "auroc": 0.43111
+    },
+    {
+      "disease_id": "1941",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00124,
+      "auroc": 0.80148
+    },
+    {
+      "disease_id": "19444",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00089,
+      "auroc": 0.72584
+    },
+    {
+      "disease_id": "19457",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00145,
+      "auroc": 0.7909
+    },
+    {
+      "disease_id": "19474",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00038,
+      "auroc": 0.67081
+    },
+    {
+      "disease_id": "19476",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00075,
+      "auroc": 0.83308
+    },
+    {
+      "disease_id": "19558_4706",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00048,
+      "auroc": 0.73555
+    },
+    {
+      "disease_id": "1956",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68879
+    },
+    {
+      "disease_id": "19562",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00046,
+      "auroc": 0.72888
+    },
+    {
+      "disease_id": "19565",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00066,
+      "auroc": 0.80945
+    },
+    {
+      "disease_id": "19591_5152",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00057,
+      "auroc": 0.60101
+    },
+    {
+      "disease_id": "19614",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.0013,
+      "auroc": 0.75396
+    },
+    {
+      "disease_id": "19617",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00066,
+      "auroc": 0.8092
+    },
+    {
+      "disease_id": "19618",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00066,
+      "auroc": 0.722
+    },
+    {
+      "disease_id": "19624_15055_15056",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00048,
+      "auroc": 0.73743
+    },
+    {
+      "disease_id": "19624_15055_15056",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00036,
+      "auroc": 0.6507
+    },
+    {
+      "disease_id": "19633",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00086,
+      "auroc": 0.78668
+    },
+    {
+      "disease_id": "19635",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00216,
+      "auroc": 0.80059
+    },
+    {
+      "disease_id": "1966_1817",
+      "relation": "contraindication",
+      "n_pos": 17,
+      "auprc": 0.0045,
+      "auroc": 0.76765
+    },
+    {
+      "disease_id": "1966_1817",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00069,
+      "auroc": 0.81787
+    },
+    {
+      "disease_id": "19725",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00277,
+      "auroc": 0.76483
+    },
+    {
+      "disease_id": "19725",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.64191
+    },
+    {
+      "disease_id": "19726_19727",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00078,
+      "auroc": 0.83937
+    },
+    {
+      "disease_id": "19790",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00104,
+      "auroc": 0.76653
+    },
+    {
+      "disease_id": "19801_15128_43370",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00203,
+      "auroc": 0.76679
+    },
+    {
+      "disease_id": "19832",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00126,
+      "auroc": 0.75314
+    },
+    {
+      "disease_id": "19841",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00163,
+      "auroc": 0.74622
+    },
+    {
+      "disease_id": "19846_15790",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00046,
+      "auroc": 0.72574
+    },
+    {
+      "disease_id": "2003",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82893
+    },
+    {
+      "disease_id": "2009_12050_12100",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00091,
+      "auroc": 0.73431
+    },
+    {
+      "disease_id": "20120",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00104,
+      "auroc": 0.66978
+    },
+    {
+      "disease_id": "20124",
+      "relation": "contraindication",
+      "n_pos": 12,
+      "auprc": 0.00337,
+      "auroc": 0.73801
+    },
+    {
+      "disease_id": "2022",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76848
+    },
+    {
+      "disease_id": "20283_6651",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.04399
+    },
+    {
+      "disease_id": "20283_6651",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00098,
+      "auroc": 0.69266
+    },
+    {
+      "disease_id": "20320",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00068,
+      "auroc": 0.81574
+    },
+    {
+      "disease_id": "20323",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00057,
+      "auroc": 0.77966
+    },
+    {
+      "disease_id": "20324",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.77677
+    },
+    {
+      "disease_id": "20329",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00057,
+      "auroc": 0.77866
+    },
+    {
+      "disease_id": "20334",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00067,
+      "auroc": 0.81335
+    },
+    {
+      "disease_id": "2039",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00057,
+      "auroc": 0.78017
+    },
+    {
+      "disease_id": "2041",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00063,
+      "auroc": 0.7083
+    },
+    {
+      "disease_id": "20479",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00048,
+      "auroc": 0.73869
+    },
+    {
+      "disease_id": "20493",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00293,
+      "auroc": 0.79392
+    },
+    {
+      "disease_id": "20512",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74749
+    },
+    {
+      "disease_id": "20513",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76521
+    },
+    {
+      "disease_id": "20538",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00095,
+      "auroc": 0.6254
+    },
+    {
+      "disease_id": "20538",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00094,
+      "auroc": 0.80264
+    },
+    {
+      "disease_id": "20541",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00034,
+      "auroc": 0.26083
+    },
+    {
+      "disease_id": "20542",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00034,
+      "auroc": 0.44513
+    },
+    {
+      "disease_id": "20542",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.0012,
+      "auroc": 0.75201
+    },
+    {
+      "disease_id": "20543",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00033,
+      "auroc": 0.6145
+    },
+    {
+      "disease_id": "20543",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.69721
+    },
+    {
+      "disease_id": "20547_13730",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00069,
+      "auroc": 0.81674
+    },
+    {
+      "disease_id": "20671",
+      "relation": "contraindication",
+      "n_pos": 19,
+      "auprc": 0.00514,
+      "auroc": 0.77172
+    },
+    {
+      "disease_id": "20671",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00062,
+      "auroc": 0.50985
+    },
+    {
+      "disease_id": "20675",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0006,
+      "auroc": 0.79173
+    },
+    {
+      "disease_id": "20722",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00261,
+      "auroc": 0.79438
+    },
+    {
+      "disease_id": "20751_5469_15914_21272",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00271,
+      "auroc": 0.78232
+    },
+    {
+      "disease_id": "20755",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00148,
+      "auroc": 0.79706
+    },
+    {
+      "disease_id": "20806",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00047,
+      "auroc": 0.73454
+    },
+    {
+      "disease_id": "2081",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.7593
+    },
+    {
+      "disease_id": "2083",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76546
+    },
+    {
+      "disease_id": "2087",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00077,
+      "auroc": 0.83685
+    },
+    {
+      "disease_id": "20920",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00078,
+      "auroc": 0.76512
+    },
+    {
+      "disease_id": "20950",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00047,
+      "auroc": 0.36627
+    },
+    {
+      "disease_id": "20989",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00115,
+      "auroc": 0.78862
+    },
+    {
+      "disease_id": "2105",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00207,
+      "auroc": 0.79537
+    },
+    {
+      "disease_id": "21072",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.75038
+    },
+    {
+      "disease_id": "21072",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.66453
+    },
+    {
+      "disease_id": "2108",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00032,
+      "auroc": 0.60872
+    },
+    {
+      "disease_id": "21084",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00065,
+      "auroc": 0.80794
+    },
+    {
+      "disease_id": "2109",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.72084
+    },
+    {
+      "disease_id": "21095",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.0017,
+      "auroc": 0.75586
+    },
+    {
+      "disease_id": "21095",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00033,
+      "auroc": 0.35613
+    },
+    {
+      "disease_id": "21113",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00283,
+      "auroc": 0.80807
+    },
+    {
+      "disease_id": "21117",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00075,
+      "auroc": 0.83145
+    },
+    {
+      "disease_id": "21146",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00016,
+      "auroc": 0.21204
+    },
+    {
+      "disease_id": "21146",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00036,
+      "auroc": 0.24956
+    },
+    {
+      "disease_id": "21148",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.04311
+    },
+    {
+      "disease_id": "21158_1125",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.0008,
+      "auroc": 0.77096
+    },
+    {
+      "disease_id": "21178",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00184,
+      "auroc": 0.77458
+    },
+    {
+      "disease_id": "21178",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.66038
+    },
+    {
+      "disease_id": "21187_11237_11470",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00124,
+      "auroc": 0.80333
+    },
+    {
+      "disease_id": "21211",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00138,
+      "auroc": 0.82189
+    },
+    {
+      "disease_id": "2123",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00016,
+      "auroc": 0.23441
+    },
+    {
+      "disease_id": "2125",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00055,
+      "auroc": 0.65707
+    },
+    {
+      "disease_id": "21251",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76722
+    },
+    {
+      "disease_id": "21259",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00105,
+      "auroc": 0.82187
+    },
+    {
+      "disease_id": "2127",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00326,
+      "auroc": 0.8132
+    },
+    {
+      "disease_id": "2135",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00072,
+      "auroc": 0.73997
+    },
+    {
+      "disease_id": "2144",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00225,
+      "auroc": 0.76186
+    },
+    {
+      "disease_id": "2144",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00039,
+      "auroc": 0.43589
+    },
+    {
+      "disease_id": "21661",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00132,
+      "auroc": 0.72027
+    },
+    {
+      "disease_id": "21680",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00087,
+      "auroc": 0.57988
+    },
+    {
+      "disease_id": "2181",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78155
+    },
+    {
+      "disease_id": "21945",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74975
+    },
+    {
+      "disease_id": "2203",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00101,
+      "auroc": 0.70502
+    },
+    {
+      "disease_id": "2203",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76835
+    },
+    {
+      "disease_id": "22205",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00078,
+      "auroc": 0.83861
+    },
+    {
+      "disease_id": "2232",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00048,
+      "auroc": 0.73781
+    },
+    {
+      "disease_id": "2234",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00014,
+      "auroc": 0.06951
+    },
+    {
+      "disease_id": "22430",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00079,
+      "auroc": 0.76895
+    },
+    {
+      "disease_id": "2251",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00057,
+      "auroc": 0.78117
+    },
+    {
+      "disease_id": "2258",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00037,
+      "auroc": 0.2641
+    },
+    {
+      "disease_id": "2268",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00029,
+      "auroc": 0.56825
+    },
+    {
+      "disease_id": "22687_4742",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00038,
+      "auroc": 0.36489
+    },
+    {
+      "disease_id": "22687_4742",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.77074
+    },
+    {
+      "disease_id": "2269",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00105,
+      "auroc": 0.76305
+    },
+    {
+      "disease_id": "2277",
+      "relation": "contraindication",
+      "n_pos": 12,
+      "auprc": 0.00282,
+      "auroc": 0.72601
+    },
+    {
+      "disease_id": "2279",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00138,
+      "auroc": 0.74195
+    },
+    {
+      "disease_id": "2280",
+      "relation": "contraindication",
+      "n_pos": 16,
+      "auprc": 0.0046,
+      "auroc": 0.78332
+    },
+    {
+      "disease_id": "2281",
+      "relation": "contraindication",
+      "n_pos": 21,
+      "auprc": 0.00525,
+      "auroc": 0.73703
+    },
+    {
+      "disease_id": "2289",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00036,
+      "auroc": 0.48033
+    },
+    {
+      "disease_id": "2303_6948_6951_2089_41093_1630_1633_2088",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00106,
+      "auroc": 0.82539
+    },
+    {
+      "disease_id": "2309_2308",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00062,
+      "auroc": 0.42921
+    },
+    {
+      "disease_id": "2313",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00051,
+      "auroc": 0.3516
+    },
+    {
+      "disease_id": "2317",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.64454
+    },
+    {
+      "disease_id": "2319",
+      "relation": "contraindication",
+      "n_pos": 17,
+      "auprc": 0.00492,
+      "auroc": 0.78315
+    },
+    {
+      "disease_id": "2345",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00069,
+      "auroc": 0.8175
+    },
+    {
+      "disease_id": "2350",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00048,
+      "auroc": 0.6181
+    },
+    {
+      "disease_id": "2350",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75302
+    },
+    {
+      "disease_id": "23597",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82793
+    },
+    {
+      "disease_id": "2400",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00104,
+      "auroc": 0.76515
+    },
+    {
+      "disease_id": "2406",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00117,
+      "auroc": 0.68353
+    },
+    {
+      "disease_id": "2406",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00026,
+      "auroc": 0.26744
+    },
+    {
+      "disease_id": "2408",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00212,
+      "auroc": 0.7473
+    },
+    {
+      "disease_id": "2409",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.70513
+    },
+    {
+      "disease_id": "2411",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.77225
+    },
+    {
+      "disease_id": "2420",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00082,
+      "auroc": 0.77165
+    },
+    {
+      "disease_id": "24288",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00188,
+      "auroc": 0.77718
+    },
+    {
+      "disease_id": "2429",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00082,
+      "auroc": 0.77568
+    },
+    {
+      "disease_id": "24298",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00026,
+      "auroc": 0.03105
+    },
+    {
+      "disease_id": "24305",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00085,
+      "auroc": 0.78523
+    },
+    {
+      "disease_id": "24306",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.0023,
+      "auroc": 0.78983
+    },
+    {
+      "disease_id": "24313",
+      "relation": "indication",
+      "n_pos": 8,
+      "auprc": 0.00211,
+      "auroc": 0.74645
+    },
+    {
+      "disease_id": "24327",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00239,
+      "auroc": 0.77502
+    },
+    {
+      "disease_id": "24330",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.66101
+    },
+    {
+      "disease_id": "24343",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00057,
+      "auroc": 0.66889
+    },
+    {
+      "disease_id": "24355",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00047,
+      "auroc": 0.73517
+    },
+    {
+      "disease_id": "24388",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00061,
+      "auroc": 0.79437
+    },
+    {
+      "disease_id": "2447",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00076,
+      "auroc": 0.75663
+    },
+    {
+      "disease_id": "2447",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00059,
+      "auroc": 0.78658
+    },
+    {
+      "disease_id": "24570_7767_6964_1530_1741_10837_16166_12406_21132",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00185,
+      "auroc": 0.772
+    },
+    {
+      "disease_id": "24573",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75867
+    },
+    {
+      "disease_id": "24574",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00134,
+      "auroc": 0.81385
+    },
+    {
+      "disease_id": "24612",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00047,
+      "auroc": 0.73089
+    },
+    {
+      "disease_id": "24612",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00074,
+      "auroc": 0.6673
+    },
+    {
+      "disease_id": "2462_3137_1645_1871_3135_3138",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00076,
+      "auroc": 0.83472
+    },
+    {
+      "disease_id": "24643",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00069,
+      "auroc": 0.81888
+    },
+    {
+      "disease_id": "24644",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00247,
+      "auroc": 0.73746
+    },
+    {
+      "disease_id": "24650",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00064,
+      "auroc": 0.80279
+    },
+    {
+      "disease_id": "2471",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00051,
+      "auroc": 0.46543
+    },
+    {
+      "disease_id": "2476",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00293,
+      "auroc": 0.79749
+    },
+    {
+      "disease_id": "2494",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00284,
+      "auroc": 0.77246
+    },
+    {
+      "disease_id": "2508",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76697
+    },
+    {
+      "disease_id": "2520_19800",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00172,
+      "auroc": 0.82173
+    },
+    {
+      "disease_id": "2531",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.02086
+    },
+    {
+      "disease_id": "25598",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.71971
+    },
+    {
+      "disease_id": "2629",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00039,
+      "auroc": 0.67371
+    },
+    {
+      "disease_id": "265",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75742
+    },
+    {
+      "disease_id": "2679",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00318,
+      "auroc": 0.79401
+    },
+    {
+      "disease_id": "2688",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00063,
+      "auroc": 0.80178
+    },
+    {
+      "disease_id": "2691",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00047,
+      "auroc": 0.4389
+    },
+    {
+      "disease_id": "270",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74686
+    },
+    {
+      "disease_id": "2708",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00077,
+      "auroc": 0.7577
+    },
+    {
+      "disease_id": "2752",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00053,
+      "auroc": 0.37706
+    },
+    {
+      "disease_id": "2752",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00081,
+      "auroc": 0.77429
+    },
+    {
+      "disease_id": "2771",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00098,
+      "auroc": 0.75015
+    },
+    {
+      "disease_id": "2776",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.046
+    },
+    {
+      "disease_id": "2800",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00119,
+      "auroc": 0.79645
+    },
+    {
+      "disease_id": "2817",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00083,
+      "auroc": 0.77712
+    },
+    {
+      "disease_id": "2869",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00096,
+      "auroc": 0.80673
+    },
+    {
+      "disease_id": "2877",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00114,
+      "auroc": 0.8347
+    },
+    {
+      "disease_id": "2909",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00213,
+      "auroc": 0.66826
+    },
+    {
+      "disease_id": "2967",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00066,
+      "auroc": 0.80845
+    },
+    {
+      "disease_id": "2970",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.0009,
+      "auroc": 0.72986
+    },
+    {
+      "disease_id": "2974",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.66088
+    },
+    {
+      "disease_id": "3001",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75704
+    },
+    {
+      "disease_id": "30105_18116",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00164,
+      "auroc": 0.78187
+    },
+    {
+      "disease_id": "3019",
+      "relation": "contraindication",
+      "n_pos": 16,
+      "auprc": 0.00376,
+      "auroc": 0.71568
+    },
+    {
+      "disease_id": "3040",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.69545
+    },
+    {
+      "disease_id": "313",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00123,
+      "auroc": 0.75685
+    },
+    {
+      "disease_id": "3182",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00062,
+      "auroc": 0.79739
+    },
+    {
+      "disease_id": "3240",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00062,
+      "auroc": 0.79789
+    },
+    {
+      "disease_id": "32783_24523_13902_3803",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00057,
+      "auroc": 0.77991
+    },
+    {
+      "disease_id": "328",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.69545
+    },
+    {
+      "disease_id": "3282",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.75
+    },
+    {
+      "disease_id": "32920",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00049,
+      "auroc": 0.7451
+    },
+    {
+      "disease_id": "3330",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00176,
+      "auroc": 0.76426
+    },
+    {
+      "disease_id": "3393",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00137,
+      "auroc": 0.82059
+    },
+    {
+      "disease_id": "33946",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00107,
+      "auroc": 0.77156
+    },
+    {
+      "disease_id": "33946",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00016,
+      "auroc": 0.22009
+    },
+    {
+      "disease_id": "3471",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00049,
+      "auroc": 0.43451
+    },
+    {
+      "disease_id": "3582",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00019,
+      "auroc": 0.0154
+    },
+    {
+      "disease_id": "3582",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00087,
+      "auroc": 0.78931
+    },
+    {
+      "disease_id": "3620",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00195,
+      "auroc": 0.75819
+    },
+    {
+      "disease_id": "3634",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82856
+    },
+    {
+      "disease_id": "3652",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00303,
+      "auroc": 0.78552
+    },
+    {
+      "disease_id": "3664",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.0008,
+      "auroc": 0.76562
+    },
+    {
+      "disease_id": "3669",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0006,
+      "auroc": 0.79072
+    },
+    {
+      "disease_id": "3709",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00238,
+      "auroc": 0.81956
+    },
+    {
+      "disease_id": "3749",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00098,
+      "auroc": 0.80918
+    },
+    {
+      "disease_id": "3781_5607_18597",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.0323
+    },
+    {
+      "disease_id": "3781_5607_18597",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00111,
+      "auroc": 0.72991
+    },
+    {
+      "disease_id": "37821",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00154,
+      "auroc": 0.76479
+    },
+    {
+      "disease_id": "3783",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00047,
+      "auroc": 0.73115
+    },
+    {
+      "disease_id": "3785",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00276,
+      "auroc": 0.78492
+    },
+    {
+      "disease_id": "3792",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00037,
+      "auroc": 0.33124
+    },
+    {
+      "disease_id": "37939",
+      "relation": "contraindication",
+      "n_pos": 11,
+      "auprc": 0.00301,
+      "auroc": 0.76618
+    },
+    {
+      "disease_id": "3795",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00048,
+      "auroc": 0.45948
+    },
+    {
+      "disease_id": "3795",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00076,
+      "auroc": 0.75839
+    },
+    {
+      "disease_id": "3799",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00062,
+      "auroc": 0.79613
+    },
+    {
+      "disease_id": "3996",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00125,
+      "auroc": 0.80647
+    },
+    {
+      "disease_id": "4",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00251,
+      "auroc": 0.80588
+    },
+    {
+      "disease_id": "4",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00036,
+      "auroc": 0.65422
+    },
+    {
+      "disease_id": "40732",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00085,
+      "auroc": 0.71272
+    },
+    {
+      "disease_id": "40871_40872",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.77426
+    },
+    {
+      "disease_id": "40925",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.77577
+    },
+    {
+      "disease_id": "4095",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00091,
+      "auroc": 0.79811
+    },
+    {
+      "disease_id": "41052",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00015,
+      "auroc": 0.16717
+    },
+    {
+      "disease_id": "4126",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75214
+    },
+    {
+      "disease_id": "41440",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00248,
+      "auroc": 0.82684
+    },
+    {
+      "disease_id": "41448",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.70475
+    },
+    {
+      "disease_id": "41526",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00039,
+      "auroc": 0.67509
+    },
+    {
+      "disease_id": "41656",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00046,
+      "auroc": 0.72587
+    },
+    {
+      "disease_id": "41825",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75867
+    },
+    {
+      "disease_id": "41850",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75792
+    },
+    {
+      "disease_id": "4187",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00099,
+      "auroc": 0.75052
+    },
+    {
+      "disease_id": "41879",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76144
+    },
+    {
+      "disease_id": "4242",
+      "relation": "contraindication",
+      "n_pos": 15,
+      "auprc": 0.00453,
+      "auroc": 0.79168
+    },
+    {
+      "disease_id": "42458",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75918
+    },
+    {
+      "disease_id": "4247",
+      "relation": "contraindication",
+      "n_pos": 15,
+      "auprc": 0.0035,
+      "auroc": 0.72184
+    },
+    {
+      "disease_id": "4247",
+      "relation": "indication",
+      "n_pos": 5,
+      "auprc": 0.00079,
+      "auroc": 0.45314
+    },
+    {
+      "disease_id": "4277",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00101,
+      "auroc": 0.75631
+    },
+    {
+      "disease_id": "42981",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00117,
+      "auroc": 0.7877
+    },
+    {
+      "disease_id": "430",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00073,
+      "auroc": 0.74375
+    },
+    {
+      "disease_id": "43209",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74698
+    },
+    {
+      "disease_id": "4323",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00018,
+      "auroc": 0.30204
+    },
+    {
+      "disease_id": "43233",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00064,
+      "auroc": 0.8048
+    },
+    {
+      "disease_id": "43300",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00039,
+      "auroc": 0.68162
+    },
+    {
+      "disease_id": "4335",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00039,
+      "auroc": 0.67433
+    },
+    {
+      "disease_id": "43455",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00174,
+      "auroc": 0.79313
+    },
+    {
+      "disease_id": "43510_5621",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00223,
+      "auroc": 0.80916
+    },
+    {
+      "disease_id": "43519",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00033,
+      "auroc": 0.44299
+    },
+    {
+      "disease_id": "43519",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00058,
+      "auroc": 0.68209
+    },
+    {
+      "disease_id": "43693_13209_4790_21104",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.69067
+    },
+    {
+      "disease_id": "43731",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00095,
+      "auroc": 0.74621
+    },
+    {
+      "disease_id": "4375",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00219,
+      "auroc": 0.77871
+    },
+    {
+      "disease_id": "43789",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76659
+    },
+    {
+      "disease_id": "4379",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00198,
+      "auroc": 0.81376
+    },
+    {
+      "disease_id": "43905_2572_1255_3479_43919",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.0008,
+      "auroc": 0.76417
+    },
+    {
+      "disease_id": "43975",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00143,
+      "auroc": 0.82608
+    },
+    {
+      "disease_id": "440",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.0014,
+      "auroc": 0.78452
+    },
+    {
+      "disease_id": "4425",
+      "relation": "contraindication",
+      "n_pos": 23,
+      "auprc": 0.00664,
+      "auroc": 0.7872
+    },
+    {
+      "disease_id": "44331_16408_19858_18612_16410_15792_16409",
+      "relation": "contraindication",
+      "n_pos": 12,
+      "auprc": 0.00359,
+      "auroc": 0.78581
+    },
+    {
+      "disease_id": "4471",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.77011
+    },
+    {
+      "disease_id": "44751",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00075,
+      "auroc": 0.75343
+    },
+    {
+      "disease_id": "45011",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00059,
+      "auroc": 0.78557
+    },
+    {
+      "disease_id": "45031",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68527
+    },
+    {
+      "disease_id": "45031",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0007,
+      "auroc": 0.82001
+    },
+    {
+      "disease_id": "4522",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.72122
+    },
+    {
+      "disease_id": "4525",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00079,
+      "auroc": 0.76631
+    },
+    {
+      "disease_id": "4565_2803_2801",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00291,
+      "auroc": 0.81326
+    },
+    {
+      "disease_id": "4567",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00145,
+      "auroc": 0.79165
+    },
+    {
+      "disease_id": "4568",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00281,
+      "auroc": 0.80688
+    },
+    {
+      "disease_id": "4571",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00106,
+      "auroc": 0.76917
+    },
+    {
+      "disease_id": "4577",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00096,
+      "auroc": 0.74533
+    },
+    {
+      "disease_id": "4596",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00345,
+      "auroc": 0.80715
+    },
+    {
+      "disease_id": "4609",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00045,
+      "auroc": 0.40324
+    },
+    {
+      "disease_id": "4626",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00131,
+      "auroc": 0.76874
+    },
+    {
+      "disease_id": "4638",
+      "relation": "indication",
+      "n_pos": 5,
+      "auprc": 0.00162,
+      "auroc": 0.7745
+    },
+    {
+      "disease_id": "4639",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00192,
+      "auroc": 0.66306
+    },
+    {
+      "disease_id": "465",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00164,
+      "auroc": 0.74808
+    },
+    {
+      "disease_id": "4652",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68565
+    },
+    {
+      "disease_id": "4670_5282_19561",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00073,
+      "auroc": 0.74507
+    },
+    {
+      "disease_id": "4674",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.72285
+    },
+    {
+      "disease_id": "4678_18335",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00104,
+      "auroc": 0.57806
+    },
+    {
+      "disease_id": "467_468_1261_466_20744",
+      "relation": "contraindication",
+      "n_pos": 11,
+      "auprc": 0.0029,
+      "auroc": 0.75785
+    },
+    {
+      "disease_id": "4721",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00089,
+      "auroc": 0.78982
+    },
+    {
+      "disease_id": "4729",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00122,
+      "auroc": 0.80111
+    },
+    {
+      "disease_id": "4758",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00072,
+      "auroc": 0.82579
+    },
+    {
+      "disease_id": "4765",
+      "relation": "contraindication",
+      "n_pos": 13,
+      "auprc": 0.00311,
+      "auroc": 0.73846
+    },
+    {
+      "disease_id": "4765",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00053,
+      "auroc": 0.35345
+    },
+    {
+      "disease_id": "4773",
+      "relation": "indication",
+      "n_pos": 6,
+      "auprc": 0.00138,
+      "auroc": 0.69482
+    },
+    {
+      "disease_id": "4782",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00018,
+      "auroc": 0.29449
+    },
+    {
+      "disease_id": "4784",
+      "relation": "contraindication",
+      "n_pos": 11,
+      "auprc": 0.00276,
+      "auroc": 0.74449
+    },
+    {
+      "disease_id": "4784",
+      "relation": "indication",
+      "n_pos": 6,
+      "auprc": 0.00086,
+      "auroc": 0.45812
+    },
+    {
+      "disease_id": "4795_1051",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00075,
+      "auroc": 0.7533
+    },
+    {
+      "disease_id": "4802",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75968
+    },
+    {
+      "disease_id": "482",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00067,
+      "auroc": 0.71942
+    },
+    {
+      "disease_id": "482",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.6908
+    },
+    {
+      "disease_id": "4842",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00069,
+      "auroc": 0.73369
+    },
+    {
+      "disease_id": "4845",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00034,
+      "auroc": 0.63059
+    },
+    {
+      "disease_id": "4845",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00049,
+      "auroc": 0.7456
+    },
+    {
+      "disease_id": "4846",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00079,
+      "auroc": 0.76681
+    },
+    {
+      "disease_id": "4849",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00098,
+      "auroc": 0.75505
+    },
+    {
+      "disease_id": "4849",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00052,
+      "auroc": 0.45914
+    },
+    {
+      "disease_id": "4854",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.77765
+    },
+    {
+      "disease_id": "4855",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00059,
+      "auroc": 0.78582
+    },
+    {
+      "disease_id": "4867",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00067,
+      "auroc": 0.81247
+    },
+    {
+      "disease_id": "4868",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00109,
+      "auroc": 0.77797
+    },
+    {
+      "disease_id": "4872_4873",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00033,
+      "auroc": 0.62242
+    },
+    {
+      "disease_id": "4901",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00159,
+      "auroc": 0.77651
+    },
+    {
+      "disease_id": "4907",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.046
+    },
+    {
+      "disease_id": "4937_6798",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00192,
+      "auroc": 0.81127
+    },
+    {
+      "disease_id": "4946",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00124,
+      "auroc": 0.75773
+    },
+    {
+      "disease_id": "4948_872_4963_20511_4947_814",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.0012,
+      "auroc": 0.79608
+    },
+    {
+      "disease_id": "4949",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00085,
+      "auroc": 0.78353
+    },
+    {
+      "disease_id": "4952",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.64467
+    },
+    {
+      "disease_id": "4953",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.7133
+    },
+    {
+      "disease_id": "4955",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00137,
+      "auroc": 0.78143
+    },
+    {
+      "disease_id": "4964",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00038,
+      "auroc": 0.66654
+    },
+    {
+      "disease_id": "4974",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.0016,
+      "auroc": 0.80976
+    },
+    {
+      "disease_id": "4974",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.65598
+    },
+    {
+      "disease_id": "4979",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00305,
+      "auroc": 0.78503
+    },
+    {
+      "disease_id": "4979",
+      "relation": "indication",
+      "n_pos": 6,
+      "auprc": 0.00141,
+      "auroc": 0.70482
+    },
+    {
+      "disease_id": "4980",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00034,
+      "auroc": 0.62519
+    },
+    {
+      "disease_id": "4980",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00065,
+      "auroc": 0.5233
+    },
+    {
+      "disease_id": "4981",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00055,
+      "auroc": 0.66398
+    },
+    {
+      "disease_id": "4985_693_24613_1866",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.0017,
+      "auroc": 0.75284
+    },
+    {
+      "disease_id": "4985_693_24613_1866",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00062,
+      "auroc": 0.70497
+    },
+    {
+      "disease_id": "4987",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78457
+    },
+    {
+      "disease_id": "4992",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00068,
+      "auroc": 0.64534
+    },
+    {
+      "disease_id": "4994",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00072,
+      "auroc": 0.74469
+    },
+    {
+      "disease_id": "4995",
+      "relation": "contraindication",
+      "n_pos": 20,
+      "auprc": 0.00571,
+      "auroc": 0.78063
+    },
+    {
+      "disease_id": "50",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00076,
+      "auroc": 0.5662
+    },
+    {
+      "disease_id": "5001_4966",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00306,
+      "auroc": 0.81991
+    },
+    {
+      "disease_id": "5002",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00146,
+      "auroc": 0.75407
+    },
+    {
+      "disease_id": "5002",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00014,
+      "auroc": 0.10495
+    },
+    {
+      "disease_id": "5005",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00038,
+      "auroc": 0.67295
+    },
+    {
+      "disease_id": "5009",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00192,
+      "auroc": 0.75369
+    },
+    {
+      "disease_id": "5009",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00065,
+      "auroc": 0.71175
+    },
+    {
+      "disease_id": "5010",
+      "relation": "contraindication",
+      "n_pos": 29,
+      "auprc": 0.00729,
+      "auroc": 0.76045
+    },
+    {
+      "disease_id": "5011_5535",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00072,
+      "auroc": 0.73796
+    },
+    {
+      "disease_id": "5015",
+      "relation": "contraindication",
+      "n_pos": 27,
+      "auprc": 0.00678,
+      "auroc": 0.76071
+    },
+    {
+      "disease_id": "5015",
+      "relation": "indication",
+      "n_pos": 5,
+      "auprc": 0.00069,
+      "auroc": 0.41303
+    },
+    {
+      "disease_id": "5016",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.64266
+    },
+    {
+      "disease_id": "5025_6669",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00049,
+      "auroc": 0.74409
+    },
+    {
+      "disease_id": "5027",
+      "relation": "contraindication",
+      "n_pos": 25,
+      "auprc": 0.00631,
+      "auroc": 0.75992
+    },
+    {
+      "disease_id": "5027",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00058,
+      "auroc": 0.49317
+    },
+    {
+      "disease_id": "5044",
+      "relation": "contraindication",
+      "n_pos": 33,
+      "auprc": 0.00758,
+      "auroc": 0.73899
+    },
+    {
+      "disease_id": "5044",
+      "relation": "indication",
+      "n_pos": 10,
+      "auprc": 0.00159,
+      "auroc": 0.52385
+    },
+    {
+      "disease_id": "5049",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00059,
+      "auroc": 0.78783
+    },
+    {
+      "disease_id": "5059",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00037,
+      "auroc": 0.48284
+    },
+    {
+      "disease_id": "5062",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.65598
+    },
+    {
+      "disease_id": "5068",
+      "relation": "contraindication",
+      "n_pos": 23,
+      "auprc": 0.00667,
+      "auroc": 0.78872
+    },
+    {
+      "disease_id": "5068",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00046,
+      "auroc": 0.72838
+    },
+    {
+      "disease_id": "5071",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.05003
+    },
+    {
+      "disease_id": "5083",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00074,
+      "auroc": 0.66734
+    },
+    {
+      "disease_id": "5084",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00146,
+      "auroc": 0.66174
+    },
+    {
+      "disease_id": "5084",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00039,
+      "auroc": 0.67685
+    },
+    {
+      "disease_id": "5086",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.71078
+    },
+    {
+      "disease_id": "5090_13498_8414_10897_33312_10943_11552_14092_12054_11960_11280_11294_11295_11298_11307_11498_12879_13089_13506",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.00289
+    },
+    {
+      "disease_id": "5090_13498_8414_10897_33312_10943_11552_14092_12054_11960_11280_11294_11295_11298_11307_11498_12879_13089_13506",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00077,
+      "auroc": 0.61056
+    },
+    {
+      "disease_id": "5098",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00298,
+      "auroc": 0.78325
+    },
+    {
+      "disease_id": "5098",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00071,
+      "auroc": 0.73432
+    },
+    {
+      "disease_id": "5100",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.03595
+    },
+    {
+      "disease_id": "5101",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00201,
+      "auroc": 0.76246
+    },
+    {
+      "disease_id": "5101",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00074,
+      "auroc": 0.75217
+    },
+    {
+      "disease_id": "5105_5012",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76282
+    },
+    {
+      "disease_id": "5109",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00054,
+      "auroc": 0.3984
+    },
+    {
+      "disease_id": "5113_5550_5108",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00186,
+      "auroc": 0.74061
+    },
+    {
+      "disease_id": "5119",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00116,
+      "auroc": 0.7892
+    },
+    {
+      "disease_id": "5131",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00106,
+      "auroc": 0.8242
+    },
+    {
+      "disease_id": "5133",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00014,
+      "auroc": 0.12029
+    },
+    {
+      "disease_id": "5133",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.69243
+    },
+    {
+      "disease_id": "5135",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00014,
+      "auroc": 0.11501
+    },
+    {
+      "disease_id": "5136",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00071,
+      "auroc": 0.65774
+    },
+    {
+      "disease_id": "5148",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00022,
+      "auroc": 0.13646
+    },
+    {
+      "disease_id": "5148",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00052,
+      "auroc": 0.49086
+    },
+    {
+      "disease_id": "5154",
+      "relation": "contraindication",
+      "n_pos": 74,
+      "auprc": 0.01822,
+      "auroc": 0.7588
+    },
+    {
+      "disease_id": "5155",
+      "relation": "contraindication",
+      "n_pos": 13,
+      "auprc": 0.00317,
+      "auroc": 0.73948
+    },
+    {
+      "disease_id": "5159",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00054,
+      "auroc": 0.65933
+    },
+    {
+      "disease_id": "5159",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00088,
+      "auroc": 0.79001
+    },
+    {
+      "disease_id": "5173",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.0318
+    },
+    {
+      "disease_id": "5173",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00067,
+      "auroc": 0.72753
+    },
+    {
+      "disease_id": "5178_6629_5416_6630_6631_6632",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00079,
+      "auroc": 0.69198
+    },
+    {
+      "disease_id": "5201",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0006,
+      "auroc": 0.7901
+    },
+    {
+      "disease_id": "5218",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00181,
+      "auroc": 0.61083
+    },
+    {
+      "disease_id": "5219",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.69658
+    },
+    {
+      "disease_id": "5223",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00061,
+      "auroc": 0.79286
+    },
+    {
+      "disease_id": "5224",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00086,
+      "auroc": 0.7113
+    },
+    {
+      "disease_id": "5231",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00058,
+      "auroc": 0.68265
+    },
+    {
+      "disease_id": "5231",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00058,
+      "auroc": 0.67744
+    },
+    {
+      "disease_id": "5233",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00143,
+      "auroc": 0.7886
+    },
+    {
+      "disease_id": "5240",
+      "relation": "contraindication",
+      "n_pos": 69,
+      "auprc": 0.01775,
+      "auroc": 0.77273
+    },
+    {
+      "disease_id": "5244",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00139,
+      "auroc": 0.7457
+    },
+    {
+      "disease_id": "5247",
+      "relation": "indication",
+      "n_pos": 11,
+      "auprc": 0.00197,
+      "auroc": 0.57475
+    },
+    {
+      "disease_id": "5249",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.70877
+    },
+    {
+      "disease_id": "5249",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00093,
+      "auroc": 0.79881
+    },
+    {
+      "disease_id": "5252",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.72097
+    },
+    {
+      "disease_id": "5263",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75528
+    },
+    {
+      "disease_id": "5264",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00061,
+      "auroc": 0.70163
+    },
+    {
+      "disease_id": "5267",
+      "relation": "contraindication",
+      "n_pos": 16,
+      "auprc": 0.00444,
+      "auroc": 0.77472
+    },
+    {
+      "disease_id": "5275",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00061,
+      "auroc": 0.79487
+    },
+    {
+      "disease_id": "5277",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.0011,
+      "auroc": 0.73026
+    },
+    {
+      "disease_id": "5277",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00031,
+      "auroc": 0.33821
+    },
+    {
+      "disease_id": "5279",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00119,
+      "auroc": 0.79469
+    },
+    {
+      "disease_id": "5279",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00092,
+      "auroc": 0.80214
+    },
+    {
+      "disease_id": "5281_12365_12366",
+      "relation": "contraindication",
+      "n_pos": 74,
+      "auprc": 0.01886,
+      "auroc": 0.76615
+    },
+    {
+      "disease_id": "5283",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00046,
+      "auroc": 0.72926
+    },
+    {
+      "disease_id": "5290",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00148,
+      "auroc": 0.79564
+    },
+    {
+      "disease_id": "5291",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00072,
+      "auroc": 0.82541
+    },
+    {
+      "disease_id": "5292",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00047,
+      "auroc": 0.59026
+    },
+    {
+      "disease_id": "5294",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00177,
+      "auroc": 0.65807
+    },
+    {
+      "disease_id": "5294",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.64304
+    },
+    {
+      "disease_id": "5295",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00137,
+      "auroc": 0.74132
+    },
+    {
+      "disease_id": "5295",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00038,
+      "auroc": 0.67207
+    },
+    {
+      "disease_id": "5296",
+      "relation": "contraindication",
+      "n_pos": 12,
+      "auprc": 0.00382,
+      "auroc": 0.796
+    },
+    {
+      "disease_id": "5298",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00232,
+      "auroc": 0.72294
+    },
+    {
+      "disease_id": "5298",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.0011,
+      "auroc": 0.72485
+    },
+    {
+      "disease_id": "5299",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75365
+    },
+    {
+      "disease_id": "5300",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.0011,
+      "auroc": 0.77663
+    },
+    {
+      "disease_id": "5301",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01797
+    },
+    {
+      "disease_id": "5301",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00064,
+      "auroc": 0.7132
+    },
+    {
+      "disease_id": "5303",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00322,
+      "auroc": 0.81013
+    },
+    {
+      "disease_id": "5306_20655",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00076,
+      "auroc": 0.75751
+    },
+    {
+      "disease_id": "5310",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.0009,
+      "auroc": 0.79107
+    },
+    {
+      "disease_id": "5311",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00181,
+      "auroc": 0.7389
+    },
+    {
+      "disease_id": "5313",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00079,
+      "auroc": 0.76273
+    },
+    {
+      "disease_id": "5316",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75126
+    },
+    {
+      "disease_id": "5318",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.6947
+    },
+    {
+      "disease_id": "5326",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78193
+    },
+    {
+      "disease_id": "5336",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00093,
+      "auroc": 0.8027
+    },
+    {
+      "disease_id": "5338",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00069,
+      "auroc": 0.73338
+    },
+    {
+      "disease_id": "5338",
+      "relation": "indication",
+      "n_pos": 5,
+      "auprc": 0.00102,
+      "auroc": 0.63866
+    },
+    {
+      "disease_id": "5347",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00149,
+      "auroc": 0.79637
+    },
+    {
+      "disease_id": "5347",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01936
+    },
+    {
+      "disease_id": "5348",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.77564
+    },
+    {
+      "disease_id": "5351_33926",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00082,
+      "auroc": 0.77586
+    },
+    {
+      "disease_id": "5354",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.0006,
+      "auroc": 0.69164
+    },
+    {
+      "disease_id": "5354",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00055,
+      "auroc": 0.66392
+    },
+    {
+      "disease_id": "5356",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78255
+    },
+    {
+      "disease_id": "5359",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00087,
+      "auroc": 0.65749
+    },
+    {
+      "disease_id": "5361_5407",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00074,
+      "auroc": 0.83032
+    },
+    {
+      "disease_id": "5364",
+      "relation": "contraindication",
+      "n_pos": 22,
+      "auprc": 0.00662,
+      "auroc": 0.79455
+    },
+    {
+      "disease_id": "5365_20677",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00065,
+      "auroc": 0.80656
+    },
+    {
+      "disease_id": "5366",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00161,
+      "auroc": 0.74284
+    },
+    {
+      "disease_id": "5366",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01521
+    },
+    {
+      "disease_id": "5377",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00088,
+      "auroc": 0.66085
+    },
+    {
+      "disease_id": "5377",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76219
+    },
+    {
+      "disease_id": "5379",
+      "relation": "contraindication",
+      "n_pos": 17,
+      "auprc": 0.00394,
+      "auroc": 0.73726
+    },
+    {
+      "disease_id": "5379",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00044,
+      "auroc": 0.29281
+    },
+    {
+      "disease_id": "5381",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00113,
+      "auroc": 0.78774
+    },
+    {
+      "disease_id": "5384",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75566
+    },
+    {
+      "disease_id": "5386",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00243,
+      "auroc": 0.77922
+    },
+    {
+      "disease_id": "5386",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01986
+    },
+    {
+      "disease_id": "5393",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00261,
+      "auroc": 0.75359
+    },
+    {
+      "disease_id": "5393",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00032,
+      "auroc": 0.61048
+    },
+    {
+      "disease_id": "5397",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00065,
+      "auroc": 0.71634
+    },
+    {
+      "disease_id": "5398",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78457
+    },
+    {
+      "disease_id": "5401",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00068,
+      "auroc": 0.81461
+    },
+    {
+      "disease_id": "5412",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76219
+    },
+    {
+      "disease_id": "5420_16412_15777",
+      "relation": "contraindication",
+      "n_pos": 11,
+      "auprc": 0.00352,
+      "auroc": 0.7965
+    },
+    {
+      "disease_id": "5433",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00051,
+      "auroc": 0.6428
+    },
+    {
+      "disease_id": "5447",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00075,
+      "auroc": 0.8317
+    },
+    {
+      "disease_id": "5459",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00069,
+      "auroc": 0.81762
+    },
+    {
+      "disease_id": "5468",
+      "relation": "contraindication",
+      "n_pos": 16,
+      "auprc": 0.00456,
+      "auroc": 0.78044
+    },
+    {
+      "disease_id": "5477",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.0011,
+      "auroc": 0.77986
+    },
+    {
+      "disease_id": "5477",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00037,
+      "auroc": 0.39774
+    },
+    {
+      "disease_id": "5478",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00192,
+      "auroc": 0.7547
+    },
+    {
+      "disease_id": "5480",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00063,
+      "auroc": 0.51203
+    },
+    {
+      "disease_id": "5485",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00192,
+      "auroc": 0.74825
+    },
+    {
+      "disease_id": "5487",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00227,
+      "auroc": 0.7636
+    },
+    {
+      "disease_id": "5487",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00082,
+      "auroc": 0.77379
+    },
+    {
+      "disease_id": "5492",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00019,
+      "auroc": 0.03124
+    },
+    {
+      "disease_id": "5520",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.71267
+    },
+    {
+      "disease_id": "5520",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00074,
+      "auroc": 0.83095
+    },
+    {
+      "disease_id": "5526",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00055,
+      "auroc": 0.65575
+    },
+    {
+      "disease_id": "5531",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01722
+    },
+    {
+      "disease_id": "5538",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.00943
+    },
+    {
+      "disease_id": "5538",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00063,
+      "auroc": 0.79902
+    },
+    {
+      "disease_id": "5542",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00146,
+      "auroc": 0.71431
+    },
+    {
+      "disease_id": "5542",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.71506
+    },
+    {
+      "disease_id": "5545",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00066,
+      "auroc": 0.72068
+    },
+    {
+      "disease_id": "5549",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00033,
+      "auroc": 0.35443
+    },
+    {
+      "disease_id": "5557",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00072,
+      "auroc": 0.82541
+    },
+    {
+      "disease_id": "5560",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00101,
+      "auroc": 0.59678
+    },
+    {
+      "disease_id": "5567",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.71053
+    },
+    {
+      "disease_id": "5569",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00194,
+      "auroc": 0.78416
+    },
+    {
+      "disease_id": "5570",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.0015,
+      "auroc": 0.66178
+    },
+    {
+      "disease_id": "5571",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00061,
+      "auroc": 0.79286
+    },
+    {
+      "disease_id": "5575",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82705
+    },
+    {
+      "disease_id": "5578",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00065,
+      "auroc": 0.80543
+    },
+    {
+      "disease_id": "5590",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.71506
+    },
+    {
+      "disease_id": "5601",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.7774
+    },
+    {
+      "disease_id": "5608",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00015,
+      "auroc": 0.15372
+    },
+    {
+      "disease_id": "5609",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00071,
+      "auroc": 0.82403
+    },
+    {
+      "disease_id": "5609",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.77174
+    },
+    {
+      "disease_id": "5615",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00015,
+      "auroc": 0.1634
+    },
+    {
+      "disease_id": "5615",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82843
+    },
+    {
+      "disease_id": "5625",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00018,
+      "auroc": 0.30304
+    },
+    {
+      "disease_id": "5627",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76672
+    },
+    {
+      "disease_id": "5642",
+      "relation": "indication",
+      "n_pos": 7,
+      "auprc": 0.00052,
+      "auroc": 0.05919
+    },
+    {
+      "disease_id": "5644",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00076,
+      "auroc": 0.83572
+    },
+    {
+      "disease_id": "5647",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.71594
+    },
+    {
+      "disease_id": "5649",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68803
+    },
+    {
+      "disease_id": "565",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76332
+    },
+    {
+      "disease_id": "5657_240",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.70777
+    },
+    {
+      "disease_id": "5669",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75679
+    },
+    {
+      "disease_id": "5680",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00061,
+      "auroc": 0.79487
+    },
+    {
+      "disease_id": "5683",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.0008,
+      "auroc": 0.77021
+    },
+    {
+      "disease_id": "5699",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.77627
+    },
+    {
+      "disease_id": "5701",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.7774
+    },
+    {
+      "disease_id": "5709",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00032,
+      "auroc": 0.04278
+    },
+    {
+      "disease_id": "5711",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00059,
+      "auroc": 0.78557
+    },
+    {
+      "disease_id": "5744",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00045,
+      "auroc": 0.59686
+    },
+    {
+      "disease_id": "5744",
+      "relation": "indication",
+      "n_pos": 5,
+      "auprc": 0.00149,
+      "auroc": 0.75928
+    },
+    {
+      "disease_id": "5746",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00108,
+      "auroc": 0.77621
+    },
+    {
+      "disease_id": "5757",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74761
+    },
+    {
+      "disease_id": "5758",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76621
+    },
+    {
+      "disease_id": "5775",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00096,
+      "auroc": 0.80465
+    },
+    {
+      "disease_id": "5783",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00075,
+      "auroc": 0.75072
+    },
+    {
+      "disease_id": "5804",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00127,
+      "auroc": 0.76584
+    },
+    {
+      "disease_id": "5810",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00037,
+      "auroc": 0.27387
+    },
+    {
+      "disease_id": "5812",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.7495
+    },
+    {
+      "disease_id": "5825",
+      "relation": "indication",
+      "n_pos": 5,
+      "auprc": 0.00123,
+      "auroc": 0.68996
+    },
+    {
+      "disease_id": "5828",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00057,
+      "auroc": 0.77853
+    },
+    {
+      "disease_id": "5834",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00085,
+      "auroc": 0.78284
+    },
+    {
+      "disease_id": "5842_2186_1122",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00033,
+      "auroc": 0.62293
+    },
+    {
+      "disease_id": "5850",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00075,
+      "auroc": 0.83283
+    },
+    {
+      "disease_id": "5852",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00066,
+      "auroc": 0.81008
+    },
+    {
+      "disease_id": "5854_3900_16663",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00069,
+      "auroc": 0.62677
+    },
+    {
+      "disease_id": "5888",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.74862
+    },
+    {
+      "disease_id": "5890",
+      "relation": "contraindication",
+      "n_pos": 10,
+      "auprc": 0.00291,
+      "auroc": 0.77633
+    },
+    {
+      "disease_id": "5904",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.71543
+    },
+    {
+      "disease_id": "5918",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00049,
+      "auroc": 0.7412
+    },
+    {
+      "disease_id": "5920",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00031,
+      "auroc": 0.59766
+    },
+    {
+      "disease_id": "5929",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68276
+    },
+    {
+      "disease_id": "5942",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00059,
+      "auroc": 0.68793
+    },
+    {
+      "disease_id": "5945",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00095,
+      "auroc": 0.74453
+    },
+    {
+      "disease_id": "5961",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00071,
+      "auroc": 0.73897
+    },
+    {
+      "disease_id": "5968",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00076,
+      "auroc": 0.75418
+    },
+    {
+      "disease_id": "5972",
+      "relation": "indication",
+      "n_pos": 8,
+      "auprc": 0.00203,
+      "auroc": 0.73093
+    },
+    {
+      "disease_id": "5974",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00081,
+      "auroc": 0.7012
+    },
+    {
+      "disease_id": "5982",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00067,
+      "auroc": 0.52799
+    },
+    {
+      "disease_id": "6003",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00113,
+      "auroc": 0.73567
+    },
+    {
+      "disease_id": "6004",
+      "relation": "indication",
+      "n_pos": 7,
+      "auprc": 0.00068,
+      "auroc": 0.26726
+    },
+    {
+      "disease_id": "6009_19956_20069",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.02602
+    },
+    {
+      "disease_id": "6019",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00058,
+      "auroc": 0.78218
+    },
+    {
+      "disease_id": "6021",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.72335
+    },
+    {
+      "disease_id": "6022",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00047,
+      "auroc": 0.73064
+    },
+    {
+      "disease_id": "6032",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00049,
+      "auroc": 0.74535
+    },
+    {
+      "disease_id": "6047",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68703
+    },
+    {
+      "disease_id": "6052",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00086,
+      "auroc": 0.71897
+    },
+    {
+      "disease_id": "607",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.0008,
+      "auroc": 0.6968
+    },
+    {
+      "disease_id": "6147",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00048,
+      "auroc": 0.74095
+    },
+    {
+      "disease_id": "6292",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00049,
+      "auroc": 0.7461
+    },
+    {
+      "disease_id": "6312",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82906
+    },
+    {
+      "disease_id": "6314",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.0017,
+      "auroc": 0.81966
+    },
+    {
+      "disease_id": "6335",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00086,
+      "auroc": 0.49939
+    },
+    {
+      "disease_id": "6335",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.001,
+      "auroc": 0.76004
+    },
+    {
+      "disease_id": "6502",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68967
+    },
+    {
+      "disease_id": "6507",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00137,
+      "auroc": 0.7419
+    },
+    {
+      "disease_id": "6526",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00015,
+      "auroc": 0.17484
+    },
+    {
+      "disease_id": "6545_44719",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00096,
+      "auroc": 0.74529
+    },
+    {
+      "disease_id": "6547",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68678
+    },
+    {
+      "disease_id": "6547",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00035,
+      "auroc": 0.37964
+    },
+    {
+      "disease_id": "6554",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00088,
+      "auroc": 0.57434
+    },
+    {
+      "disease_id": "6573",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00023,
+      "auroc": 0.44155
+    },
+    {
+      "disease_id": "6579",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0005,
+      "auroc": 0.75063
+    },
+    {
+      "disease_id": "6584",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00158,
+      "auroc": 0.77271
+    },
+    {
+      "disease_id": "6585",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00074,
+      "auroc": 0.74934
+    },
+    {
+      "disease_id": "6589",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00034,
+      "auroc": 0.62494
+    },
+    {
+      "disease_id": "6592",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00049,
+      "auroc": 0.61772
+    },
+    {
+      "disease_id": "6592",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00049,
+      "auroc": 0.7456
+    },
+    {
+      "disease_id": "6594",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75767
+    },
+    {
+      "disease_id": "6598",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00068,
+      "auroc": 0.81624
+    },
+    {
+      "disease_id": "6605",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.04248
+    },
+    {
+      "disease_id": "6608_6609",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.05241
+    },
+    {
+      "disease_id": "6608_6609",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00042,
+      "auroc": 0.41125
+    },
+    {
+      "disease_id": "6610",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00042,
+      "auroc": 0.56587
+    },
+    {
+      "disease_id": "6642",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00129,
+      "auroc": 0.81045
+    },
+    {
+      "disease_id": "6652_3678_1090_3672_3673_3676_3677_3679_6803",
+      "relation": "contraindication",
+      "n_pos": 27,
+      "auprc": 0.00708,
+      "auroc": 0.769
+    },
+    {
+      "disease_id": "6652_3678_1090_3672_3673_3676_3677_3679_6803",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00032,
+      "auroc": 0.38221
+    },
+    {
+      "disease_id": "6658",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00067,
+      "auroc": 0.81159
+    },
+    {
+      "disease_id": "6659",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.0007,
+      "auroc": 0.73507
+    },
+    {
+      "disease_id": "6661",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00018,
+      "auroc": 0.30254
+    },
+    {
+      "disease_id": "6665",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00137,
+      "auroc": 0.78093
+    },
+    {
+      "disease_id": "6670",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00074,
+      "auroc": 0.74714
+    },
+    {
+      "disease_id": "6679",
+      "relation": "contraindication",
+      "n_pos": 12,
+      "auprc": 0.00359,
+      "auroc": 0.78508
+    },
+    {
+      "disease_id": "6684",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00046,
+      "auroc": 0.52495
+    },
+    {
+      "disease_id": "6684",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00052,
+      "auroc": 0.75641
+    },
+    {
+      "disease_id": "6698",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68841
+    },
+    {
+      "disease_id": "6699",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00082,
+      "auroc": 0.77436
+    },
+    {
+      "disease_id": "6711",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00064,
+      "auroc": 0.80329
+    },
+    {
+      "disease_id": "6716",
+      "relation": "contraindication",
+      "n_pos": 17,
+      "auprc": 0.0044,
+      "auroc": 0.76095
+    },
+    {
+      "disease_id": "6716",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.03532
+    },
+    {
+      "disease_id": "6730",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.0017,
+      "auroc": 0.8195
+    },
+    {
+      "disease_id": "6731",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00046,
+      "auroc": 0.72562
+    },
+    {
+      "disease_id": "6732",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00068,
+      "auroc": 0.73004
+    },
+    {
+      "disease_id": "6733",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00031,
+      "auroc": 0.59289
+    },
+    {
+      "disease_id": "6742",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.05694
+    },
+    {
+      "disease_id": "6746",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00096,
+      "auroc": 0.74994
+    },
+    {
+      "disease_id": "6769",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00109,
+      "auroc": 0.8291
+    },
+    {
+      "disease_id": "6786",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00046,
+      "auroc": 0.72863
+    },
+    {
+      "disease_id": "6797",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00094,
+      "auroc": 0.80145
+    },
+    {
+      "disease_id": "6802",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00047,
+      "auroc": 0.73441
+    },
+    {
+      "disease_id": "6802",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.71104
+    },
+    {
+      "disease_id": "6807",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00111,
+      "auroc": 0.83243
+    },
+    {
+      "disease_id": "6810",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00138,
+      "auroc": 0.78081
+    },
+    {
+      "disease_id": "6814",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00059,
+      "auroc": 0.78607
+    },
+    {
+      "disease_id": "6816",
+      "relation": "indication",
+      "n_pos": 8,
+      "auprc": 0.00172,
+      "auroc": 0.68987
+    },
+    {
+      "disease_id": "6862",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.7236
+    },
+    {
+      "disease_id": "6865",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00076,
+      "auroc": 0.75745
+    },
+    {
+      "disease_id": "6874",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00239,
+      "auroc": 0.82082
+    },
+    {
+      "disease_id": "6875",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00111,
+      "auroc": 0.65732
+    },
+    {
+      "disease_id": "6875",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00043,
+      "auroc": 0.29465
+    },
+    {
+      "disease_id": "6876",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00058,
+      "auroc": 0.67649
+    },
+    {
+      "disease_id": "6879",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00149,
+      "auroc": 0.83266
+    },
+    {
+      "disease_id": "6891",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.76961
+    },
+    {
+      "disease_id": "6896",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00193,
+      "auroc": 0.75326
+    },
+    {
+      "disease_id": "6896",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00051,
+      "auroc": 0.48072
+    },
+    {
+      "disease_id": "6898",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75277
+    },
+    {
+      "disease_id": "6909",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00078,
+      "auroc": 0.83798
+    },
+    {
+      "disease_id": "6921",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.77765
+    },
+    {
+      "disease_id": "6932",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00091,
+      "auroc": 0.79837
+    },
+    {
+      "disease_id": "6945",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00083,
+      "auroc": 0.77316
+    },
+    {
+      "disease_id": "6981",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00049,
+      "auroc": 0.74334
+    },
+    {
+      "disease_id": "6986",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.06184
+    },
+    {
+      "disease_id": "7008",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00075,
+      "auroc": 0.75286
+    },
+    {
+      "disease_id": "7015",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00053,
+      "auroc": 0.76458
+    },
+    {
+      "disease_id": "7016",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.6458
+    },
+    {
+      "disease_id": "7016",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00015,
+      "auroc": 0.16981
+    },
+    {
+      "disease_id": "705",
+      "relation": "contraindication",
+      "n_pos": 15,
+      "auprc": 0.003,
+      "auroc": 0.6559
+    },
+    {
+      "disease_id": "705",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00103,
+      "auroc": 0.81754
+    },
+    {
+      "disease_id": "7064",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00073,
+      "auroc": 0.82743
+    },
+    {
+      "disease_id": "7079_2491_4938_2046_5367_5689_4456_5186",
+      "relation": "contraindication",
+      "n_pos": 25,
+      "auprc": 0.00557,
+      "auroc": 0.72573
+    },
+    {
+      "disease_id": "7079_2491_4938_2046_5367_5689_4456_5186",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00088,
+      "auroc": 0.725
+    },
+    {
+      "disease_id": "7126_8468_24512_13192",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00086,
+      "auroc": 0.78523
+    },
+    {
+      "disease_id": "7147",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00239,
+      "auroc": 0.77727
+    },
+    {
+      "disease_id": "7179",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00019,
+      "auroc": 0.02728
+    },
+    {
+      "disease_id": "7179",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00067,
+      "auroc": 0.72527
+    },
+    {
+      "disease_id": "7186",
+      "relation": "contraindication",
+      "n_pos": 11,
+      "auprc": 0.00265,
+      "auroc": 0.72275
+    },
+    {
+      "disease_id": "7186",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00064,
+      "auroc": 0.71012
+    },
+    {
+      "disease_id": "7243",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00057,
+      "auroc": 0.78117
+    },
+    {
+      "disease_id": "7256_18902_16216_3243",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.02853
+    },
+    {
+      "disease_id": "7256_18902_16216_3243",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00071,
+      "auroc": 0.82202
+    },
+    {
+      "disease_id": "7264",
+      "relation": "contraindication",
+      "n_pos": 20,
+      "auprc": 0.00509,
+      "auroc": 0.75992
+    },
+    {
+      "disease_id": "7440_10648_12685_694_12881_12319_12642_12686_12877_12882",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00106,
+      "auroc": 0.77219
+    },
+    {
+      "disease_id": "7440_10648_12685_694_12881_12319_12642_12686_12877_12882",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00055,
+      "auroc": 0.76973
+    },
+    {
+      "disease_id": "7448",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.64052
+    },
+    {
+      "disease_id": "7559_12304_12305",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.70701
+    },
+    {
+      "disease_id": "7559_12304_12305",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.03117
+    },
+    {
+      "disease_id": "7648_5017",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00067,
+      "auroc": 0.72068
+    },
+    {
+      "disease_id": "7661",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00083,
+      "auroc": 0.7792
+    },
+    {
+      "disease_id": "7699",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00114,
+      "auroc": 0.78594
+    },
+    {
+      "disease_id": "7721",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.0024,
+      "auroc": 0.80014
+    },
+    {
+      "disease_id": "7743",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00038,
+      "auroc": 0.66692
+    },
+    {
+      "disease_id": "7743",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.65737
+    },
+    {
+      "disease_id": "7745",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00154,
+      "auroc": 0.73353
+    },
+    {
+      "disease_id": "7759",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00015,
+      "auroc": 0.15221
+    },
+    {
+      "disease_id": "7763",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00064,
+      "auroc": 0.80229
+    },
+    {
+      "disease_id": "7794_9239_9223_13912_13961_7844_13946_14105_13910_14102_12880_14461_9482_30010_14107_13914_10635_14106_13911_12528_13926_13913_12988_14103_13915",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00131,
+      "auroc": 0.67958
+    },
+    {
+      "disease_id": "7803",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00217,
+      "auroc": 0.72365
+    },
+    {
+      "disease_id": "7915",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00235,
+      "auroc": 0.77307
+    },
+    {
+      "disease_id": "7915",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.69407
+    },
+    {
+      "disease_id": "7950",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00071,
+      "auroc": 0.82428
+    },
+    {
+      "disease_id": "7958_17896",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00019,
+      "auroc": 0.32541
+    },
+    {
+      "disease_id": "8038",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00074,
+      "auroc": 0.83082
+    },
+    {
+      "disease_id": "8054_16367_1907",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.64605
+    },
+    {
+      "disease_id": "8055_9715_9710",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00095,
+      "auroc": 0.80597
+    },
+    {
+      "disease_id": "809",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00044,
+      "auroc": 0.57593
+    },
+    {
+      "disease_id": "8090",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00088,
+      "auroc": 0.78856
+    },
+    {
+      "disease_id": "8114_1158",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00117,
+      "auroc": 0.73919
+    },
+    {
+      "disease_id": "8116",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00046,
+      "auroc": 0.72461
+    },
+    {
+      "disease_id": "8143_7704_11923_12893_12894_12568",
+      "relation": "indication",
+      "n_pos": 8,
+      "auprc": 0.00151,
+      "auroc": 0.61387
+    },
+    {
+      "disease_id": "8159",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00137,
+      "auroc": 0.73919
+    },
+    {
+      "disease_id": "8159",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00082,
+      "auroc": 0.70497
+    },
+    {
+      "disease_id": "8170",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00052,
+      "auroc": 0.53151
+    },
+    {
+      "disease_id": "8170",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.77526
+    },
+    {
+      "disease_id": "8171",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00154,
+      "auroc": 0.767
+    },
+    {
+      "disease_id": "8187_2050_5618_5451_5371_100081_5383_1942_1098_3265_11924_12384",
+      "relation": "contraindication",
+      "n_pos": 16,
+      "auprc": 0.00327,
+      "auroc": 0.70189
+    },
+    {
+      "disease_id": "8187_2050_5618_5451_5371_100081_5383_1942_1098_3265_11924_12384",
+      "relation": "indication",
+      "n_pos": 10,
+      "auprc": 0.00235,
+      "auroc": 0.6684
+    },
+    {
+      "disease_id": "8224",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00088,
+      "auroc": 0.72676
+    },
+    {
+      "disease_id": "8233",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.0016,
+      "auroc": 0.81004
+    },
+    {
+      "disease_id": "8233",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.65674
+    },
+    {
+      "disease_id": "8243",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00041,
+      "auroc": 0.54896
+    },
+    {
+      "disease_id": "8243",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00039,
+      "auroc": 0.67773
+    },
+    {
+      "disease_id": "8244",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00043,
+      "auroc": 0.71003
+    },
+    {
+      "disease_id": "827",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00049,
+      "auroc": 0.7461
+    },
+    {
+      "disease_id": "8296",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00068,
+      "auroc": 0.81649
+    },
+    {
+      "disease_id": "8297",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00056,
+      "auroc": 0.77501
+    },
+    {
+      "disease_id": "831",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00044,
+      "auroc": 0.71732
+    },
+    {
+      "disease_id": "8315",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00034,
+      "auroc": 0.26192
+    },
+    {
+      "disease_id": "8315",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00117,
+      "auroc": 0.79281
+    },
+    {
+      "disease_id": "8364",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.00121,
+      "auroc": 0.74956
+    },
+    {
+      "disease_id": "8369_11422_9967_8368_15827_17828_1909_18440_17829",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01106
+    },
+    {
+      "disease_id": "8383",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00099,
+      "auroc": 0.69442
+    },
+    {
+      "disease_id": "8420",
+      "relation": "indication",
+      "n_pos": 6,
+      "auprc": 0.0011,
+      "auroc": 0.57779
+    },
+    {
+      "disease_id": "8504",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00091,
+      "auroc": 0.79736
+    },
+    {
+      "disease_id": "8542",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00054,
+      "auroc": 0.76797
+    },
+    {
+      "disease_id": "8558_19098",
+      "relation": "indication",
+      "n_pos": 4,
+      "auprc": 0.00092,
+      "auroc": 0.65082
+    },
+    {
+      "disease_id": "8559_8560_2305",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00111,
+      "auroc": 0.8308
+    },
+    {
+      "disease_id": "8608",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00128,
+      "auroc": 0.71962
+    },
+    {
+      "disease_id": "8612_13199_19341_1734",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.66415
+    },
+    {
+      "disease_id": "8638",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01684
+    },
+    {
+      "disease_id": "8668_13304_10191_15628_15629_15630_15631",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00172,
+      "auroc": 0.78861
+    },
+    {
+      "disease_id": "8668_13304_10191_15628_15629_15630_15631",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00018,
+      "auroc": 0.29173
+    },
+    {
+      "disease_id": "8679_11112_14779_11056_8680_8683_6058",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0006,
+      "auroc": 0.78972
+    },
+    {
+      "disease_id": "8685",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00111,
+      "auroc": 0.78191
+    },
+    {
+      "disease_id": "8688",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00075,
+      "auroc": 0.8317
+    },
+    {
+      "disease_id": "8698",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00209,
+      "auroc": 0.82342
+    },
+    {
+      "disease_id": "8731",
+      "relation": "contraindication",
+      "n_pos": 5,
+      "auprc": 0.00197,
+      "auroc": 0.81403
+    },
+    {
+      "disease_id": "8731",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.64517
+    },
+    {
+      "disease_id": "8733",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00238,
+      "auroc": 0.79901
+    },
+    {
+      "disease_id": "8733",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00031,
+      "auroc": 0.5998
+    },
+    {
+      "disease_id": "8742_18542_28226",
+      "relation": "contraindication",
+      "n_pos": 8,
+      "auprc": 0.00259,
+      "auroc": 0.7942
+    },
+    {
+      "disease_id": "879",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00042,
+      "auroc": 0.69746
+    },
+    {
+      "disease_id": "8814",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0004,
+      "auroc": 0.68502
+    },
+    {
+      "disease_id": "8848",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00054,
+      "auroc": 0.65852
+    },
+    {
+      "disease_id": "8852",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00224,
+      "auroc": 0.78694
+    },
+    {
+      "disease_id": "8889",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0003,
+      "auroc": 0.5871
+    },
+    {
+      "disease_id": "9067_19745_19746",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00175,
+      "auroc": 0.76072
+    },
+    {
+      "disease_id": "9100",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00071,
+      "auroc": 0.74041
+    },
+    {
+      "disease_id": "9100",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.02225
+    },
+    {
+      "disease_id": "920",
+      "relation": "contraindication",
+      "n_pos": 4,
+      "auprc": 0.0015,
+      "auroc": 0.80001
+    },
+    {
+      "disease_id": "9294_13291_10598_13091_10362_9868_9295_9293_9290_9291_2413_2412",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00132,
+      "auroc": 0.68415
+    },
+    {
+      "disease_id": "9303",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00041,
+      "auroc": 0.69206
+    },
+    {
+      "disease_id": "9329_20713_9937",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00071,
+      "auroc": 0.82328
+    },
+    {
+      "disease_id": "9342",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00013,
+      "auroc": 0.01269
+    },
+    {
+      "disease_id": "9348",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75591
+    },
+    {
+      "disease_id": "9376",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00046,
+      "auroc": 0.72838
+    },
+    {
+      "disease_id": "9376",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00076,
+      "auroc": 0.83522
+    },
+    {
+      "disease_id": "9377",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.06667,
+      "auroc": 0.99824
+    },
+    {
+      "disease_id": "940",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00061,
+      "auroc": 0.79261
+    },
+    {
+      "disease_id": "9410",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00183,
+      "auroc": 0.77363
+    },
+    {
+      "disease_id": "9412",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00047,
+      "auroc": 0.60679
+    },
+    {
+      "disease_id": "9417_18555",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00035,
+      "auroc": 0.64329
+    },
+    {
+      "disease_id": "9421",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.65699
+    },
+    {
+      "disease_id": "9468",
+      "relation": "contraindication",
+      "n_pos": 7,
+      "auprc": 0.00228,
+      "auroc": 0.79073
+    },
+    {
+      "disease_id": "9472",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00068,
+      "auroc": 0.8141
+    },
+    {
+      "disease_id": "948",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00037,
+      "auroc": 0.66214
+    },
+    {
+      "disease_id": "948",
+      "relation": "indication",
+      "n_pos": 3,
+      "auprc": 0.00043,
+      "auroc": 0.37277
+    },
+    {
+      "disease_id": "956",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00065,
+      "auroc": 0.80631
+    },
+    {
+      "disease_id": "958",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.72071
+    },
+    {
+      "disease_id": "9606",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.0006,
+      "auroc": 0.7911
+    },
+    {
+      "disease_id": "9688_18325",
+      "relation": "contraindication",
+      "n_pos": 9,
+      "auprc": 0.00257,
+      "auroc": 0.77138
+    },
+    {
+      "disease_id": "9691_15821_45071",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00051,
+      "auroc": 0.75226
+    },
+    {
+      "disease_id": "9693",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00057,
+      "auroc": 0.77828
+    },
+    {
+      "disease_id": "9693",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.00061,
+      "auroc": 0.79261
+    },
+    {
+      "disease_id": "9718",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00146,
+      "auroc": 0.70624
+    },
+    {
+      "disease_id": "9718",
+      "relation": "indication",
+      "n_pos": 1,
+      "auprc": 0.0006,
+      "auroc": 0.79236
+    },
+    {
+      "disease_id": "9824_13327_9823_2474",
+      "relation": "contraindication",
+      "n_pos": 1,
+      "auprc": 0.00045,
+      "auroc": 0.72147
+    },
+    {
+      "disease_id": "9861_19259_16366_19258",
+      "relation": "contraindication",
+      "n_pos": 2,
+      "auprc": 0.00043,
+      "auroc": 0.55028
+    },
+    {
+      "disease_id": "9879",
+      "relation": "contraindication",
+      "n_pos": 6,
+      "auprc": 0.00179,
+      "auroc": 0.69341
+    },
+    {
+      "disease_id": "992",
+      "relation": "contraindication",
+      "n_pos": 27,
+      "auprc": 0.00786,
+      "auroc": 0.79081
+    },
+    {
+      "disease_id": "995",
+      "relation": "contraindication",
+      "n_pos": 3,
+      "auprc": 0.00048,
+      "auroc": 0.49539
+    },
+    {
+      "disease_id": "9960_12845_33643_11471_12831_12875_12941_13153_8617_54849_5265_12832_12610_12840_11087_11521_11661_11699_11700_11701_12040_12829_12837_12838_12841_12852_12886_12887_12940_12973_13012",
+      "relation": "contraindication",
+      "n_pos": 16,
+      "auprc": 0.00381,
+      "auroc": 0.73993
+    },
+    {
+      "disease_id": "9971",
+      "relation": "indication",
+      "n_pos": 2,
+      "auprc": 0.00105,
+      "auroc": 0.82106
+    }
+  ],
+  "indication_flat": {
+    "auprc": 0.8337344085086003,
+    "auroc": 0.9747768188912009,
+    "n_test_pairs": 5568
+  },
+  "contraindication_flat": {
+    "auprc": 0.9087473996476515,
+    "auroc": 0.9858383356157722,
+    "n_test_pairs": 18732
+  },
+  "notes": "best_val_auprc=0.8753"
+}

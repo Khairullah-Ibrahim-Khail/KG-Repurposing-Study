@@ -1,0 +1,41 @@
+disease_id,relation,rank,drug_id,drug_name,score,is_positive
+24573,contraindication,1,DB13985,Lutetium Lu 177 dotatate,-1.0379159450531006,False
+24573,contraindication,2,DB04465,Lactose,-1.206455945968628,False
+24573,contraindication,3,DB14724,Emapalumab,-1.225978970527649,False
+24573,contraindication,4,DB00151,Cysteine,-1.2336490154266357,False
+24573,contraindication,5,DB00891,Sulfapyridine,-1.25101900100708,False
+24573,contraindication,6,DB00773,Etoposide,-1.2628719806671143,False
+24573,contraindication,7,DB11442,Oleandomycin,-1.2653629779815674,False
+24573,contraindication,8,DB00926,Etretinate,-1.2682100534439087,False
+24573,contraindication,9,DB01103,Quinacrine,-1.2829910516738892,False
+24573,contraindication,10,DB13609,Umifenovir,-1.2921379804611206,False
+24573,contraindication,11,DB00421,Spironolactone,-1.3011070489883423,False
+24573,contraindication,12,DB00958,Carboplatin,-1.3014379739761353,False
+24573,contraindication,13,DB00257,Clotrimazole,-1.3068779706954956,False
+24573,contraindication,14,DB00279,Liothyronine,-1.3110699653625488,False
+24573,contraindication,15,DB09042,Tedizolid phosphate,-1.313410997390747,False
+24573,contraindication,16,DB01093,Dimethyl sulfoxide,-1.3181389570236206,False
+24573,contraindication,17,DB06819,Phenylbutyric acid,-1.3483940362930298,False
+24573,contraindication,18,DB01239,Chlorprothixene,-1.352936029434204,False
+24573,contraindication,19,DB11644,Tafamidis,-1.3561400175094604,False
+24573,contraindication,20,DB00410,Mupirocin,-1.3577519655227661,False
+24573,indication,1,DB13985,Lutetium Lu 177 dotatate,-1.0379159450531006,False
+24573,indication,2,DB04465,Lactose,-1.206455945968628,False
+24573,indication,3,DB14724,Emapalumab,-1.225978970527649,False
+24573,indication,4,DB00151,Cysteine,-1.2336490154266357,False
+24573,indication,5,DB00891,Sulfapyridine,-1.25101900100708,False
+24573,indication,6,DB00773,Etoposide,-1.2628719806671143,False
+24573,indication,7,DB11442,Oleandomycin,-1.2653629779815674,False
+24573,indication,8,DB00926,Etretinate,-1.2682100534439087,False
+24573,indication,9,DB01103,Quinacrine,-1.2829910516738892,False
+24573,indication,10,DB13609,Umifenovir,-1.2921379804611206,False
+24573,indication,11,DB00421,Spironolactone,-1.3011070489883423,False
+24573,indication,12,DB00958,Carboplatin,-1.3014379739761353,False
+24573,indication,13,DB00257,Clotrimazole,-1.3068779706954956,False
+24573,indication,14,DB00279,Liothyronine,-1.3110699653625488,False
+24573,indication,15,DB09042,Tedizolid phosphate,-1.313410997390747,False
+24573,indication,16,DB01093,Dimethyl sulfoxide,-1.3181389570236206,False
+24573,indication,17,DB06819,Phenylbutyric acid,-1.3483940362930298,False
+24573,indication,18,DB01239,Chlorprothixene,-1.352936029434204,False
+24573,indication,19,DB11644,Tafamidis,-1.3561400175094604,False
+24573,indication,20,DB00410,Mupirocin,-1.3577519655227661,False

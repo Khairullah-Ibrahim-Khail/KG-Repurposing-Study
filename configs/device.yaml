@@ -1,0 +1,5 @@
+# GPU settings. Models are sized to fit an 8 GB card; results are scaled_reproduction.
+device:
+  id: 0
+  amp: true                # torch.amp mixed precision to cut VRAM use
+  grad_checkpointing: false # turn on only if you hit OOM (slower)

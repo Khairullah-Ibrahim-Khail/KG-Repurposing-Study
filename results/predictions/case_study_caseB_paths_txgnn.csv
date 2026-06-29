@@ -1,0 +1,10 @@
+drug_id,via_entity,via_type,relation_drug_to_entity,relation_entity_to_disease,disease_id
+DB01150,staphylococcal infection,disease,indication,disease_disease,5545
+DB01150,Ceftazidime,drug,drug_drug,indication,5545
+DB01150,Cefdinir,drug,drug_drug,indication,5545
+DB00535,staphylococcal infection,disease,indication,disease_disease,5545
+DB00535,Ceftazidime,drug,drug_drug,indication,5545
+DB00535,Cephalexin,drug,drug_drug,indication,5545
+DB01606,staphylococcal infection,disease,indication,disease_disease,5545
+DB01606,Ceftazidime,drug,drug_drug,indication,5545
+DB01606,Cefdinir,drug,drug_drug,indication,5545

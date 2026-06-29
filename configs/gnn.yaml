@@ -1,0 +1,19 @@
+# Plain GNN baseline (Q1 KG condition / Q5 "GNN" column).
+model:
+  name: gnn_baseline
+  backbone: HGT
+  hidden_dim: 64
+  heads: 4
+  depth: 2          # set depth: 0 for the no-KG control
+  dropout: 0.1
+
+optim:
+  pretrain_epochs: 30
+  finetune_epochs: 100
+  lr: 0.001
+  weight_decay: 0.00001
+  neg_ratio: 5
+  patience: 10
+  amp: true
+
+# Output -> results/gnn/<split>/seed_<n>/gnn_baseline.json (tagged scaled_reproduction).

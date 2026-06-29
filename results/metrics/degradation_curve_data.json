@@ -1,0 +1,2676 @@
+[
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "100053",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01227
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "100053",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00333
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10083",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00018
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10150_4958_5096_6082_500_514",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10150_4958_5096_6082_500_514",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01291
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10198",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0039
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10198",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00237
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10274_10108",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.02274
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1046",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10481",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01129
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10481",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01636
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10619_10358_20720",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00025
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1076",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00646
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10771",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00066
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10811",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.19279
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10811",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00377
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "10917_7319_1314",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00486
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1126",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.02775
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1126",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0056
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "11393_17773_32766",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00211
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "11393_17773_32766",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00152
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "11508",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.06671
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "11514",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0002
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1152",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00087
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1152",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00015
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "11731",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00024
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "11733_100226",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "11764_11658_13625_8199_14604_11613_14233_11562_8200_14796_17279_5180_6966_828_10796_10360_11737_13167",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01536
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "11764_11658_13625_8199_14604_11613_14233_11562_8200_14796_17279_5180_6966_828_10796_10360_11737_13167",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01835
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1186",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00022
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "11871_11873_9757_9756_18982_1982_20384",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0002
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "11895",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00019
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1191_24302_24303",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00417
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1198",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.02504
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1239",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00358
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1243_1242",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00153
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1243_1242",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00376
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "12895_11264_11200_7493_11886_9141_44811_44843_44870_44816_44817",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00055
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1290",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1292",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01304
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1298",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00228
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "13225_12923_12071_10020_6536",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "13276",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00157
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "13276",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00204
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1334",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1340",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01701
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1340",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00419
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1370",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00734
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1405",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0169
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "14118",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.05773
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "14191_12762_11484_13966_13529_17990",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01865
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1438",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.08839
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1438",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00266
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "14394_13217_32668_12529_32669_44309_12937_13216_13964_12938_12925_7110_14245_12924_60662_32670_44310_12939_15253_11636",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00072
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "14394_13217_32668_12529_32669_44309_12937_13216_13964_12938_12925_7110_14245_12924_60662_32670_44310_12939_15253_11636",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00085
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1509",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00222
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15127",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.07094
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15127",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00704
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15129_15130",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.082
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15129_15130",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01138
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15131",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00147
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15270",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00981
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15290_1440",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00036
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15403_15404_18715_18716",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00037
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1548",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.057
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1548",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00257
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15614_6565",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00338
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15614_6565",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0766
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1566",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.20306
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1566",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01342
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15758",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00183
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15758",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0263
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15789",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.07134
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15789",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00658
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15803",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0002
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15804",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00019
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "15810",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00326
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1583",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16047_17202_17203",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00025
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16088",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00143
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16106",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16122",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0258
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16211",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0004
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16211",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0042
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16222",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00408
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16248",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00917
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16248",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.06196
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16249",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00971
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16249",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.06362
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1632",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00884
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16333",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00072
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16372",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0002
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16586",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00849
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16690",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00128
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16690",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00595
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16692",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00127
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16692",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00592
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16778",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0002
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16822",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00037
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "16848_8538",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00035
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1687",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00912
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1687",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00058
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "17145",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00087
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "17346",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.05615
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "17582",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0002
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1761",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00514
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "17636",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0003
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "17636",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01783
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "17754",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0012
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1794",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00583
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "17988",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01531
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "17989",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00893
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18006",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18024",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00106
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18031",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00184
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18031",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.02324
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18056_6572_16767_43923_16769_16770",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00019
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18097",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00239
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18098",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18133",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18182",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00872
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1821",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00144
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18256",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01602
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18301",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00032
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1834",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00177
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18352",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00302
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18371",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18493",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00857
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18493",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00037
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18546",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01324
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18637",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18673",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00505
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18673",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00312
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1868_1744_1742_1864",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.1322
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1868_1744_1742_1864",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00557
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18824",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00041
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18876_6430",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.05207
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18881",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0006
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18881",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00184
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18890",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00018
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18956",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01149
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "18956",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00673
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1896",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00813
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19010",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0002
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19072",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00192
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19088",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19145",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00024
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19148",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19154",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00019
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19154",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0006
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19171",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.08253
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19245",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00353
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19297",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19297",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00498
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19444",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00079
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1951",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0066
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19536",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0008
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19562",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00018
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19562",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00033
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19610",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00426
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19633",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00773
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1971",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00109
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1971",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00356
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "19726_19727",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00192
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1999_5149",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00602
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "1999_5149",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00276
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2009_12050_12100",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01479
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "20120",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.02977
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "20321",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01477
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "20386",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00229
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "20466",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "20696",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01927
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "20696",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01322
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "20804",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00055
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "20804",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01782
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "20950",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01578
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2105",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.08418
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "21113",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.13083
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "21113",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0012
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2158",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00824
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "21661",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01872
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "21666",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00169
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2181",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00871
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2181",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01664
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "22205",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01091
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "22205",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00049
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2244",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0098
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2258",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01175
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2258",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.05302
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2260",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "22993",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2330",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00018
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2350",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00608
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2350",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.02342
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "23597",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00077
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2400",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01472
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "24389",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00029
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2447",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01402
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2447",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.005
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "24573",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00302
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "24573",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.025
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "24574",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.02841
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "24574",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00136
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "24650",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00119
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2501",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00333
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2691",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00299
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2691",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00979
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2771",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.05183
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "2771",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00244
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "3005",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00551
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "337",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.125
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "34022_24530_8029",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "3619_1173",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00198
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "3632",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00269
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "3634",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0225
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "40698",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0022
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "40797",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00172
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "40871_40872",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0008
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "41154",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00015
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "41186",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0095
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "41447",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01993
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "41775",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00842
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4180",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00481
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "41903",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00759
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "41959",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00209
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4215",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.21661
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4242",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.14758
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4264",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.11034
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4279",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00036
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "42972",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00331
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "43106",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00145
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "432",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00943
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "43885",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.02372
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "44751",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.02841
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "44917",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "45011",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00602
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4522",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00088
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4522",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.03454
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "461",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00019
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4638",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00715
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4638",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.06422
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4639",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.10532
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4639",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00141
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "465",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.02669
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "465",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00099
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4670_5282_19561",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01674
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4728",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00527
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4745",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01068
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4773",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00155
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4773",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01794
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4822",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00324
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4822",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01449
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4842",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01966
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4846",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01825
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4867",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00523
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4910",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00193
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4941",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00845
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4948_872_4963_20511_4947_814",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.03321
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4950",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00297
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4950",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00721
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4987",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0005
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4987",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0042
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4992",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00271
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4992",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.02535
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "4994",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01126
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5025_6669",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0074
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5025_6669",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.03825
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5072",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00073
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5072",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00741
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5081",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00633
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5081",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00172
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5083",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5083",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.03144
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5099",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5099",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00096
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5139",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.03227
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5190",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00719
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5279",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.04709
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5279",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01391
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5280",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00245
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5290",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.03566
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5300",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.02776
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5311",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.03049
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5311",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00544
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5315",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00957
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5316",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00061
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5316",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00836
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5365_20677",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00163
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5366",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00811
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5366",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00591
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5440",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00057
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5440",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00388
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5478",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.07163
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5531",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00061
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5531",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00077
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5545",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.08755
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5555",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00142
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5571",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00195
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5571",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0089
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5608",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.02448
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5647",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00843
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5647",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00369
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "565",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01123
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5664",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00914
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5699",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00337
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5754",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00644
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5834",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.12348
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5850",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.16667
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5888",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.12269
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5904",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00473
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "5920",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01618
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6014",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0073
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6014",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01326
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6206",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00685
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6375",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.004
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6540",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6544",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.125
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6547",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00352
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6547",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01394
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6608_6609",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00119
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6608_6609",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.02416
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6649_498_499",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00173
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6670",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01253
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6686",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00064
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6690",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6764",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00085
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6835",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0104
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6835",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.02288
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6895",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00397
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6898",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01052
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6898",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01588
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "6920",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00839
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "7000",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00297
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "7015",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.06696
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "7027",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00431
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "7126_8468_24512_13192",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01092
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "7459",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "7648_5017",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00363
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "7648_5017",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0097
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "7706",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00375
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "7798_9428_18570",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00018
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "7896_4600_4614_875",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00166
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8114_1158",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01585
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8114_1158",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00415
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8170",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00779
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8170",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.04946
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8187_2050_5618_5451_5371_100081_5383_1942_1098_3265_11924_12384",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.07958
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8187_2050_5618_5451_5371_100081_5383_1942_1098_3265_11924_12384",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.03085
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8231",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00544
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8231",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00118
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "827",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01844
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8300",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00035
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8375",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0034
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8433",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.08986
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8455_9673_10056_9672_11585_11436_9669_19079_1516_16224_14753_18218",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00016
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8558_19098",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00022
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8558_19098",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00671
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8668_13304_10191_15628_15629_15630_15631",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01296
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8668_13304_10191_15628_15629_15630_15631",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00132
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8679_11112_14779_11056_8680_8683_6058",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.0143
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8731",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.08705
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8731",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00877
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8848",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.02703
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "8948",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00021
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9100",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.01067
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9100",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00231
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "927",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.03008
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9342",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00032
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9417_18555",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.0134
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9417_18555",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01233
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9421",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00286
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9421",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00274
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9519",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00019
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9691_15821_45071",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00171
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9691_15821_45071",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01368
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9693",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00335
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9693",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01001
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "979",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00609
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9797",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.00015
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9830",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.00017
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "9830",
+    "relation": "indication",
+    "n_train_edges": 0,
+    "auprc": 0.01481
+  },
+  {
+    "model": "txgnn_zeroshot",
+    "disease_id": "992",
+    "relation": "contraindication",
+    "n_train_edges": 0,
+    "auprc": 0.23928
+  }
+]

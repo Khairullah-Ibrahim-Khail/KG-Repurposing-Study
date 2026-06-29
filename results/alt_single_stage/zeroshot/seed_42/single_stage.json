@@ -1,0 +1,42 @@
+{
+  "model": "single_stage",
+  "reproduction_type": "original_ablation",
+  "split": "zeroshot",
+  "seed": 42,
+  "gpu": "NVIDIA GeForce RTX 4060",
+  "vram_gb": 8.6,
+  "date": "2026-06-24",
+  "wall_clock_seconds": 145.0,
+  "model_config": {
+    "architecture": "single_stage",
+    "hidden_dim": 64,
+    "kg_loss_weight": 0.5,
+    "use_similarity": true,
+    "reproduction_type": "original_ablation"
+  },
+  "indication": {
+    "auprc": 0.00935,
+    "auroc": 0.8466,
+    "n_test_diseases": 202
+  },
+  "contraindication": {
+    "auprc": 0.00708,
+    "auroc": 0.79352,
+    "n_test_diseases": 180
+  },
+  "indication_flat": {
+    "auprc": 0.7396080139983681,
+    "auroc": 0.955617547917283,
+    "n_test_pairs": 8202
+  },
+  "contraindication_flat": {
+    "auprc": 0.814672263475262,
+    "auroc": 0.9735389386671985,
+    "n_test_pairs": 21030
+  },
+  "compute": {
+    "kg_loss_weight": 0.5,
+    "n_epochs_run": 55
+  },
+  "notes": "single_stage|best_val_auprc=0.8353"
+}
